@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import logo from "/public/images/logo_full_gray.svg";
+// import logo from "/public/images/logo_full_gray.svg";
 import box1 from "/public/images/Box1.png";
 import avatar from "/public/Images/avatar.jpg";
 import Link from "next/link";
@@ -11,12 +11,12 @@ import cosmetic2 from "/public/Images/cosmetic2.png";
 import { GoArrowUpRight } from "react-icons/go";
 import gift from "/public/Images/gift.png";
 import sidebox from "/public/Images/sidebox.png"
-import Footer from "@/components/Footer";
+// import Footer from "@/components/Footer";
 
 export default function Page() {
   return (
     <div>
-      <header>
+      {/* <header>
         <nav
           id="navbar"
           className="navbar visible fixed top-0 left-0 flex items-center justify-between gap-[20px] w-full h-[72px] transition duration-300 pl-5 pr-5 sm:pl-10 sm:pr-10 md:pl-24 md:pr-24 z-50 backdrop-filter backdrop-blur-lg bg-opacity-50"
@@ -45,7 +45,7 @@ export default function Page() {
               <li>
                 <a
                   className="nav__links text-gray-500 h-[72px] grid place-items-center hover:text-[#1265D7] transition-all duration-200"
-                  href=""
+                  href="/printing"
                 >
                   Works
                 </a>
@@ -91,7 +91,7 @@ export default function Page() {
             </nav>
           </div>
         </nav>
-      </header>
+      </header> */}
       <section className="bg-black pt-40">
         <div className="max-w-screen-xl mx-auto px-12 py-10">
           <div className="flex flex-col lg:flex-row justify-between">
@@ -247,7 +247,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }
