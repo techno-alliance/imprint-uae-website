@@ -1,13 +1,14 @@
 import React from 'react'
 import logo from "/public/Images/logo_full_gray.svg"
 import Image from 'next/image'
+import Navbar from "./Navbar"
 
 const Navbar1 = () => {
   return (
-    <header>
+    <header className=''>
         <nav
           id="navbar"
-          className="navbar visible fixed top-0 left-0 flex items-center justify-between gap-[20px] w-full h-[72px] transition duration-300 pl-5 pr-5 sm:pl-10 sm:pr-10 md:pl-24 md:pr-24 z-50 backdrop-filter backdrop-blur-lg bg-opacity-50"
+          className="navbar visible fixed top-0 left-0 flex items-center justify-between gap-[20px] w-full h-[72px] transition duration-300 pl-5 pr-5 sm:pl-10 sm:pr-10 md:pl-24 md:pr-24 z-20 backdrop-filter backdrop-blur-lg bg-opacity-50"
         >
           <div className="logo_animation">
             <div className="header_logo flex gap-2 justify-center items-center ">
@@ -48,7 +49,7 @@ const Navbar1 = () => {
               </li>
               <a
                 className="button-58 transition duration-300 p-2 w-max rounded-full text-xs px-4 text-white"
-                href=""
+                href="/"
               >
                 <span className="text-btn">Let's Talk</span>
                 <span>Let's Talk</span>
@@ -56,7 +57,7 @@ const Navbar1 = () => {
             </ul>
           </div>
           <div className="menu sm:hidden">
-            <button
+            {/* <button
               className="nav-tgl"
               id="nav-tgl"
               type="button"
@@ -76,7 +77,8 @@ const Navbar1 = () => {
                   <li className="link">Lets Talk</li>
                 </ul>
               </div>
-            </nav>
+            </nav> */}
+            <Navbar/>
           </div>
         </nav>
       </header>

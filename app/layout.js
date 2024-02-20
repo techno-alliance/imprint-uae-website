@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar1 from "@/components/Navbar1";
 import Footer from "@/components/Footer";
 import SmoothScroller from "@/components/SmoothScroll";
+import Transition from "@/components/Transition";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -18,9 +19,12 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <SmoothScroller/>
         <Navbar1/>
+        <Transition/>
         {children}
         <Footer/>
         </body>
     </html>
   );
 }
+
+

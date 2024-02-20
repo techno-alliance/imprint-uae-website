@@ -29,12 +29,13 @@ export default function index() {
             })
         }
        </div>
-       {/* <motion.div className={styles.footer}>
+       <motion.div className={styles.footer}>
             {
                 footerLinks.map( (link, i) => {
                     const { title, href } = link;
                     return (
-                        <motion.a 
+                        <motion.a
+                        href={href} 
                             variants={slideIn}
                             custom={i} 
                             initial="initial"
@@ -47,7 +48,7 @@ export default function index() {
                     )
                 })
             }
-       </motion.div> */}
+       </motion.div>
     </div>
   )
 }

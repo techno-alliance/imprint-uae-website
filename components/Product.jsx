@@ -2,13 +2,13 @@
 import React from "react";
 import DetailsThumb from "./DetailsThumb";
 import Link from "next/link";
+import { GoArrowUpRight } from "react-icons/go";
 
 class App extends React.Component {
   state = {
     products: [
       {
         _id: "1",
-        title: "Nike Shoes",
         src: ["images/pack1.png", "images/pack2.png", "images/pack3.png"],
         description:[ "UI/UX designing, html tutorials", "UI/UX designing, css tutorials", "UI/UX designing, tutorials"]
        
@@ -80,11 +80,11 @@ class App extends React.Component {
                       today..
                     </p>
                     <Link
-                      className="button-58 transition duration-300 p-2 w-max rounded-full text-xs px-4 text-white"
+                      className="button-58 transition duration-300 py-2 w-max rounded-full text-[20px] px-4 text-white"
                       href=""
                     >
-                      <span className="text-btn">Order Now</span>
-                      <span>Order Now</span>
+                      <span className="text-btn flex gap-2 items-center">Order Now<GoArrowUpRight className="text-[26px]" /></span>
+                      <span className="pb-3">Order Now<GoArrowUpRight className="text-[26px]" /></span>
                     </Link>
                   </div>
                 </div>

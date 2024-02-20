@@ -7,7 +7,7 @@
     box-sizing: border-box;
     .body{
         display: flex;
-        gap: 10px;
+        gap: 20px;
         flex-direction: column;
         .linkContainer{
             perspective: 120px;
@@ -16,7 +16,8 @@
         a{
             text-decoration: none;
             color: white;
-            font-size: 40px;
+            font-size: 30px;
+            cursor: pointer;
         }
     }
     // .footer{

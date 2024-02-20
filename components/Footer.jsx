@@ -28,7 +28,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='flex flex-col gap-5'>
-                <p className='text-[50px] w-auto lg:w-[450px]'>We're commited to providing you</p>
+                <p className='text-[50px] w-auto lg:w-[450px] text-[#fff]'>We're commited to providing you</p>
                 <div>
                 <button className="bg-gray-300 text-[12px] items-center text-[#fff] rounded-[42px] px-5 py-3">
                   SEND MAIL

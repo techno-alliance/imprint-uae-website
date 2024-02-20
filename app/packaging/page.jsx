@@ -1,97 +1,19 @@
 import Image from "next/image";
 import React from "react";
-// import logo from "/public/images/logo_full_gray.svg";
 import box1 from "/public/images/Box1.png";
-import avatar from "/public/Images/avatar.jpg";
+import avatar from "/public/images/avatar.jpg";
 import Link from "next/link";
 import Product from "@/components/Product";
-import bag from "/public/Images/bag.png";
-import cosmetic from "/public/Images/cosmetic.png";
-import cosmetic2 from "/public/Images/cosmetic2.png";
+import bag from "/public/images/bag.png";
+import cosmetic from "/public/images/cosmetic.png";
+import cosmetic2 from "/public/images/cosmetic2.png";
 import { GoArrowUpRight } from "react-icons/go";
-import gift from "/public/Images/gift.png";
-import sidebox from "/public/Images/sidebox.png"
-// import Footer from "@/components/Footer";
+import gift from "/public/images/gift.png";
+import sidebox from "/public/images/sidebox.png"
 
 export default function Page() {
   return (
     <div>
-      {/* <header>
-        <nav
-          id="navbar"
-          className="navbar visible fixed top-0 left-0 flex items-center justify-between gap-[20px] w-full h-[72px] transition duration-300 pl-5 pr-5 sm:pl-10 sm:pr-10 md:pl-24 md:pr-24 z-50 backdrop-filter backdrop-blur-lg bg-opacity-50"
-        >
-          <div className="logo_animation">
-            <div className="header_logo flex gap-2 justify-center items-center ">
-              <Image
-                className="w-[100px]"
-                width={100}
-                height={50}
-                src={logo}
-                alt=""
-              ></Image>
-            </div>
-          </div>
-          <div className="nav_items menu-bar sm:flex items-center gap-8 text-md hidden">
-            <ul className="nav_items sm:flex items-center gap-8 text-md hidden">
-              <li>
-                <a
-                  className="nav__links  text-gray-500 h-[72px] grid place-items-center hover:text-[#1265D7] transition-all duration-200"
-                  href=""
-                >
-                  About
-                </a>
-              </li>
-              <li>
-                <a
-                  className="nav__links text-gray-500 h-[72px] grid place-items-center hover:text-[#1265D7] transition-all duration-200"
-                  href="/printing"
-                >
-                  Works
-                </a>
-              </li>
-              <li>
-                <a
-                  className="nav__links text-gray-500 h-[72px] grid place-items-center hover:text-[#1265D7] transition-all duration-200"
-                  href=""
-                >
-                  Contact Us
-                </a>
-              </li>
-              <a
-                className="button-58 transition duration-300 p-2 w-max rounded-full text-xs px-4 text-white"
-                href=""
-              >
-                <span className="text-btn">Let's Talk</span>
-                <span>Let's Talk</span>
-              </a>
-            </ul>
-          </div>
-          <div className="menu sm:hidden">
-            <button
-              className="nav-tgl"
-              id="nav-tgl"
-              type="button"
-              aria-label="toggle menu"
-            >
-              <span aria-hidden="true"></span>
-            </button>
-            <nav className="nav">
-              <div
-                className="side_viewer flex text-white justify-center items-center text-4xl"
-                id="side_viewer"
-              >
-                <ul className="flex flex-col gap-6">
-                  <li className="link">About</li>
-                  <li className="link">Works</li>
-                  <li className="link">Contact Us</li>
-                  <li className="link">Lets Talk</li>
-                </ul>
-              </div>
-            </nav>
-          </div>
-        </nav>
-      </header> */}
       <section className="bg-black pt-40">
         <div className="max-w-screen-xl mx-auto px-12 py-10">
           <div className="flex flex-col lg:flex-row justify-between">
@@ -220,12 +142,12 @@ export default function Page() {
                 printing solutions to more than a thousand clients today..
               </p>
               <Link
-                className="button-58 transition duration-300 p-2 w-max rounded-full text-xs px-4 text-white"
-                href=""
-              >
-                <span className="text-btn">Order Now</span>
-                <span>Order Now</span>
-              </Link>
+                      className="button-58 transition duration-300 py-2 w-max rounded-full text-[20px] px-4 text-white"
+                      href=""
+                    >
+                      <span className="text-btn flex gap-2 items-center">Order Now<GoArrowUpRight className="text-[26px]" /></span>
+                      <span className="pb-3">Order Now<GoArrowUpRight className="text-[26px]" /></span>
+                    </Link>
             </div>
             <div class="md:basis-2/5 md:min-w-2/5 md:m-0 lg:basis-1/2 lg:min-w-1/2 lg:m-0 overflow-hidden h-full md:h-[450px]">
               <Image
@@ -234,7 +156,7 @@ export default function Page() {
               ></Image>
             </div>
           </div>
-          <div className="w-full h-full overflow-hidden pt-10 relative">
+          <div className="w-full h-full overflow-hidden pt-20 relative">
             <Image className="w-[100%] h-[100%] object-cover object-center" src={sidebox}></Image>
             <div className="absolute top-72 right-20 w-[400px]">
               <p className="text-[#111] text-[22px] font-normal leading-[36px]">Imprint printing press is the foremost provider of varied offset printing solutions to more than a thousand clients today..</p>
@@ -247,7 +169,6 @@ export default function Page() {
           </div>
         </div>
       </section>
-      {/* <Footer/> */}
     </div>
   );
 }
