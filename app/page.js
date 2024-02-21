@@ -64,7 +64,34 @@ export default function Home() {
           </div>
         </div>
       </section>
-     
+      <section>
+        <div className="max-w-screen-xl mx-auto px-12 py-20">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <div className="flex flex-col gap-5 border-b-[1px] border-[#CBCBCB] p-5 group hover:bg-[#0092D1] duration-300">
+              <p className="text-[#000] text-[44px] font-bold group-hover:text-[#fff]">We Print Your Vision into Reality</p>
+            </div>                                                                        
+            <div className="flex flex-col gap-5 border border-t-0 border-[#CBCBCB] p-10 group hover:bg-[#0092D1] duration-300">
+              <p className="text-[#000] text-[24px] font-bold group-hover:text-[#fff]">We Print Your Vision into Reality</p>
+              <p className="text-[#676666] text-[10px] font-normal group-hover:text-[#fff]">Imprint Printing Press is not just any ordinary printing company - we are the foremost provider of varied offset printing solutions to more than a thousand clients today. Our commitment to delivering exceptional quality prints, timely delivery, and excellent customer service has made us the go-to choice for businesses of all sizes.</p>
+            </div>
+            <div className="flex flex-col gap-5 border-b-[1px] border-[#CBCBCB] p-10 group hover:bg-[#0092D1] duration-300">
+              <p className="text-[#000] text-[24px] font-bold group-hover:text-[#fff]">We Print Your Vision into Reality</p>
+              <p className="text-[#676666] text-[10px] font-normal group-hover:text-[#fff]">Imprint Printing Press is not just any ordinary printing company - we are the foremost provider of varied offset printing solutions to more than a thousand clients today. Our commitment to delivering exceptional quality prints, timely delivery, and excellent customer service has made us the go-to choice for businesses of all sizes.</p>
+            </div>
+            <div className="flex flex-col gap-5  p-10 group hover:bg-[#0092D1]">
+              <p className="text-[#676666] text-[10px] font-normal group-hover:text-[#fff]">Imprint Printing Press is not just any ordinary printing company - we are the foremost provider of varied offset printing solutions to more than a thousand clients today. Our commitment to delivering exceptional quality prints, timely delivery, and excellent customer service has made us the go-to choice for businesses of all sizes.</p>
+            </div>
+            <div className="flex flex-col gap-5 border-r-[1px] border-l-[1px] border-[#CBCBCB] p-10 group hover:bg-[#0092D1] duration-300">
+              <p className="text-[#000] text-[24px] font-bold group-hover:text-[#fff]">We Print Your Vision into Reality</p>
+              <p className="text-[#676666] text-[10px] font-normal group-hover:text-[#fff]">Imprint Printing Press is not just any ordinary printing company - we are the foremost provider of varied offset printing solutions to more than a thousand clients today. Our commitment to delivering exceptional quality prints, timely delivery, and excellent customer service has made us the go-to choice for businesses of all sizes.</p>
+            </div>
+            <div className="flex flex-col gap-5 p-10 group hover:bg-[#0092D1] duration-300">
+              <p className="text-[#000] text-[24px] font-bold group-hover:text-[#fff]">We Print Your Vision into Reality</p>
+              <p className="text-[#676666] text-[10px] font-normal group-hover:text-[#fff]">Imprint Printing Press is not just any ordinary printing company - we are the foremost provider of varied offset printing solutions to more than a thousand clients today. Our commitment to delivering exceptional quality prints, timely delivery, and excellent customer service has made us the go-to choice for businesses of all sizes.</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
