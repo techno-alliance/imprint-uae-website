@@ -1,20 +1,20 @@
 import React from "react";
 import Image from "next/image";
-import printing from "/public/Images/printing2.png";
-import envelop from "/public/Images/envelop.png";
+import printing from "/public/images/printing2.png";
+import envelop from "/public/images/envelop.png";
 import Link from "next/link";
-import brochure from "/public/Images/brochure.png";
-import business from "/public/Images/business.png";
-import book1 from "/public/Images/books1.png";
-import flyers from "/public/Images/flyers.png";
-import signage from "/public/Images/signage.png";
-import poster from "/public/Images/poster.png";
-import stationary from "/public/Images/stationary.png";
-import catalog from "/public/Images/catalog.png";
-import premium from "/public/Images/premium.png";
-import brochure1 from "/public/Images/brochure1.png";
-import business1 from "/public/Images/business1.png";
-import magazine from "/public/Images/magazine1.png";
+import brochure from "/public/images/brochure.png";
+import business from "/public/images/business.png";
+import book1 from "/public/images/books1.png";
+import flyers from "/public/images/flyers.png";
+import signage from "/public/images/signage.png";
+import poster from "/public/images/poster.png";
+import stationary from "/public/images/stationary.png";
+import catalog from "/public/images/catalog.png";
+import premium from "/public/images/premium.png";
+import brochure1 from "/public/images/brochure1.png";
+import business1 from "/public/images/business1.png";
+import magazine from "/public/images/magazine1.png";
 
 const page = () => {
   return (

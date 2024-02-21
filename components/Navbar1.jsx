@@ -42,7 +42,7 @@ const Navbar1 = () => {
               <li>
                 <a
                   className="nav__links text-gray-500 h-[72px] grid place-items-center hover:text-[#1265D7] transition-all duration-200"
-                  href=""
+                  href="/production"
                 >
                   Contact Us
                 </a>

@@ -1,8 +1,27 @@
 import React from "react";
+import Image from "next/image";
+import production from "/public/Images/production.jpg"
 
 const page = () => {
   return (
     <div>
+      <section className="pt-[72px] h-[100vh]">
+        <div className="w-full h-full overflow-hidden relative">
+          <Image
+            className="w-[100%] h-[100%] object-cover object-center"
+            src={production}
+          ></Image>
+          <div className="absolute right-36 top-20">
+            <p className="text-[#fff] opacity-65 text-[110px] font-semibold">
+              Printing
+            </p>
+            <p className="text-[#fff] opacity-65 text-[22px] font-normal w-[450px]">
+              we offer a comprehensive range of printing solutions tailored to
+              meet your unique needs.
+            </p>
+          </div>
+        </div>
+      </section>
       <section className="pt-36">
         <div className="max-w-screen-xl mx-auto px-12 py-20">
           <div className="flex justify-between">
