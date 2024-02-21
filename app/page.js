@@ -9,17 +9,17 @@ import card from "/public/images/card.png"
 import Link from "next/link";
 
 export default function Home() {
-  const plane = useRef(null);
-  const maxRotate = 45;
+  // const plane = useRef(null);
+  // const maxRotate = 45;
 
-  const manageMouseMove = (e) => {
-    const x = e.clientX / window.innerWidth;
-    const y = e.clientY / window.innerHeight;
-    const perspective = window.innerWidth * 4;
-    const rotateX = maxRotate * x - maxRotate / 2;
-    const rotateY = (maxRotate * y - maxRotate / 2) * -1;
-    plane.current.style.transform = `perspective(${perspective}px) rotateX(${rotateY}deg) rotateY(${rotateX}deg)`;
-  };
+  // const manageMouseMove = (e) => {
+  //   const x = e.clientX / window.innerWidth;
+  //   const y = e.clientY / window.innerHeight;
+  //   const perspective = window.innerWidth * 4;
+  //   const rotateX = maxRotate * x - maxRotate / 2;
+  //   const rotateY = (maxRotate * y - maxRotate / 2) * -1;
+  //   plane.current.style.transform = `perspective(${perspective}px) rotateX(${rotateY}deg) rotateY(${rotateX}deg)`;
+  // };
 
   return (
     <div className="pt-20">
@@ -29,7 +29,7 @@ export default function Home() {
        <div className="pt-20">
        <ZoomParallex/>
        </div>
-      <div
+      {/* <div
         onMouseMove={(e) => {
           manageMouseMove(e);
         }}
@@ -41,7 +41,7 @@ export default function Home() {
           <Text3d primary={"Into"} secondary={"Into"} />
           <Text3d primary={"Shapes"} secondary={"Shapes"} />
         </div>
-      </div>
+      </div> */}
       <section className="bg-[#030D15]">
         <div className="max-w-screen-xl mx-auto px-12">
           <div className="flex flex-col lg:flex-row gap-5 lg:gap-0 justify-between py-10">
