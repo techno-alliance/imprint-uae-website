@@ -1,7 +1,7 @@
 "use client";
-import styles from "/components/style.module.scss";
-import Text3d from "/components/Text3d";
-import { useRef, useEffect } from "react";
+// import styles from "/components/style.module.scss";
+// import Text3d from "/components/Text3d";
+// import { useRef, useEffect } from "react";
 import ZoomParallex from "/components/ZoomParallex.jsx"
 import Image from "next/image";
 import pad from "/public/images/pad.png"
@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <div className="pt-20">
       <section className="max-w-screen-xl mx-auto px-12">
-        <p className="text-[64px] text-[#000] font-semibold leading-none">Your Unlimited <span className="text-[#0092D1] text-[110px] font-bold">Printing</span> <span className="font-bold text-[110px]">Partner</span></p>
+        <p className="text-[40px] lg:text-[64px] text-[#000] font-semibold leading-none">Your Unlimited <span className="text-[#0092D1] text-[50px] lg:text-[110px] font-bold">Printing</span> <span className="font-bold text-[50px] lg:text-[110px]">Partner</span></p>
       </section>
        <div className="pt-20">
        <ZoomParallex/>
