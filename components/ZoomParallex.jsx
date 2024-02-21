@@ -1,11 +1,11 @@
 import styles from './style.module.scss';
-import Picture1 from '/public/Images/brochure1.png';
-import Picture2 from '/public/Images/catalog.png';
-import Picture3 from '/public/Images/cosmetic2.png';
-import Picture4 from '/public/Images/bag.png';
-import Picture5 from '/public/Images/magazine1.png';
-import Picture6 from '/public/Images/gift.png';
-import Picture7 from '/public/Images/poster.png';
+import Picture1 from '/public/images/brochure1.png';
+import Picture2 from '/public/images/catalog.png';
+import Picture3 from '/public/images/cosmetic2.png';
+import Picture4 from '/public/images/bag.png';
+import Picture5 from '/public/images/magazine1.png';
+import Picture6 from '/public/images/gift.png';
+import Picture7 from '/public/images/poster.png';
 import Image from 'next/image';
 import { useScroll, useTransform, motion} from 'framer-motion';
 import { useRef } from 'react';

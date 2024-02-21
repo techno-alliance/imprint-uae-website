@@ -104,6 +104,11 @@ const page = () => {
         </div>
         {/* <Carousel/> */}
       </section>
+      <section>
+        <div>
+        <p className="text-[#0A0A0A] text-[100px] font-semibold">Hight Quality <span>Production</span> </p>
+        </div>
+      </section>
     </div>
   );
 };
