@@ -112,7 +112,7 @@ export default function Home() {
                   <GoArrowUpRight className="text-[26px]" />
                 </span>
                 <span className="pb-3">
-                  Explore More
+                  Explore More .
                   <GoArrowUpRight className="text-[26px]" />
                 </span>
               </Link>
