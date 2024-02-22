@@ -95,7 +95,7 @@ export default function Page() {
             </p>
             <div className="flex flex-col lg:flex-row gap-3 pt-5 lg:pt-0 lg:gap-10">
               <div className="flex items-center">
-                <button className="flex gap-2 text-[20px] items-center text-[#fff] rounded-[42px] border border-[#F5F5F5] px-5 py-3">
+                <button className="flex gap-2 text-[20px] items-center text-[#fff] rounded-[42px] border border-[#F5F5F5] px-5 py-3 hover:bg-white hover:text-black">
                   Order now <GoArrowUpRight className="text-[26px]" />
                 </button>
               </div>
@@ -142,12 +142,18 @@ export default function Page() {
                 printing solutions to more than a thousand clients today..
               </p>
               <Link
-                      className="button-58 transition duration-300 py-2 w-max rounded-full text-[20px] px-4 text-white"
-                      href=""
-                    >
-                      <span className="text-btn flex gap-2 items-center">Order Now<GoArrowUpRight className="text-[26px]" /></span>
-                      <span className="pb-3">Order Now<GoArrowUpRight className="text-[26px]" /></span>
-                    </Link>
+                className="button-58 transition duration-300 py-2 w-max rounded-full text-[16px] lg:text-[20px] px-4 text-white"
+                href=""
+              >
+                <span className="text-btn flex gap-2 items-center">
+                  Order Now
+                  <GoArrowUpRight className="text-[26px]" />
+                </span>
+                <span className="pb-3">
+                  Order Now
+                  <GoArrowUpRight className="text-[26px]" />
+                </span>
+              </Link>
             </div>
             <div class="md:basis-2/5 md:min-w-2/5 md:m-0 lg:basis-1/2 lg:min-w-1/2 lg:m-0 overflow-hidden h-full md:h-[450px]">
               <Image

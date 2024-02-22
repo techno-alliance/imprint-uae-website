@@ -15,6 +15,7 @@ import premium from "/public/images/premium.png";
 import brochure1 from "/public/images/brochure1.png";
 import business1 from "/public/images/business1.png";
 import magazine from "/public/images/magazine1.png";
+import { GoArrowUpRight } from "react-icons/go";
 
 const page = () => {
   return (
@@ -25,11 +26,11 @@ const page = () => {
             className="w-[100%] h-[100%] object-cover object-center"
             src={printing}
           ></Image>
-          <div className="absolute right-36 top-20">
-            <p className="text-[#fff] opacity-65 text-[110px] font-semibold">
+          <div className="absolute lg:right-36 top-20">
+            <p className="text-[#fff] opacity-65 text-[50px] lg:text-[110px] font-semibold">
               Printing
             </p>
-            <p className="text-[#fff] opacity-65 text-[22px] font-normal w-[450px]">
+            <p className="text-[#fff] opacity-65 text-[22px] font-normal w-auto lg:w-[450px]">
               we offer a comprehensive range of printing solutions tailored to
               meet your unique needs.
             </p>
@@ -51,11 +52,17 @@ const page = () => {
                 printing solutions to more than a thousand clients today..
               </p>
               <Link
-                className="button-58 transition duration-300 p-2 w-max rounded-full text-xs px-4 text-white"
+                className="button-58 transition duration-300 py-2 w-max rounded-full text-[16px] lg:text-[20px] px-4 text-white"
                 href=""
               >
-                <span className="text-btn">Order Now</span>
-                <span>Order Now</span>
+                <span className="text-btn flex gap-2 items-center">
+                  Order Now
+                  <GoArrowUpRight className="text-[26px]" />
+                </span>
+                <span className="pb-3">
+                  Order Now
+                  <GoArrowUpRight className="text-[26px]" />
+                </span>
               </Link>
             </div>
             <div class="img_appear md:basis-2/5 md:min-w-2/5 md:m-0 lg:basis-1/2 lg:min-w-1/2 lg:m-0 overflow-hidden h-full md:h-[450px]">
@@ -199,13 +206,13 @@ const page = () => {
             className="w-full h-full object-cover object-center"
             src={premium}
           ></Image>
-          <div className="absolute left-20 top-10">
-            <p className="text-[#28AAE3] text-[110px] font-bold flex flex-col gap-2 leading-none">
+          <div className="absolute left-10 lg:left-20 top-10">
+            <p className="text-[#28AAE3] text-[50px] lg:text-[110px] font-bold flex flex-col gap-2 leading-none">
               Premium{" "}
-              <span className="text-[#fff] text-[64px] font-semibold">
+              <span className="text-[#fff] text-[44px] lg:text-[64px] font-semibold">
                 Quality Printing
               </span>{" "}
-              <span className="text-[64px]"> Services</span>
+              <span className="text-[44px] lg:text-[64px]"> Services</span>
             </p>
           </div>
         </div>
@@ -222,11 +229,17 @@ const page = () => {
                 printing solutions to more than a thousand clients today..
               </p>
               <Link
-                className="button-58 transition duration-300 p-2 w-max rounded-full text-xs px-4 text-white"
+                className="button-58 transition duration-300 py-2 w-max rounded-full text-[16px] lg:text-[20px] px-4 text-white"
                 href=""
               >
-                <span className="text-btn">Order Now</span>
-                <span>Order Now</span>
+                <span className="text-btn flex gap-2 items-center">
+                  Order Now
+                  <GoArrowUpRight className="text-[26px]" />
+                </span>
+                <span className="pb-3">
+                  Order Now
+                  <GoArrowUpRight className="text-[26px]" />
+                </span>
               </Link>
             </div>
             <div class="md:basis-2/5 md:min-w-2/5 md:m-0 lg:basis-1/2 lg:min-w-1/2 lg:m-0 overflow-hidden h-full md:h-[450px]">

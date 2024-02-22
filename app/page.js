@@ -7,6 +7,7 @@ import Image from "next/image";
 import pad from "/public/images/pad.png"
 import card from "/public/images/card.png"
 import Link from "next/link";
+import { GoArrowUpRight } from "react-icons/go";
 
 export default function Home() {
   // const plane = useRef(null);
@@ -42,19 +43,25 @@ export default function Home() {
           <Text3d primary={"Shapes"} secondary={"Shapes"} />
         </div>
       </div> */}
-      <section className="bg-[#030D15]">
+      <section className="bg-[#030D15] h-[100vh]">
         <div className="max-w-screen-xl mx-auto px-12">
           <div className="flex flex-col lg:flex-row gap-5 lg:gap-0 justify-between py-10">
           <p className="text-[#fff] text-[20px] lg:text-[28px] font-semibold">Imprint's Commitment to Delivering Exceptional Print Quality</p>
           <Link
-                className="button-58 transition duration-300 py-4 w-max rounded-full text-[20px] px-8 text-white"
+                className="button-58 transition duration-300 py-2 w-max rounded-full text-[16px] lg:text-[20px] px-4 text-white"
                 href=""
               >
-                <span className="text-btn ">Explore</span>
-                <span className="pb-4">Explore</span>
+                <span className="text-btn flex gap-2 items-center">
+                  Explore More
+                  <GoArrowUpRight className="text-[26px]" />
+                </span>
+                <span className="pb-3">
+                  Explore More
+                  <GoArrowUpRight className="text-[26px]" />
+                </span>
               </Link>
           </div>
-          <div className="flex">
+          <div className="flex pt-10">
           <div className="">
           <Image className="w-full h-full object-cover object-center" src={pad}></Image>
           </div>
@@ -89,6 +96,26 @@ export default function Home() {
               <p className="text-[#000] text-[24px] font-bold group-hover:text-[#fff]">We Print Your Vision into Reality</p>
               <p className="text-[#676666] text-[10px] font-normal group-hover:text-[#fff]">Imprint Printing Press is not just any ordinary printing company - we are the foremost provider of varied offset printing solutions to more than a thousand clients today. Our commitment to delivering exceptional quality prints, timely delivery, and excellent customer service has made us the go-to choice for businesses of all sizes.</p>
             </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="max-w-screen-xl mx-auto px-12 py-20 bg-[#000]">
+        <div className="flex flex-col lg:flex-row gap-5 lg:gap-0 justify-between py-10">
+          <p className="text-[#fff] text-[20px] lg:text-[28px] font-semibold">Imprint's Commitment to Delivering Exceptional Print Quality</p>
+          <Link
+                className="button-58 transition duration-300 py-2 w-max rounded-full text-[16px] lg:text-[20px] px-4 text-white"
+                href=""
+              >
+                <span className="text-btn flex gap-2 items-center">
+                  Explore More
+                  <GoArrowUpRight className="text-[26px]" />
+                </span>
+                <span className="pb-3">
+                  Explore More
+                  <GoArrowUpRight className="text-[26px]" />
+                </span>
+              </Link>
           </div>
         </div>
       </section>

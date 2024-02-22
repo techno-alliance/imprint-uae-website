@@ -6,6 +6,10 @@ import Link from "next/link";
 import { GoArrowUpRight } from "react-icons/go";
 import freeflyer from "/public/images/freeflyer.png";
 import simple from "/public/images/simple.png";
+import sidepack from "/public/images/sidepack.png";
+import icecream from "/public/images/icecream.png";
+import paper from "/public/images/paper.png";
+import { FiSend } from "react-icons/fi";
 
 // import Carousel from "@/components/Carousel"
 
@@ -108,7 +112,24 @@ const page = () => {
         </div>
         {/* <Carousel/> */}
       </section>
-      <section className="h-[200vh]">
+      <section className="bg-[#000]">
+        <div className="h-[100vh] overflow-hidden relative">
+          <Image
+            className="w-full lg:w-[50%] h-full object-cover object-center"
+            src={sidepack}
+          ></Image>
+          <div className="absolute right-20 top-10">
+            <p className="text-[#28AAE3] text-[50px] lg:text-[110px] font-bold flex flex-col gap-2 leading-none">
+              Premium{" "}
+              <span className="text-[#fff] text-[26px] lg:text-[64px] font-semibold">
+                Quality Printing
+              </span>{" "}
+              <span className="text-[26px] lg:text-[64px]"> Services</span>
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="h-[150vh]">
         <div className="max-w-screen-xl mx-auto px-12 py-20">
           <div className="flex justify-center">
             <p className="text-[#0A0A0A] text-[50px] lg:text-[100px] font-semibold text-center flex flex-col gap-2 leading-none">
@@ -138,11 +159,17 @@ const page = () => {
                 </span>
               </Link>
             </div>
-            <div className="absolute right-[10px] md:right-0 lg:right-0 -bottom-[250px] md:-bottom-[110px] lg:-bottom-[200px] w-[200px] md:w-[300px] lg:w-[400px] h-auto lg:h-[450px] overflow-hidden">
-              <Image className="w-full h-full object-cover object-center" src={freeflyer}></Image>
+            <div className="absolute right-[10px] md:right-0 lg:right-0 -bottom-[250px] md:-bottom-[10px] lg:-bottom-[200px] w-[200px] md:w-[300px] lg:w-[400px] h-auto lg:h-[450px] overflow-hidden">
+              <Image
+                className="w-full h-full object-cover object-center"
+                src={freeflyer}
+              ></Image>
             </div>
             <div className="absolute left-0 -bottom-[750px] md:-bottom-[355px] lg:-bottom-[500px] w-[200px] md:w-[300px] lg:w-[400px] h-auto lg:h-[450px] overflow-hidden">
-              <Image className="w-full h-full object-cover object-center" src={simple}></Image>
+              <Image
+                className="w-full h-full object-cover object-center"
+                src={simple}
+              ></Image>
             </div>
             <div className="flex flex-col gap-2 absolute right-0 -bottom-[520px] md:-bottom-[350px] lg:-bottom-[510px] w-auto md:w-[300px] lg:w-[400px]">
               <p className="text-[#000] text-[20px] lg:text-[32px] font-semibold">
@@ -165,6 +192,66 @@ const page = () => {
                   <GoArrowUpRight className="text-[26px]" />
                 </span>
               </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="pt-60">
+        <div className="max-w-screen-xl mx-auto px-12 py-20">
+          <div className="flex flex-col lg:flex-row gap-5">
+            <div className="bg-[#393939] w-full h-full flex flex-col gap-1 p-10">
+              <p className="text-[#fff] text-[30px] lg:text-[100px] font-semibold">
+                Production
+              </p>
+              <p className="text-[#fff] text-[16px] lg:text-[40px] font-normal">
+                We Print Paper Products Of Any Formats
+              </p>
+              <div className="w-full lg:w-[420px] h-full ">
+                <Image
+                  className="w-full h-full object-cover object-center"
+                  src={icecream}
+                ></Image>
+              </div>
+              <Link
+                className="button-58 transition duration-300 py-2 w-max rounded-full text-[16px] lg:text-[20px] px-4 text-white"
+                href=""
+              >
+                <span className="text-btn flex gap-2 items-center">
+                  Explore More
+                  <GoArrowUpRight className="text-[26px]" />
+                </span>
+                <span className="pb-3">
+                  Explore More
+                  <GoArrowUpRight className="text-[26px]" />
+                </span>
+              </Link>
+            </div>
+            <div className="flex flex-col gap-5">
+              <div className="bg-[#CCD0D3] w-full lg:w-[439px] h-full p-5 py-14 relative">
+                <p className="text-[#0A0A0A] text-[24px] lg:text-[40px] font-semibold">
+                  See Our Services
+                </p>
+                  <div className="w-[100px] md:w-[200px] lg:w-[300px] absolute right-10 md:top-0 lg:top-10 h-full hidden md:block">
+                    <Image
+                      className="w-full h-full object-cover object-center"
+                      src={paper}
+                    ></Image>
+                  </div>
+                  <div className="absolute bottom-3 lg:bottom-10">
+                  <GoArrowUpRight className="text-[40px] lg:text-[56px]" />
+                  </div>
+              </div>
+              <div className="bg-[#28AAE3] w-full lg:w-[439px] flex flex-col justify-between h-full p-5">
+                <div className="flex justify-between">
+                <p className="text-[#fff] text-[20px] font-semibold">
+                  See Our Services
+                </p>
+                <FiSend className="text-[20px] lg:text-[40px] text-white" />
+                </div>
+                <div>
+                  <p className="text-[#fff] text-[24px] lg:text-[48px] font-bold">Contact Us</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

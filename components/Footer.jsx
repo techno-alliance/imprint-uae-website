@@ -12,16 +12,16 @@ const Footer = () => {
                     <Image className='w-[100%] h-[100%] object-cover object-center' src={logo}></Image>
                 </div>
                 <div>
-                    <p>GET IN TOUCH</p>
-                    <p>youremail@gmail.com</p>
+                    <p className='text-white'>GET IN TOUCH</p>
+                    <p className='text-gray-400'>youremail@gmail.com</p>
                 </div>
                 <div>
-                    <p>LOCATION</p>
-                    <p>Near Ajman Private School Ajman - United Arab</p>
-                    <p>Emirates</p>
+                    <p className='text-white'>LOCATION</p>
+                    <p className='text-gray-400'>Near Ajman Private School Ajman - United Arab</p>
+                    <p className='text-gray-400'>Emirates</p>
                 </div>
-                <div>
-                    <p>FOLLOW</p>
+                <div className='text-gray-400'>
+                    <p className='text-white'>FOLLOW</p>
                     <p>LINKEDIN</p>
                     <p>INSTAGRAM</p>
                     <p>MEDIUM</p>
@@ -30,11 +30,12 @@ const Footer = () => {
             <div className='flex flex-col gap-5'>
                 <p className='text-[50px] w-auto lg:w-[450px] text-[#fff]'>We're commited to providing you</p>
                 <div>
-                <button className="bg-gray-300 text-[12px] items-center text-[#fff] rounded-[42px] px-5 py-3">
-                  SEND MAIL
-                </button>
+                <button
+                  class="button-57 bg-[#5a767d] transition duration-300 hover:bg- p-3 w-max rounded-full text-xs px-4 m-auto sm:m-0"><span
+                    class="text-btn">SEND MAIL</span><span>SEND MAIL</span></button>
+                <button class="button-57" role="button"></button>
                 </div>
-                <div>
+                <div className='text-gray-400'>
                     <p>TERMS & CONDITIONS</p>
                     <p>PRIVACY POLICY</p>
                 </div>
