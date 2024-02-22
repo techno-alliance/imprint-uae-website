@@ -2,10 +2,15 @@
 // import styles from "/components/style.module.scss";
 // import Text3d from "/components/Text3d";
 // import { useRef, useEffect } from "react";
-import ZoomParallex from "/components/ZoomParallex.jsx"
+import ZoomParallex from "/components/ZoomParallex.jsx";
 import Image from "next/image";
-import pad from "/public/images/pad.png"
-import card from "/public/images/card.png"
+import pad from "/public/images/pad.png";
+import card from "/public/images/card.png";
+import pack2 from "/public/images/pack2.png";
+import pack3 from "/public/images/pack3.png";
+import simple11 from "/public/images/simple11.png";
+import keychain from "/public/images/keychain.png";
+import paper2 from "/public/images/paper2.png";
 import Link from "next/link";
 import { GoArrowUpRight } from "react-icons/go";
 
@@ -25,11 +30,17 @@ export default function Home() {
   return (
     <div className="pt-20">
       <section className="max-w-screen-xl mx-auto px-12">
-        <p className="text-[40px] lg:text-[64px] text-[#000] font-semibold leading-none">Your Unlimited <span className="text-[#0092D1] text-[50px] lg:text-[110px] font-bold">Printing</span> <span className="font-bold text-[50px] lg:text-[110px]">Partner</span></p>
+        <p className="text-[40px] lg:text-[64px] text-[#000] font-semibold leading-none">
+          Your Unlimited{" "}
+          <span className="text-[#0092D1] text-[50px] lg:text-[110px] font-bold">
+            Printing
+          </span>{" "}
+          <span className="font-bold text-[50px] lg:text-[110px]">Partner</span>
+        </p>
       </section>
-       <div className="pt-20">
-       <ZoomParallex/>
-       </div>
+      <div className="pt-20">
+        <ZoomParallex />
+      </div>
       {/* <div
         onMouseMove={(e) => {
           manageMouseMove(e);
@@ -46,28 +57,36 @@ export default function Home() {
       <section className="bg-[#030D15] h-[100vh]">
         <div className="max-w-screen-xl mx-auto px-12">
           <div className="flex flex-col lg:flex-row gap-5 lg:gap-0 justify-between py-10">
-          <p className="text-[#fff] text-[20px] lg:text-[28px] font-semibold">Imprint's Commitment to Delivering Exceptional Print Quality</p>
-          <Link
-                className="button-58 transition duration-300 py-2 w-max rounded-full text-[16px] lg:text-[20px] px-4 text-white"
-                href=""
-              >
-                <span className="text-btn flex gap-2 items-center">
-                  Explore More
-                  <GoArrowUpRight className="text-[26px]" />
-                </span>
-                <span className="pb-3">
-                  Explore More
-                  <GoArrowUpRight className="text-[26px]" />
-                </span>
-              </Link>
+            <p className="text-[#fff] text-[20px] lg:text-[28px] font-semibold">
+              Imprint's Commitment to Delivering Exceptional Print Quality
+            </p>
+            <Link
+              className="button-58 transition duration-300 py-2 w-max rounded-full text-[16px] lg:text-[20px] px-4 text-white"
+              href=""
+            >
+              <span className="text-btn flex gap-2 items-center">
+                Explore More
+                <GoArrowUpRight className="text-[26px]" />
+              </span>
+              <span className="pb-3">
+                Explore More
+                <GoArrowUpRight className="text-[26px]" />
+              </span>
+            </Link>
           </div>
           <div className="flex pt-10">
-          <div className="">
-          <Image className="w-full h-full object-cover object-center" src={pad}></Image>
-          </div>
-          <div>
-          <Image className="w-full h-full object-cover object-center" src={card}></Image>
-          </div>
+            <div className="">
+              <Image
+                className="w-full h-full object-cover object-center"
+                src={pad}
+              ></Image>
+            </div>
+            <div>
+              <Image
+                className="w-full h-full object-cover object-center"
+                src={card}
+              ></Image>
+            </div>
           </div>
         </div>
       </section>
@@ -75,47 +94,114 @@ export default function Home() {
         <div className="max-w-screen-xl mx-auto px-12 py-20">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             <div className="flex flex-col gap-5 border-b-[1px] border-[#CBCBCB] p-5 group hover:bg-[#0092D1] duration-300">
-              <p className="text-[#000] text-[44px] font-bold group-hover:text-[#fff]">We Print Your Vision into Reality</p>
-            </div>                                                                        
+              <p className="text-[#000] text-[44px] font-bold group-hover:text-[#fff]">
+                We Print Your Vision into Reality
+              </p>
+            </div>
             <div className="flex flex-col gap-5 border border-t-0 border-[#CBCBCB] p-10 group hover:bg-[#0092D1] duration-300">
-              <p className="text-[#000] text-[24px] font-bold group-hover:text-[#fff]">We Print Your Vision into Reality</p>
-              <p className="text-[#676666] text-[10px] font-normal group-hover:text-[#fff]">Imprint Printing Press is not just any ordinary printing company - we are the foremost provider of varied offset printing solutions to more than a thousand clients today. Our commitment to delivering exceptional quality prints, timely delivery, and excellent customer service has made us the go-to choice for businesses of all sizes.</p>
+              <p className="text-[#000] text-[24px] font-bold group-hover:text-[#fff]">
+                We Print Your Vision into Reality
+              </p>
+              <p className="text-[#676666] text-[10px] font-normal group-hover:text-[#fff]">
+                Imprint Printing Press is not just any ordinary printing company
+                - we are the foremost provider of varied offset printing
+                solutions to more than a thousand clients today. Our commitment
+                to delivering exceptional quality prints, timely delivery, and
+                excellent customer service has made us the go-to choice for
+                businesses of all sizes.
+              </p>
             </div>
             <div className="flex flex-col gap-5 border-b-[1px] border-[#CBCBCB] p-10 group hover:bg-[#0092D1] duration-300">
-              <p className="text-[#000] text-[24px] font-bold group-hover:text-[#fff]">We Print Your Vision into Reality</p>
-              <p className="text-[#676666] text-[10px] font-normal group-hover:text-[#fff]">Imprint Printing Press is not just any ordinary printing company - we are the foremost provider of varied offset printing solutions to more than a thousand clients today. Our commitment to delivering exceptional quality prints, timely delivery, and excellent customer service has made us the go-to choice for businesses of all sizes.</p>
+              <p className="text-[#000] text-[24px] font-bold group-hover:text-[#fff]">
+                We Print Your Vision into Reality
+              </p>
+              <p className="text-[#676666] text-[10px] font-normal group-hover:text-[#fff]">
+                Imprint Printing Press is not just any ordinary printing company
+                - we are the foremost provider of varied offset printing
+                solutions to more than a thousand clients today. Our commitment
+                to delivering exceptional quality prints, timely delivery, and
+                excellent customer service has made us the go-to choice for
+                businesses of all sizes.
+              </p>
             </div>
             <div className="flex flex-col gap-5  p-10 group hover:bg-[#0092D1]">
-              <p className="text-[#676666] text-[10px] font-normal group-hover:text-[#fff]">Imprint Printing Press is not just any ordinary printing company - we are the foremost provider of varied offset printing solutions to more than a thousand clients today. Our commitment to delivering exceptional quality prints, timely delivery, and excellent customer service has made us the go-to choice for businesses of all sizes.</p>
+              <p className="text-[#676666] text-[10px] font-normal group-hover:text-[#fff]">
+                Imprint Printing Press is not just any ordinary printing company
+                - we are the foremost provider of varied offset printing
+                solutions to more than a thousand clients today. Our commitment
+                to delivering exceptional quality prints, timely delivery, and
+                excellent customer service has made us the go-to choice for
+                businesses of all sizes.
+              </p>
             </div>
             <div className="flex flex-col gap-5 border-r-[1px] border-l-[1px] border-[#CBCBCB] p-10 group hover:bg-[#0092D1] duration-300">
-              <p className="text-[#000] text-[24px] font-bold group-hover:text-[#fff]">We Print Your Vision into Reality</p>
-              <p className="text-[#676666] text-[10px] font-normal group-hover:text-[#fff]">Imprint Printing Press is not just any ordinary printing company - we are the foremost provider of varied offset printing solutions to more than a thousand clients today. Our commitment to delivering exceptional quality prints, timely delivery, and excellent customer service has made us the go-to choice for businesses of all sizes.</p>
+              <p className="text-[#000] text-[24px] font-bold group-hover:text-[#fff]">
+                We Print Your Vision into Reality
+              </p>
+              <p className="text-[#676666] text-[10px] font-normal group-hover:text-[#fff]">
+                Imprint Printing Press is not just any ordinary printing company
+                - we are the foremost provider of varied offset printing
+                solutions to more than a thousand clients today. Our commitment
+                to delivering exceptional quality prints, timely delivery, and
+                excellent customer service has made us the go-to choice for
+                businesses of all sizes.
+              </p>
             </div>
             <div className="flex flex-col gap-5 p-10 group hover:bg-[#0092D1] duration-300">
-              <p className="text-[#000] text-[24px] font-bold group-hover:text-[#fff]">We Print Your Vision into Reality</p>
-              <p className="text-[#676666] text-[10px] font-normal group-hover:text-[#fff]">Imprint Printing Press is not just any ordinary printing company - we are the foremost provider of varied offset printing solutions to more than a thousand clients today. Our commitment to delivering exceptional quality prints, timely delivery, and excellent customer service has made us the go-to choice for businesses of all sizes.</p>
+              <p className="text-[#000] text-[24px] font-bold group-hover:text-[#fff]">
+                We Print Your Vision into Reality
+              </p>
+              <p className="text-[#676666] text-[10px] font-normal group-hover:text-[#fff]">
+                Imprint Printing Press is not just any ordinary printing company
+                - we are the foremost provider of varied offset printing
+                solutions to more than a thousand clients today. Our commitment
+                to delivering exceptional quality prints, timely delivery, and
+                excellent customer service has made us the go-to choice for
+                businesses of all sizes.
+              </p>
             </div>
           </div>
         </div>
       </section>
       <section>
         <div className="max-w-screen-xl mx-auto px-12 py-20 bg-[#000]">
-        <div className="flex flex-col lg:flex-row gap-5 lg:gap-0 justify-between py-10">
-          <p className="text-[#fff] text-[20px] lg:text-[28px] font-semibold">Imprint's Commitment to Delivering Exceptional Print Quality</p>
-          <Link
-                className="button-58 transition duration-300 py-2 w-max rounded-full text-[16px] lg:text-[20px] px-4 text-white"
-                href=""
-              >
-                <span className="text-btn flex gap-2 items-center">
-                  Explore More
-                  <GoArrowUpRight className="text-[26px]" />
-                </span>
-                <span className="pb-3">
-                  Explore More
-                  <GoArrowUpRight className="text-[26px]" />
-                </span>
-              </Link>
+          <div className="flex flex-col lg:flex-row gap-5 lg:gap-0 justify-between py-10">
+            <p className="text-[#fff] text-[20px] lg:text-[28px] font-semibold">
+              Imprint's Commitment to Delivering Exceptional Print Quality
+            </p>
+            <Link
+              className="button-58 transition duration-300 py-2 w-max rounded-full text-[16px] lg:text-[20px] px-4 text-white"
+              href=""
+            >
+              <span className="text-btn flex gap-2 items-center">
+                Explore More
+                <GoArrowUpRight className="text-[26px]" />
+              </span>
+              <span className="pb-3">
+                Explore More
+                <GoArrowUpRight className="text-[26px]" />
+              </span>
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <div className="group overflow-hidden">
+              <Image className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-300" src={simple11}></Image>
+            </div>
+            <div className="group overflow-hidden">
+              <Image className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-300" src={keychain}></Image>
+            </div>
+            <div className="group overflow-hidden">
+              <Image className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-300" src={pack3}></Image>
+            </div>
+            <div className="group overflow-hidden">
+              <Image className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-300" src={pack2}></Image>
+            </div>
+            <div className="group overflow-hidden">
+              <Image className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-300" src={pad}></Image>
+            </div>
+            <div className="group overflow-hidden">
+              <Image className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-300" src={paper2}></Image>
+            </div>
           </div>
         </div>
       </section>
