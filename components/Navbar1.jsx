@@ -12,6 +12,7 @@ const Navbar1 = () => {
         >
           <div className="logo_animation">
             <div className="header_logo flex gap-2 justify-center items-center ">
+              <a href="/">
               <Image
                 className="w-[100px]"
                 width={100}
@@ -19,6 +20,7 @@ const Navbar1 = () => {
                 src={logo}
                 alt=""
               ></Image>
+              </a>
             </div>
           </div>
           <div className="nav_items menu-bar sm:flex items-center gap-8 text-md hidden">

@@ -13,8 +13,15 @@ import keychain from "/public/images/keychain.png";
 import paper2 from "/public/images/paper2.png";
 import Link from "next/link";
 import { GoArrowUpRight } from "react-icons/go";
-// import card from "/public/images/project1.png"
-// import card from "/public/images/project1.png"
+import project1 from "/public/images/project1.png";
+import project2 from "/public/images/project2.png";
+import project3 from "/public/images/project3.png";
+import project4 from "/public/images/project4.png";
+import project5 from "/public/images/project5.png";
+import project6 from "/public/images/project6.png";
+import simple from "/public/images/simple.png";
+import Projects from "@/components/Projects";
+import { BouncyCardsFeatures } from "@/components/BouncyCardsFeatures";
 
 
 export default function Home() {
@@ -210,7 +217,7 @@ export default function Home() {
         </div>
       </section>
       
-      <section>
+      {/* <section>
         <div className="max-w-screen-xl mx-auto px-12 py-20 flex flex-col gap-36">
           <div className="flex flex-col md:flex-row lg:flex-row justify-between gap-5">
             <p className="text-[#000] text-[50px] lg:text-[110px] font-bold flex flex-col gap-2 leading-none">Featured <span className="text-[#208FED]">Projects</span> </p>
@@ -234,41 +241,47 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row gap-5">
             <div className="flex flex-col gap-5">
               <div className="overflow-hidden w-full lg:w-[250px] h-[200px]">
-                <Image className="w-full h-full object-cover object-center" src={pad}></Image>
+                <Image className="w-full h-full object-cover object-center" src={project1}></Image>
               </div>
               <div className="overflow-hidden w-full lg:w-[200px] h-[150px]">
-                <Image className="w-full h-full object-cover object-center" src={pad}></Image>
+                <Image className="w-full h-full object-cover object-center" src={project2}></Image>
               </div>
             </div>
             <div className="pt-0 lg:pt-20">
               <div className="overflow-hidden w-full h-[300px]">
-                <Image className="w-full h-full object-cover object-center" src={pad}></Image>
+                <Image className="w-full h-full object-cover object-center" src={project3}></Image>
               </div>
             </div>
             <div className="pt-0 lg:pt-32">
               <div className="overflow-hidden w-full h-[200px]">
-                <Image className="w-full h-full object-cover object-center" src={pad}></Image>
+                <Image className="w-full h-full object-cover object-center" src={project4}></Image>
               </div>
             </div>
             <div className="flex flex-col gap-5">
               <div className="overflow-hidden w-full lg:w-[200px] h-[150px]">
-                <Image className="w-full h-full object-cover object-center" src={pad}></Image>
+                <Image className="w-full h-full object-cover object-center" src={project5}></Image>
               </div>
               <div className="overflow-hidden w-full lg:w-[250px] h-[200px]">
-                <Image className="w-full h-full object-cover object-center" src={pad}></Image>
+                <Image className="w-full h-full object-cover object-center" src={simple}></Image>
               </div>
             </div>
             <div className="flex flex-col gap-5">
               <div className="overflow-hidden w-full lg:w-[250px] h-[200px]">
-                <Image className="w-full h-full object-cover object-center" src={pad}></Image>
+                <Image className="w-full h-full object-cover object-center" src={card}></Image>
               </div>
               <div className="overflow-hidden w-full lg:w-[200px] h-[150px]">
-                <Image className="w-full h-full object-cover object-center" src={pad}></Image>
+                <Image className="w-full h-full object-cover object-center" src={project1}></Image>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+    <section className="py-32">
+    <Projects/>
+    </section>
+    <BouncyCardsFeatures/>
+
+
     </div>
   );
 }
