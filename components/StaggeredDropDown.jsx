@@ -17,7 +17,7 @@ import {
             onClick={() => setOpen((pv) => !pv)}
             className="flex items-center gap-2 text-gray-500 transition-colors"
           >
-            <span className=" text-sm">Services</span>
+            <span className=" text-[16px]">Services</span>
             <motion.span variants={iconVariants}>
               <FiChevronDown />
             </motion.span>
@@ -30,7 +30,7 @@ import {
             className="flex flex-col gap-2 p-2 rounded-lg bg-white shadow-xl absolute top-[120%] left-[50%] w-48 overflow-hidden"
           >
             <Option setOpen={setOpen}  text="Packaging" url="/packaging"/>
-            <Option setOpen={setOpen}  text="Printing" url="/packaging"/>
+            <Option setOpen={setOpen}  text="Printing" url="/printing"/>
             <Option setOpen={setOpen}  text="Production" url="/production"/>
           </motion.ul>
         </motion.div>
@@ -44,7 +44,7 @@ import {
       href={url}
         variants={itemVariants}
         onClick={() => setOpen(false)}
-        className="flex items-center gap-2 w-full p-2 text-xs font-medium whitespace-nowrap rounded-md hover:bg-indigo-100 text-slate-700 hover:text-indigo-500 transition-colors cursor-pointer"
+        className="flex items-center gap-2 w-full p-2 text-xs font-medium whitespace-nowrap rounded-md hover:bg-black text-slate-700 hover:text-white transition-colors cursor-pointer"
       >
         <a href={url}><span>{text}</span></a>
       </motion.li>
