@@ -9,7 +9,7 @@ import Transition from "@/components/Transition";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Best HR Software in UAE",
+  title: "Imprint printing press",
   description: "Designed by HR Minds Engineered for HR Succes| AI based Job Description Creation| Smart Candidate Profile Management",
 };
 
