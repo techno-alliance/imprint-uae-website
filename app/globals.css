@@ -751,7 +751,20 @@ body {
     width: 100%;
   }
 } */
-
+/* text animation */
+.slide-up{
+  animation: slideUp 1s ease;
+}
+@keyframes slideUp{
+  0%{
+    transform: translateY(14px);
+    opacity: 0;
+  }
+  100%{
+    /* transform: translateY(0px); */
+    opacity: 1;
+  }
+}
 
 
 /* slider */

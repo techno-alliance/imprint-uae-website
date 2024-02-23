@@ -40,7 +40,7 @@ export default function Home() {
   return (
     <div className="pt-20">
       <section className="max-w-screen-xl mx-auto px-12">
-        <p className="text-[40px] lg:text-[64px] text-[#000] font-semibold leading-none">
+        <p className="text-[40px] lg:text-[64px] text-[#000] font-semibold leading-none slide-up">
           Your Unlimited{" "}
           <span className="text-[#0092D1] text-[50px] lg:text-[110px] font-bold">
             Printing
