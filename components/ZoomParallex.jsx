@@ -67,6 +67,7 @@ export default function Index() {
                                     fill
                                     alt="image"
                                     placeholder='blur'
+                                    unoptimized
                                 />
                             </div>
                         </motion.div>
