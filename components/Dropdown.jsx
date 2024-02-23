@@ -4,9 +4,9 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const Example = () => {
   return (
-    <div className="flex h-[500px] justify-center bg-neutral-900 px-3 py-12">
+    <div className="flex justify-center py-6">
       <FlyoutLink href="#" FlyoutContent={PricingContent}>
-        Pricing
+        Services
       </FlyoutLink>
     </div>
   );
@@ -23,7 +23,7 @@ const FlyoutLink = ({ children, href, FlyoutContent }) => {
       onMouseLeave={() => setOpen(false)}
       className="relative w-fit h-fit"
     >
-      <a href={href} className="relative text-white">
+      <a href={href} className="relative text-gray-500">
         {children}
         <span
           style={{
@@ -55,7 +55,7 @@ const FlyoutLink = ({ children, href, FlyoutContent }) => {
 const PricingContent = () => {
   return (
     <div className="w-64 bg-white p-6 shadow-xl">
-      <div className="mb-3 space-y-3">
+      {/* <div className="mb-3 space-y-3">
         <h3 className="font-semibold">For Individuals</h3>
         <a href="#" className="block text-sm hover:underline">
           Introduction
@@ -63,22 +63,19 @@ const PricingContent = () => {
         <a href="#" className="block text-sm hover:underline">
           Pay as you go
         </a>
-      </div>
+      </div> */}
       <div className="mb-6 space-y-3">
         <h3 className="font-semibold">For Companies</h3>
-        <a href="#" className="block text-sm hover:underline">
-          Startups
+        <a href="/packaging" className="block text-sm hover:underline">
+          Packaging
         </a>
-        <a href="#" className="block text-sm hover:underline">
-          SMBs
+        <a href="/printing" className="block text-sm hover:underline">
+          Printing
         </a>
-        <a href="#" className="block text-sm hover:underline">
-          Enterprise
+        <a href="/production" className="block text-sm hover:underline">
+          Production
         </a>
       </div>
-      <button className="w-full rounded-lg border-2 border-neutral-950 px-4 py-2 font-semibold transition-colors hover:bg-neutral-950 hover:text-white">
-        Contact sales
-      </button>
     </div>
   );
 };

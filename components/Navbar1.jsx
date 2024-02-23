@@ -1,7 +1,10 @@
+"use client"
 import React from 'react'
 import logo from "/public/images/logo_full_gray.svg"
 import Image from 'next/image'
 import Navbar from "./Navbar"
+import Dropdown from "./Dropdown"
+import StaggeredDropDown from './StaggeredDropDown'
 
 const Navbar1 = () => {
   return (
@@ -36,19 +39,19 @@ const Navbar1 = () => {
               <li>
                 <a
                   className="nav__links text-gray-500 h-[72px] grid place-items-center hover:text-[#1265D7] transition-all duration-200"
-                  href="/printing"
                 >
-                  Works
+                  <StaggeredDropDown/>
                 </a>
               </li>
               <li>
                 <a
                   className="nav__links text-gray-500 h-[72px] grid place-items-center hover:text-[#1265D7] transition-all duration-200"
-                  href="/production"
+                  href="/printing"
                 >
-                  Contact Us
+                  Works
                 </a>
               </li>
+             
               <a
                 className="button-58 transition duration-300 p-2 w-max rounded-full text-xs px-4 text-white"
                 href="/"
@@ -56,6 +59,7 @@ const Navbar1 = () => {
                 <span className="text-btn">Let's Talk</span>
                 <span>Let's Talk</span>
               </a>
+              
             </ul>
           </div>
           <div className="menu sm:hidden">

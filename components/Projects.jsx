@@ -7,8 +7,8 @@ import { GoArrowUpRight } from "react-icons/go";
 const Example = () => {
   return (
     <div className="bg-black">
-      <div className="flex h-48 items-center justify-center">
-      <p className="text-[#fff] text-[50px] lg:text-[110px] font-bold  leading-none">Featured <span className="text-[#208FED]">Projects</span> </p>
+      <div className="flex pt-10 items-center justify-center">
+      <p className="text-[#fff] text-[50px] lg:text-[64px] font-bold  leading-none">Featured <span className="text-[#208FED] text-[110px]">Projects</span> </p>
       </div>
       <HorizontalScrollCarousel />
       <div className="flex h-48 items-center justify-center">
@@ -36,7 +36,7 @@ const HorizontalScrollCarousel = () => {
     target: targetRef,
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], ["1%", "-95%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["1%", "-75%"]);
 
   return (
     <section ref={targetRef} className="relative h-[300vh] bg-black">
@@ -109,6 +109,26 @@ const cards = [
   },
   {
     url: "/images/simple.png",
+    title: "Title 7",
+    id: 7,
+  },
+  {
+    url: "/images/business.png",
+    title: "Title 7",
+    id: 7,
+  },
+  {
+    url: "/images/sidepack.png",
+    title: "Title 7",
+    id: 7,
+  },
+  {
+    url: "/images/signage.png",
+    title: "Title 7",
+    id: 7,
+  },
+  {
+    url: "/images/sidebox.png",
     title: "Title 7",
     id: 7,
   },
