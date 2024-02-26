@@ -14,17 +14,17 @@ const links = [
     src: "bag.png"
   },
   {
-    title: "Shop",
+    title: "Packaging",
     href: "/packaging",
     src: "brochure.png"
   },
   {
-    title: "About Us",
+    title: "Printing",
     href: "/printing",
     src: "catalog.png"
   },
   {
-    title: "Look",
+    title: "Production",
     href: "/production",
     src: "gift.png"
   },

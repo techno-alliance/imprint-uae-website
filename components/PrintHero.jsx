@@ -1,6 +1,6 @@
 'use client'
 import { useRef, useEffect } from 'react';
-import styles from './page.module.css'
+import styles from './print.module.css'
 
 export default function Home() {
 

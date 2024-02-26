@@ -16,11 +16,13 @@ import brochure1 from "/public/images/brochure1.png";
 import business1 from "/public/images/business1.png";
 import magazine from "/public/images/magazine1.png";
 import { GoArrowUpRight } from "react-icons/go";
+import PrintHero from "@/components/PrintHero"
 
 
 const page = () => {
   return (
     <div>
+      <PrintHero/>
       <section className="pt-[72px] h-[100vh]">
         <div className="w-full h-full overflow-hidden relative">
           <Image

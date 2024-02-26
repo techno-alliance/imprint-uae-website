@@ -10,12 +10,14 @@ import sidepack from "/public/images/sidepack.png";
 import icecream from "/public/images/icecream.png";
 import paper from "/public/images/paper.png";
 import { FiSend } from "react-icons/fi";
+import ProductHero from "@/components/ProductHero"
 
 // import Carousel from "@/components/Carousel"
 
 const page = () => {
   return (
     <div>
+      <ProductHero/>
       <section className="pt-[72px] h-[100vh]">
         <div className="w-full h-full overflow-hidden relative">
           <Image
