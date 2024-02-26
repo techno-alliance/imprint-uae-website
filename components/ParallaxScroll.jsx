@@ -1,9 +1,9 @@
 'use client';
 import { useRef } from "react";
 import styles from './para.module.scss';
-import Picture1 from '/public/Images/flyers.png';
-import Picture2 from '/public/Images/freeflyer.png';
-import Picture3 from '/public/Images/card.png';
+import Picture1 from '/public/images/flyers.png';
+import Picture2 from '/public/images/freeflyer.png';
+import Picture3 from '/public/images/card.png';
 import Image from "next/image";
 import { motion, useScroll, useTransform } from 'framer-motion';
 
