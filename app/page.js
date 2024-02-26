@@ -22,7 +22,7 @@ import project6 from "/public/images/project6.png";
 import simple from "/public/images/simple.png";
 import Projects from "@/components/Projects";
 import { BouncyCardsFeatures } from "@/components/BouncyCardsFeatures";
-import ParralaxScroll from "@/components/ParralaxScroll"
+import ParallaxScroll from "@/components/ParallaxScroll";
 
 
 export default function Home() {
@@ -65,7 +65,7 @@ export default function Home() {
           <Text3d primary={"Shapes"} secondary={"Shapes"} />
         </div>
       </div> */}
-      <ParralaxScroll/>
+      <ParallaxScroll/>
       {/* <section className="bg-[#030D15] h-[100vh]">
         <div className="max-w-screen-xl mx-auto px-12">
           <div className="flex flex-col lg:flex-row gap-5 lg:gap-0 justify-between py-10">

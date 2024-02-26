@@ -1,6 +1,6 @@
 'use client';
 import { useRef } from "react";
-import styles from './style.module.scss';
+import styles from './para.module.scss';
 import Picture1 from '/public/Images/flyers.png';
 import Picture2 from '/public/Images/freeflyer.png';
 import Picture3 from '/public/Images/card.png';
@@ -9,7 +9,7 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 
 
 
-export default function Index() {
+export default function ParallaxScroll() {
     const container = useRef(null);
     const { scrollYProgress } = useScroll({
         target: container,
@@ -37,7 +37,7 @@ export default function Index() {
     return (
         <div ref={container} className={styles.container}>
             <div className={styles.body}>
-                <motion.h1 style={{y: sm}}>Imprint's Commitment Print Quality</motion.h1>
+                <motion.h1 style={{y: sm}}>Imprint's Print Quality</motion.h1>
             </div>
             <div className={styles.images}>
                 {
