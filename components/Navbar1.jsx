@@ -3,8 +3,8 @@ import React from 'react'
 import logo from "/public/images/logo_full_gray.svg"
 import Image from 'next/image'
 import Navbar from "./Navbar"
-import Dropdown from "./Dropdown"
-import StaggeredDropDown from './StaggeredDropDown'
+// import Dropdown from "./Dropdown"
+// import StaggeredDropDown from './StaggeredDropDown'
 
 const Navbar1 = () => {
   return (
@@ -40,7 +40,7 @@ const Navbar1 = () => {
                 <a
                   className="nav__links text-gray-500 h-[72px] grid place-items-center hover:text-[#1265D7] transition-all duration-200"
                 >
-                  <StaggeredDropDown/>
+                  {/* <StaggeredDropDown/> */}
                 </a>
               </li>
               <li>

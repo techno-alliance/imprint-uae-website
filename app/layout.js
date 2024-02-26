@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar1 from "@/components/Navbar1";
+import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SmoothScroller from "@/components/SmoothScroll";
 import Transition from "@/components/Transition";
@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <SmoothScroller/>
-        <Navbar1/>
+        <Header/>
         <Transition/>
         {children}
         <Footer/>

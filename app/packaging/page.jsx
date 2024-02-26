@@ -10,10 +10,12 @@ import cosmetic2 from "/public/images/cosmetic2.png";
 import { GoArrowUpRight } from "react-icons/go";
 import gift from "/public/images/gift.png";
 import sidebox from "/public/images/sidebox.png"
+import PackHero from "@/components/PackHero";
 
 export default function Page() {
   return (
     <div>
+      <PackHero/>
       <section className="bg-black pt-40">
         <div className="max-w-screen-xl mx-auto px-12 py-10">
           <div className="flex flex-col lg:flex-row justify-between">

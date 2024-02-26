@@ -17,6 +17,7 @@ import business1 from "/public/images/business1.png";
 import magazine from "/public/images/magazine1.png";
 import { GoArrowUpRight } from "react-icons/go";
 
+
 const page = () => {
   return (
     <div>
@@ -30,6 +31,7 @@ const page = () => {
             <p className="text-[#fff] opacity-65 text-[50px] lg:text-[110px] font-semibold">
               Printing
             </p>
+            
             <p className="text-[#fff] opacity-65 text-[22px] font-normal w-auto lg:w-[450px]">
               we offer a comprehensive range of printing solutions tailored to
               meet your unique needs.

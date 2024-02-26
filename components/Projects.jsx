@@ -8,7 +8,7 @@ const Example = () => {
   return (
     <div className="bg-black">
       <div className="flex pt-10 items-center justify-center">
-      <p className="text-[#fff] text-[50px] lg:text-[64px] font-bold  leading-none">Featured <span className="text-[#208FED] text-[110px]">Projects</span> </p>
+      <p className="text-[#fff] text-[50px] lg:text-[64px] font-bold  leading-none">Featured <span className="text-[#208FED] text-[50px] lg:text-[110px]">Projects</span> </p>
       </div>
       <HorizontalScrollCarousel />
       <div className="flex h-48 items-center justify-center">

@@ -22,6 +22,7 @@ import project6 from "/public/images/project6.png";
 import simple from "/public/images/simple.png";
 import Projects from "@/components/Projects";
 import { BouncyCardsFeatures } from "@/components/BouncyCardsFeatures";
+import ParralaxScroll from "@/components/ParralaxScroll"
 
 
 export default function Home() {
@@ -38,7 +39,7 @@ export default function Home() {
   // };
 
   return (
-    <div className="pt-20">
+    <div className="pt-40">
       <section className="max-w-screen-xl mx-auto px-12">
         <p className="text-[40px] lg:text-[64px] text-[#000] font-semibold leading-none slide-up">
           Your Unlimited{" "}
@@ -64,7 +65,8 @@ export default function Home() {
           <Text3d primary={"Shapes"} secondary={"Shapes"} />
         </div>
       </div> */}
-      <section className="bg-[#030D15] h-[100vh]">
+      <ParralaxScroll/>
+      {/* <section className="bg-[#030D15] h-[100vh]">
         <div className="max-w-screen-xl mx-auto px-12">
           <div className="flex flex-col lg:flex-row gap-5 lg:gap-0 justify-between py-10">
             <p className="text-[#fff] text-[20px] lg:text-[28px] font-semibold">
@@ -99,7 +101,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section>
         <div className="max-w-screen-xl mx-auto px-12 py-20">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
