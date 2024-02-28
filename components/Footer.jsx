@@ -9,8 +9,8 @@ const Footer = () => {
       <div className="absolute bottom-0 translate-x-2/4 right-[50%]">
         <SparklesPreview />
       </div>
-      <div className="max-w-screen-xl mx-auto px-12 py-12 pb-96">
-        <div className="flex flex-col lg:flex-row lg:justify-between gap-10 lg:gap-0 items-center">
+      <div className="max-w-screen-xl mx-auto px-12 py-12 pb-72 lg:pb-96">
+        <div className="flex flex-col lg:flex-row lg:justify-between gap-10 lg:gap-0">
           <div className="flex flex-col gap-5">
             <div className="w-[100px]">
               <Image
