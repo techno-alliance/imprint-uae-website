@@ -11,7 +11,7 @@ const Example = () => {
       <p className="text-[#fff] text-[50px] lg:text-[64px] font-bold  leading-none">Featured <span className="text-[#208FED] text-[50px] lg:text-[110px]">Projects</span> </p>
       </div>
       <HorizontalScrollCarousel />
-      <div className="flex h-48 items-center justify-center">
+      <div className="flex items-center justify-center">
       <Link
                 className="button-58 transition duration-300 py-2 w-max rounded-full text-[16px] lg:text-[20px] px-4 text-white"
                 href=""
@@ -55,7 +55,7 @@ const Card = ({ card }) => {
   return (
     <div
       key={card.id}
-      className="group relative h-[450px] w-[450px] overflow-hidden bg-neutral-200"
+      className="group relative h-[400px] w-[450px] overflow-hidden bg-neutral-200"
     >
       <div
         style={{

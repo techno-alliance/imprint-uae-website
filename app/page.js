@@ -13,19 +13,24 @@ import keychain from "/public/images/keychain.png";
 import paper2 from "/public/images/paper2.png";
 import Link from "next/link";
 import { GoArrowUpRight } from "react-icons/go";
-import project1 from "/public/images/project1.png";
-import project2 from "/public/images/project2.png";
-import project3 from "/public/images/project3.png";
-import project4 from "/public/images/project4.png";
-import project5 from "/public/images/project5.png";
-import project6 from "/public/images/project6.png";
-import simple from "/public/images/simple.png";
 import Projects from "@/components/Projects";
 import { BouncyCardsFeatures } from "@/components/BouncyCardsFeatures";
 import ParallaxScroll from "@/components/ParallaxScroll";
+import Card from "@/components/Card";
+import { projects } from '@/components/Card/data';
+import styles from '@/components/Card/card.module.scss'
+import { useScroll } from 'framer-motion';
+import { useRef } from "react";
+import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
+
 
 
 export default function Home() {
+  const container = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: container,
+    offset: ['start start', 'end end']
+  })
   // const plane = useRef(null);
   // const maxRotate = 45;
 
@@ -278,12 +283,10 @@ export default function Home() {
           </div>
         </div>
       </section> */}
-    <section className="py-32">
+    <section className="pt-32">
     <Projects/>
     </section>
-    <BouncyCardsFeatures/>
-
-
+    <InfiniteMovingCardsDemo/>
     </div>
   );
 }
