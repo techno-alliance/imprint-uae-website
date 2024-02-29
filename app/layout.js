@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SmoothScroller from "@/components/SmoothScroll";
 import Transition from "@/components/Transition";
+import AnimatedCursor from "react-animated-cursor";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -18,6 +19,28 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <SmoothScroller/>
+        <AnimatedCursor 
+        innerSize={10}
+        outerSize={15}
+        color='32, 143, 237'
+        outerAlpha={0.2}
+        innerScale={0.7}
+        outerScale={10}
+        clickables={[
+          'a',
+          'input[type="text"]',
+          'input[type="email"]',
+          'input[type="number"]',
+          'input[type="submit"]',
+          'input[type="image"]',
+          'label[for]',
+          'select',
+          'textarea',
+          'button',
+          '.link',
+          'p',
+          'h1'
+        ]}/>
         <Header/>
         <Transition/>
         {children}
