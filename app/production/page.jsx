@@ -161,19 +161,19 @@ const page = () => {
                 </span>
               </Link>
             </div>
-            <div className="absolute right-[10px] md:right-0 lg:right-0 -bottom-[250px] md:-bottom-[10px] lg:-bottom-[200px] w-[200px] md:w-[300px] lg:w-[400px] h-auto lg:h-[450px] overflow-hidden">
+            <div className="absolute right-[10px] md:right-0 lg:right-0 -bottom-[200px] md:-bottom-[10px] lg:-bottom-[200px] w-[200px] md:w-[300px] lg:w-[400px] h-auto lg:h-[450px] overflow-hidden">
               <Image
                 className="w-full h-full object-cover object-center"
                 src={freeflyer}
               ></Image>
             </div>
-            <div className="absolute left-0 -bottom-[750px] md:-bottom-[355px] lg:-bottom-[500px] w-[200px] md:w-[300px] lg:w-[400px] h-auto lg:h-[450px] overflow-hidden">
+            <div className="absolute left-0 -bottom-[390px] md:-bottom-[355px] lg:-bottom-[500px] w-[200px] md:w-[300px] lg:w-[400px] h-auto lg:h-[450px] overflow-hidden">
               <Image
                 className="w-full h-full object-cover object-center"
                 src={simple}
               ></Image>
             </div>
-            <div className="flex flex-col gap-2 absolute right-0 -bottom-[520px] md:-bottom-[350px] lg:-bottom-[510px] w-auto md:w-[300px] lg:w-[400px]">
+            <div className="flex flex-col gap-2 absolute right-0 -bottom-[650px] md:-bottom-[350px] lg:-bottom-[510px] w-auto md:w-[300px] lg:w-[400px]">
               <p className="text-[#000] text-[20px] lg:text-[32px] font-semibold">
                 The Pro Range Printing Solutions
               </p>
@@ -198,7 +198,7 @@ const page = () => {
           </div>
         </div>
       </section>
-      <section className="pt-60">
+      <section className="pt-96 md:pt-60 lg:pt-80">
         <div className="max-w-screen-xl mx-auto px-12 py-20">
           <div className="flex flex-col lg:flex-row gap-5">
             <div className="bg-[#393939] w-full h-full flex flex-col gap-1 p-10">

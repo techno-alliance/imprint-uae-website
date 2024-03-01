@@ -32,21 +32,21 @@ export default function Page() {
               <Image src={box1}></Image>
             </div>
           </div>
-          <div className="flex justify-between pt-12">
+          <div className="flex flex-col md:flex-row lg:flex-row md:justify-between lg:justify-between gap-5 pt-12">
             <div className="flex items-center gap-5 lg:gap-11">
               <div className="-space-x-4">
                 <Image
-                  className="relative z-30 inline object-cover w-[40px] h-[40px] lg:w-[68px] lg:h-[68px] border-[6px] border-white rounded-full"
+                  className="relative z-10 inline object-cover w-[40px] h-[40px] lg:w-[68px] lg:h-[68px] border-[6px] border-white rounded-full"
                   src={avatar}
                   alt="Profileimage"
                 ></Image>
                 <Image
-                  className="relative z-30 inline object-cover w-[40px] h-[40px] lg:w-[68px] lg:h-[68px] border-[6px] border-white rounded-full"
+                  className="relative z-10 inline object-cover w-[40px] h-[40px] lg:w-[68px] lg:h-[68px] border-[6px] border-white rounded-full"
                   src={avatar}
                   alt="Profileimage"
                 ></Image>
                 <Image
-                  className="relative z-30 inline object-cover w-[40px] h-[40px] lg:w-[68px] lg:h-[68px] border-[6px] border-white rounded-full"
+                  className="relative z-10 inline object-cover w-[40px] h-[40px] lg:w-[68px] lg:h-[68px] border-[6px] border-white rounded-full"
                   src={avatar}
                   alt="Profileimage"
                 ></Image>

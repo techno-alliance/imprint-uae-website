@@ -32,7 +32,7 @@ const Transition = () => {
         
       </motion.div>
       <motion.div
-        className="fixed top-0 bottom-0 right-full h-screen z-30 bg-[#161616]"
+        className="fixed top-0 bottom-0 right-full h-screen z-40 bg-[#161616]"
         variants={transitionVariants}
         initial="initial"
         animate="animate"
@@ -42,7 +42,7 @@ const Transition = () => {
         
       </motion.div>
       <motion.div
-        className="fixed top-0 bottom-0 right-full h-screen z-20 bg-[#323233]"
+        className="fixed top-0 bottom-0 right-full h-screen z-30 bg-[#323233]"
         variants={transitionVariants}
         initial="initial"
         animate="animate"
