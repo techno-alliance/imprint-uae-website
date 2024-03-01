@@ -85,7 +85,7 @@ export default function Page() {
         <div className="flex justify-between flex-col lg:flex lg:flex-row gap-20 pt-40">
           <div className="flex flex-col justify-between items-center">
             <form class="flex flex-col" onSubmit={handleSubmit}>
-              <div class=" mb-6">
+              <div class=" mb-2">
                 <div class="w-full md:w-1/2 mb-6 md:mb-0">
                   <label
                     class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2 dark:text-[#fff]"
