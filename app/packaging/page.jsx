@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image";
 import React from "react";
 import box1 from "/public/images/Box1.png";
@@ -11,22 +12,73 @@ import { GoArrowUpRight } from "react-icons/go";
 import gift from "/public/images/gift.png";
 import sidebox from "/public/images/sidebox.png"
 import PackHero from "@/components/PackHero";
+import ImageList from "@/components/ImageList";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
+import { useState } from "react";
 
 export default function Page() {
+  const controls = useAnimation();
+  const [ref, inView] = useInView();
+
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    }
+  }, [controls, inView]);
+
+  const [scrollY, setScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <div>
       <PackHero/>
-      <section className="bg-black pt-40">
+      {/* <section className="bg-black p-16 xl:p-32 flex flex-col w-full items-center justify-center">
+      <ImageList/>
+    </section> */}
+      <motion.section
+      ref={ref}
+      initial="hidden"
+      animate={controls}
+      variants={{
+        visible: { opacity: 1, y: 0 },
+        hidden: { opacity: 0, y: 50 },
+      }}
+      transition={{ duration: 1 }}
+      style={{ y: scrollY * 0.3 }} 
+       className="bg-black pt-10">
         <div className="max-w-screen-xl mx-auto px-12 py-10">
           <div className="flex flex-col lg:flex-row justify-between">
             <div className="flex flex-col gap-5">
-              <h1 className="text-[#fff] text-[50px] lg:text-[110px] font-semibold leading-[100.523%]">
+              <motion.h1 
+               variants={{
+                visible: { opacity: 1, y: 0 },
+                hidden: { opacity: 0, y: 50 },
+              }}
+              className="text-[#fff] text-[50px] lg:text-[110px] font-semibold leading-[100.523%]">
                 Packaging
-              </h1>
-              <p className="text-[#fff] text-[16px] lg:text-[22px] font-normal leading-[160.523%] w-auto lg:w-[506px]">
+              </motion.h1>
+              <motion.p 
+               variants={{
+                visible: { opacity: 1, y: 0 },
+                hidden: { opacity: 0, y: 50 },
+              }}
+              style={{ y: scrollY * 0.5 }} 
+              className="text-[#fff] text-[16px] lg:text-[22px] font-normal leading-[160.523%] w-auto lg:w-[506px]">
                 Imprint printing press is the foremost provider of varied offset
                 printing solutions to more than a thousand clients today..
-              </p>
+              </motion.p>
             </div>
             <div>
               <Image src={box1}></Image>
@@ -67,9 +119,18 @@ export default function Page() {
             </div>
           </div>
         </div>
-      </section>
+      </motion.section>
       <Product />
-      <section className="bg-black pt-28 h-[100%] relative">
+      <motion.section 
+      initial="hidden"
+      animate={controls}
+      variants={{
+        visible: { opacity: 1, y: 0 },
+        hidden: { opacity: 0, y: 50 },
+      }}
+      transition={{ duration: 3 }}
+      style={{ y: scrollY * 0.9 }}
+       className="bg-black pt-28 h-[100%] relative">
         <div className="max-w-screen-xl mx-auto px-12">
           <div className="flex flex-col lg:flex-row gap-5 lg:gap-20 items-center">
             <div className="w-auto h-auto lg:w-[240px] lg:h-[150px] overflow-hidden ">
@@ -128,7 +189,7 @@ export default function Page() {
             </div>
           </div>
         </div>
-      </section>
+      </motion.section>
       <section>
         <div className="max-w-screen-xl mx-auto px-12 py-20">
           <div className="flex flex-col justify-between gap-1 lg:gap-20 text-center lg:text-start lg:flex-row">

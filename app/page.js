@@ -22,6 +22,7 @@ import styles from '@/components/Card/card.module.scss'
 import { useScroll } from 'framer-motion';
 import { useRef } from "react";
 import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
+import SmoothParallax from "@/components/SmoothParallax";
 
 
 
@@ -70,7 +71,8 @@ export default function Home() {
           <Text3d primary={"Shapes"} secondary={"Shapes"} />
         </div>
       </div> */}
-      <ParallaxScroll/>
+      <SmoothParallax/>
+      {/* <ParallaxScroll/> */}
       {/* <section className="bg-[#030D15] h-[100vh]">
         <div className="max-w-screen-xl mx-auto px-12">
           <div className="flex flex-col lg:flex-row gap-5 lg:gap-0 justify-between py-10">
