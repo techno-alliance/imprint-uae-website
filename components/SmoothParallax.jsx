@@ -6,18 +6,18 @@ import Lenis from '@studio-freight/lenis'
 import { useTransform, useScroll, motion } from 'framer-motion';
 
 const images = [
-  "bag.png",
-  "card.png",
-  "gift.png",
-  "keychain.png",
-  "envelop.png",
-  "catalog.png",
-  "business.png",
-  "business1.png",
-  "books1.png",
-  "pack1.png",
-  "pack2.png",
-  "pad.png",
+  "Imprint_Pic_Page_30.jpg",
+  "Imprint_Pic_Page_32.jpg",
+  "Imprint_Pic_Page_49.jpg",
+  "Imprint_Pic_Page_51.jpg",
+  "Imprint_Pic_Page_52.jpg",
+  "Imprint_Pic_Page_67.jpg",
+  "Imprint_Pic_Page_70.jpg",
+  "Imprint_Pic_Page_71.jpg",
+  "Imprint_Pic_Page_10.jpg",
+  "Imprint_Pic_Page_12.jpg",
+  "Imprint_Pic_Page_14.jpg",
+  "Imprint_Pic_Page_18.jpg",
 ]
 
 export default function SmoothParallax() {
