@@ -78,57 +78,57 @@ export default Example;
 
 const cards = [
   {
-    url: "/images/project1.png",
+    url: "/images/Imprint_Pic_Page_09.jpg",
     title: "Title 1",
     id: 1,
   },
   {
-    url: "/images/project2.png",
+    url: "/images/Imprint_Pic_Page_10.jpg",
     title: "Title 2",
     id: 2,
   },
   {
-    url: "/images/project3.png",
+    url: "/images/Imprint_Pic_Page_12.jpg",
     title: "Title 3",
     id: 3,
   },
   {
-    url: "/images/project4.png",
+    url: "/images/Imprint_Pic_Page_13.jpg",
     title: "Title 4",
     id: 4,
   },
   {
-    url: "/images/project5.png",
+    url: "/images/Imprint_Pic_Page_14.jpg",
     title: "Title 5",
     id: 5,
   },
   {
-    url: "/images/project6.png",
+    url: "/images/Imprint_Pic_Page_29.jpg",
     title: "Title 6",
     id: 6,
   },
   {
-    url: "/images/simple.png",
+    url: "/images/Imprint_Pic_Page_16.jpg",
     title: "Title 7",
     id: 7,
   },
   {
-    url: "/images/business.png",
+    url: "/images/Imprint_Pic_Page_18.jpg",
     title: "Title 7",
     id: 7,
   },
   {
-    url: "/images/sidepack.png",
+    url: "/images/Imprint_Pic_Page_21.jpg",
     title: "Title 7",
     id: 7,
   },
   {
-    url: "/images/signage.png",
+    url: "/images/Imprint_Pic_Page_25.jpg",
     title: "Title 7",
     id: 7,
   },
   {
-    url: "/images/sidebox.png",
+    url: "/images/Imprint_Pic_Page_26.jpg",
     title: "Title 7",
     id: 7,
   },
