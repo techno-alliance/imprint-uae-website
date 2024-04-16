@@ -59,7 +59,7 @@ export default function SmoothParallax() {
   return (
     <main className={styles.main}>
       <div className={styles.spacer}>
-        <h1 className='text-center text-[110px]'>IMPRINT HIGH QUALITY</h1>
+        <h1 className='text-center text-[50px] lg:text-[110px]'>IMPRINT HIGH QUALITY</h1>
       </div>
       <div ref={gallery} className={styles.gallery}>
         <Column images={[images[0], images[1], images[2]]} y={y}/>
