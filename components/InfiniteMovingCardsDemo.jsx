@@ -5,7 +5,7 @@ import { InfiniteMovingCards } from "./Sparkle/Ui/infiniteui"
 export function InfiniteMovingCardsDemo() {
   return (
     <div className="h-[40rem] pt-40 flex flex-col antialiased bg-black dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-        <p className="text-[#fff] text-[50px] lg:text-[80px] font-bold pb-20">TESTIMONIAL</p>
+        <p className="text-[#fff] text-[30px] lg:text-[80px] font-bold pb-20">TESTIMONIAL</p>
       <InfiniteMovingCards
         items={testimonials}
         direction="right"

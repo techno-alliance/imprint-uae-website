@@ -12,7 +12,6 @@ import { GoArrowUpRight } from "react-icons/go";
 import gift from "/public/images/gift.png";
 import sidebox from "/public/images/sidebox.png"
 import PackHero from "@/components/PackHero";
-import ImageList from "@/components/ImageList";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
