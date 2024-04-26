@@ -5,6 +5,9 @@ import MovingImage from "@/components/New/MovingImage";
 import { BentoGridDemo } from "@/components/New/BentoGridDemo";
 import MakeCall from "@/components/New/MakeCall";
 import Slider from "@/components/New/Slider"
+import FeaturedProjects from "@/components/New/FeaturedProjects";
+import FeaturedProjects1 from "@/components/New/FeaturedProjects1";
+import Testimonial from "@/components/New/Testimonial";
 
 export default function Home() {
   // const container = useRef(null);
@@ -20,7 +23,8 @@ export default function Home() {
         <MovingImage />
       </div>
       <BentoGridDemo />
-      <section className="max-w-screen-xl mx-auto px-10 py-20">
+      <section className="bg-black">
+        <div className="max-w-screen-xl mx-auto px-10 py-20">
         <div className="flex flex-col gap-4 justify-center items-center">
         <button
             className="button-58 flex transition duration-300 py-2 w-max rounded-full text-[16px] lg:text-[20px] px-5 text-white"
@@ -254,11 +258,21 @@ export default function Home() {
             </div>
           </div>
         </div>
+        </div>
       </section>
-      <MakeCall/>
-      <section className="max-w-screen-xl mx-auto px-10 py-20">
+     <section className="bg-black">
+     <MakeCall/>
+     </section>
+      <section className="py-20">
       <Slider/>
       </section>
+      {/* <FeaturedProjects/> */}
+      <section className="bg-black py-20">
+      <div className="max-w-screen-xl mx-auto">
+      <Testimonial/>
+      </div>
+      </section>
+      
     </div>
   );
 }

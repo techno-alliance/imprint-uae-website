@@ -7,22 +7,22 @@ import TextVideo from "./TextVideo";
 
 const Hero = () => {
   return (
-    <section class="relative overflow-hidden bg-black">
-      <div class="min-h-screen h-full">
-        <div class="pl-5 pr-5 sm:pl-10 sm:pr-10 md:pl-24 md:pr-24">
-          <div class="flex flex-col pt-24 gap-4 relative text-left xs:text-left">
-            <span class="text-[#C6C6C6] text-sm lg:text-lg">
+    <section className="relative overflow-hidden bg-black">
+      <div className="min-h-screen h-full">
+        <div className="pl-5 pr-5 sm:pl-10 sm:pr-10 md:pl-24 md:pr-24">
+          <div className="flex flex-col pt-24 gap-4 relative text-left xs:text-left">
+            <div className="text-[#C6C6C6] text-sm lg:text-lg">
               Unleash Your Vision
-            </span>
-            <span class="font-bold text-white text-4xl xss:text-5xl xs:text-[46px] sm:text-[48px] md:text-[50px] sm:leading-[48px] md:leading-[50px] lg:text-[76px] lg:leading-[76px] 2xl:text-8xl flex gap-10">
-              <span class="flex flex-col">
+            </div>
+            <div className="font-bold text-white text-4xl xss:text-5xl xs:text-[46px] sm:text-[48px] md:text-[50px] sm:leading-[48px] md:leading-[50px] lg:text-[76px] lg:leading-[76px] 2xl:text-8xl flex gap-10">
+              <div className="flex flex-col">
                 {" "}
                 <span>Your Ultimate Offset</span>
-                <p className="flex items-center gap-2">
-                  <span class="text-[#1265D7]">Printing</span><span><TextVideo/></span> Partner
-                </p>
-              </span>
-              <div class="hidden sm:block">
+                <div className="flex items-center gap-2">
+                  <div className="text-[#1265D7]">Printing</div><TextVideo/>Partner
+                </div>
+              </div>
+              <div className="hidden sm:block">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="128"
@@ -47,24 +47,24 @@ const Hero = () => {
                   </defs>
                 </svg>
               </div>
-            </span>
+            </div>
           </div>
-          <div class="lp_center pt-12 pb-[55vh] sm:pt-8 sm:pb-[30%] flex justify-between items-center">
-            <div class="two_circle flex sm:w-1/2 sm:flex-row gap-12 items-center">
-              <div class="circles flex relative">
-                <div class="circle1 bg-[#1265D7] w-14 h-14 rounded-full"></div>
-                <div class="circle2 bg-[#93B2DF] w-14 h-14 rounded-full absolute left-4"></div>
-                <div class="circle2 bg-[#D3E5FF] w-14 h-14 rounded-full absolute left-8"></div>
+          <div className="lp_center pt-12 pb-[55vh] sm:pt-8 sm:pb-[30%] flex justify-between items-center">
+            <div className="two_circle flex sm:w-1/2 sm:flex-row gap-12 items-center">
+              <div className="circles flex relative">
+                <div className="circle1 bg-[#1265D7] w-14 h-14 rounded-full"></div>
+                <div className="circle2 bg-[#93B2DF] w-14 h-14 rounded-full absolute left-4"></div>
+                <div className="circle2 bg-[#D3E5FF] w-14 h-14 rounded-full absolute left-8"></div>
               </div>
-              <div class="text-white flex flex-col text-sm font-[500]">
+              <div className="text-white flex flex-col text-sm font-[500]">
                 <span>15,000+</span>
                 <span>Satisfied client</span>
               </div>
             </div>
-            <div class="xmas_star w-14 block sm:hidden">
-              <Image class="w-full" src={christmas} alt="" />
+            <div className="xmas_star w-14 block sm:hidden">
+              <Image className="w-full" src={christmas} alt="" />
             </div>
-            <div class="w-1/2 sm:w-2/5 text-[#5C5858] hidden sm:block 2xl:text-xl">
+            <div className="w-1/2 sm:w-2/5 text-[#5C5858] hidden sm:block 2xl:text-xl">
               <span>
                 Imprint printing press is the foremost provider of varied offset
                 printing solutions to more than a thousand clients today..
@@ -72,17 +72,17 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div class="bottam_lp_img bottam_lp_img_desktop hidden md:hidden portrait:hidden landscape:block sm:block absolute -bottom-12 md:-bottom-12 left-1/2 -translate-x-1/2 -translate-y-0 w-full pl-5 pr-5 sm:pl-10 sm:pr-10 md:pl-24 md:pr-24">
-          <div class="relative">
-            <div class="flex overflow-hidden rounded-[45px]">
-              <Image class="w-full" src={landing} alt="" />
+        <div className="bottam_lp_img bottam_lp_img_desktop hidden md:hidden portrait:hidden landscape:block sm:block absolute -bottom-12 md:-bottom-12 left-1/2 -translate-x-1/2 -translate-y-0 w-full pl-5 pr-5 sm:pl-10 sm:pr-10 md:pl-24 md:pr-24">
+          <div className="relative">
+            <div className="flex overflow-hidden rounded-[45px]">
+              <Image className="w-full" src={landing} alt="" />
             </div>
-            <div class="rounded-3xl lg:rounded-[20px] backdrop-blur-[31px] absolute -top-[10%] left-[3%] w-[345px] lg:w-[210px] p-4 lg:p-7">
-              <div class="flex flex-col gap-2">
-                <span class="text-sm font-[500] text-black">
+            <div className="rounded-3xl lg:rounded-[20px] backdrop-blur-[31px] absolute -top-[10%] left-[3%] w-[345px] lg:w-[210px] p-4 lg:p-7">
+              <div className="flex flex-col gap-2">
+                <span className="text-sm font-[500] text-black">
                   Imprint Printing
                 </span>
-                <span class="text-sm text-black">
+                <span className="text-sm text-black">
                   Imprint Printing Press is not just any ordinary printing
                   company - we are the foremost provider of varied{" "}
                 </span>
@@ -90,23 +90,23 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div class="bottam_lp_img bottam_lp_img_mobile_screen block md:block portrait:block landscape:hidden sm:hidden bottom-0 h-[50vh] overflow-hidden rounded-t-3xl absolute">
-          <div class="relative">
-            <div class="flex">
-              <Image class="w-full" src={landing} alt="" />
+        <div className="bottam_lp_img bottam_lp_img_mobile_screen block md:block portrait:block landscape:hidden sm:hidden bottom-0 h-[50vh] overflow-hidden rounded-t-3xl absolute">
+          <div className="relative">
+            <div className="flex">
+              <Image className="w-full" src={landing} alt="" />
             </div>
-            <div class="layer_bottom_lp_img absolute left-[50%] w-[90%] p-4 lg:p-7 top-[15%] -translate-x-[50%] text-center">
-              <span class="text-sm text-white md:text-2xl">
+            <div className="layer_bottom_lp_img absolute left-[50%] w-[90%] p-4 lg:p-7 top-[15%] -translate-x-[50%] text-center">
+              <span className="text-sm text-white md:text-2xl">
                 Imprint Printing Press is not just any ordinary printing company
                 - we are the foremost provider of varied{" "}
               </span>
             </div>
-            <div class="layer_bottom_lp_img rounded-2xl bg-[#FFFFFF66] absolute left-[50%] w-[90%] p-4 lg:p-7 bottom-[15%] -translate-x-[50%]">
-              <div class="flex flex-col gap-2">
-                <span class="text-sm md:text-2xl font-[500] text-white">
+            <div className="layer_bottom_lp_img rounded-2xl bg-[#FFFFFF66] absolute left-[50%] w-[90%] p-4 lg:p-7 bottom-[15%] -translate-x-[50%]">
+              <div className="flex flex-col gap-2">
+                <span className="text-sm md:text-2xl font-[500] text-white">
                   Imprint Printing
                 </span>
-                <span class="text-sm md:text-2xl text-white">
+                <span className="text-sm md:text-2xl text-white">
                   Imprint Printing Press is not just any ordinary printing
                   company - we are the foremost provider of varied{" "}
                 </span>
