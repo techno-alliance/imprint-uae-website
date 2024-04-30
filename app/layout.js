@@ -1,7 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import Footer from "@/components/New/Footer";
 import SmoothScroller from "@/components/SmoothScroll";
 import Transition from "@/components/Transition";
 // import AnimatedCursor from "react-animated-cursor";
@@ -44,7 +44,7 @@ export default function RootLayout({ children }) {
         <Header/>
         <Transition/>
         {children}
-        {/* <Footer/> */}
+        <Footer/>
         </body>
     </html>
   );

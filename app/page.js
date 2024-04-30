@@ -8,6 +8,7 @@ import Slider from "@/components/New/Slider"
 import FeaturedProjects from "@/components/New/FeaturedProjects";
 import FeaturedProjects1 from "@/components/New/FeaturedProjects1";
 import Testimonial from "@/components/New/Testimonial";
+import Blog from "@/components/New/Blog";
 
 export default function Home() {
   // const container = useRef(null);
@@ -272,6 +273,7 @@ export default function Home() {
       <Testimonial/>
       </div>
       </section>
+      <Blog/>
       
     </div>
   );
