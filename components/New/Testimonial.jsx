@@ -7,6 +7,7 @@ import { GoArrowUpRight } from "react-icons/go";
 import project1 from "@/public/images/project1.png";
 import project4 from "@/public/images/project4.png";
 import book from "@/public/images/books1.png";
+import { FaPhone } from "react-icons/fa6";
 
 // Import Swiper styles
 import "swiper/css";
@@ -30,15 +31,18 @@ export default function Testimonial() {
               href=""
             >
               <span className="text-btn flex gap-2 items-center">
-                Our service
+                Testimonials
               </span>
-              <span className="pb-3">Our service</span>
+              <span className="pb-3">Testimonials</span>
             </button>
             <div className="flex flex-col md:flex-row justify-between">
-              <div className="w-auto md:w-[630px]">
+              <div className="w-auto md:w-[400px]">
                 <p className="text-[48px] leading-[140%] font-semibold text-white">
-                  Produce Stunning Printing For Your Business
+                Our customers love what we do
                 </p>
+              </div>
+              <div className="flex justify-center items-center">
+              <div className='h-[80px] bg-[#737373] w-[1px]'/>
               </div>
               <div className="flex justify-center items-center w-auto md:w-[400px]">
                 <p className="text-[#DADADA] text-xl font-normal leading-[160%]">
@@ -46,6 +50,20 @@ export default function Testimonial() {
                   offset printing solutions to more than a thousand clients
                   today..
                 </p>
+              </div>
+              <div className="flex justify-center items-center">
+              <button
+                  className="button-57 flex justify-center items-center gap-3 transition duration-300 py-1 w-max rounded-full text-[16px] lg:text-[20px] px-1 pr-4 text-white"
+                  href=""
+                >
+                  <div className="bg-black rounded-full w-12 h-12 text-2xl text-white flex justify-center items-center">
+                  <FaPhone />
+                  </div>
+                  <span className="text-btn flex gap-2 items-center">
+                  Make a Call?
+                  </span>
+                  <span className="pb-3">Make a Call?</span>
+                </button>
               </div>
             </div>
           </div>
@@ -92,12 +110,12 @@ export default function Testimonial() {
           },
         }}
         modules={[Pagination, Navigation]}
-        className="mySwiper"
+        className="mySwiper !pb-24"
       >
-        <div className="absolute right-[80px] top-[0px] z-20">
+        <div className="absolute right-[80px] bottom-[0px] z-20">
           <SwiperNavButtons />
         </div>
-        <SwiperSlide className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-auto !h-auto lg:!w-[550px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
+        <SwiperSlide className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[550px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
           <div className="flex flex-col justify-between w-full h-full">
             <div className="flex justify-start">
               <p className="text-sm font-extrabold text-white">
@@ -128,7 +146,7 @@ export default function Testimonial() {
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="!flex !justify-between rounded-[10px] !p-3 !w-auto !h-auto lg:!w-[500px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
+        <SwiperSlide className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[500px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
           <div className="flex flex-col justify-between w-full h-full">
             <div className="flex justify-start">
               <p className="text-sm font-extrabold text-white">
@@ -159,7 +177,7 @@ export default function Testimonial() {
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="!flex !justify-between rounded-[10px] !p-3 !w-auto !h-auto lg:!w-[500px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
+        <SwiperSlide className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[500px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
           <div className="flex flex-col justify-between w-full h-full">
             <div className="flex justify-start">
               <p className="text-sm font-extrabold text-white">
@@ -190,7 +208,7 @@ export default function Testimonial() {
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="!flex !justify-between rounded-[10px] !p-3 !w-auto !h-auto lg:!w-[500px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
+        <SwiperSlide className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[500px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
           <div className="flex flex-col justify-between w-full h-full">
             <div className="flex justify-start">
               <p className="text-sm font-extrabold text-white">
@@ -221,7 +239,7 @@ export default function Testimonial() {
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="!flex !justify-between rounded-[10px] !p-3 !w-auto !h-auto lg:!w-[500px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
+        <SwiperSlide className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[500px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
           <div className="flex flex-col justify-between w-full h-full">
             <div className="flex justify-start">
               <p className="text-sm font-extrabold text-white">

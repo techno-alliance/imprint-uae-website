@@ -153,6 +153,9 @@ body {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  background: #fff;
+  color: #000;
+  border:0.5px solid #fff;
 }
 
 .button-57 span:first-child {

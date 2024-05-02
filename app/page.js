@@ -5,6 +5,7 @@ import MovingImage from "@/components/New/MovingImage";
 import { BentoGridDemo } from "@/components/New/BentoGridDemo";
 import MakeCall from "@/components/New/MakeCall";
 import Slider from "@/components/New/Slider"
+import Slider2 from "@/components/New/Slider2"
 import FeaturedProjects from "@/components/New/FeaturedProjects";
 import FeaturedProjects1 from "@/components/New/FeaturedProjects1";
 import Testimonial from "@/components/New/Testimonial";
@@ -273,6 +274,7 @@ export default function Home() {
       <Testimonial/>
       </div>
       </section>
+      <Slider2/>
       <Blog/>
       
     </div>
