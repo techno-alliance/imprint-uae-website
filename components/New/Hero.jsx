@@ -93,7 +93,7 @@ const Hero = () => {
         <div className="bottam_lp_img bottam_lp_img_mobile_screen block md:block portrait:block landscape:hidden sm:hidden bottom-0 h-[50vh] overflow-hidden rounded-t-3xl absolute">
           <div className="relative">
             <div className="flex">
-              <Image className="w-full" src={landing} alt="" />
+              <Image className="w-full h-[50vh] object-cover" src={landing} alt="" />
             </div>
             <div className="layer_bottom_lp_img absolute left-[50%] w-[90%] p-4 lg:p-7 top-[15%] -translate-x-[50%] text-center">
               <span className="text-sm text-white md:text-2xl">

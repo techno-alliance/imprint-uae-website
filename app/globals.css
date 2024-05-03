@@ -776,7 +776,16 @@ body {
 
 
 /* slider */
+.feature-card {
+  position: relative;
+  z-index: 1;
+  transition: transform 0.3s ease;
+}
 
+.feature-card.active {
+  z-index: 2;
+  transform: translateY(-50%);
+}
 
 
 

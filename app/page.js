@@ -26,7 +26,7 @@ export default function Home() {
       </div>
       <BentoGridDemo />
       <section className="bg-black">
-        <div className="max-w-screen-xl mx-auto px-10 py-20">
+        <div className="max-w-screen-xl mx-auto px-10 py-10">
         <div className="flex flex-col gap-4 justify-center items-center">
         <button
             className="button-58 flex transition duration-300 py-2 w-max rounded-full text-[16px] lg:text-[20px] px-5 text-white"
@@ -35,7 +35,7 @@ export default function Home() {
             <span className="text-btn flex gap-2 items-center">About</span>
             <span className="pb-3">About</span>
           </button>
-          <p className="text-5xl text-white font-semibold">
+          <p className="text-5xl text-white font-semibold text-center">
              Why? <span className="text-[#5ACEF1] font-bold">IMPRINT</span>
           </p>
           <p className="text-[17px] text-white font-normal text-center w-auto md:w-[600px]">
@@ -268,7 +268,7 @@ export default function Home() {
       <section className="py-20">
       <Slider/>
       </section>
-      {/* <FeaturedProjects/> */}
+      <FeaturedProjects1/>
       <section className="bg-black py-20">
       <div className="max-w-screen-xl mx-auto">
       <Testimonial/>

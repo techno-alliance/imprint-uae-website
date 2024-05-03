@@ -5,9 +5,9 @@ import { useEffect } from "react";
 
 export const BentoGrid = ({ className, children }) => {
   return (
-    <div className="bg-black py-20">
+    <div className="bg-black py-2">
       <div className="max-w-screen-xl mx-auto px-10">
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col justify-center items-center lg:items-start gap-3">
           <button
             className="button-58 flex transition duration-300 py-2 w-max rounded-full text-[16px] lg:text-[20px] px-4 text-white"
             href=""
@@ -17,14 +17,14 @@ export const BentoGrid = ({ className, children }) => {
             </span>
             <span className="pb-3">Our service</span>
           </button>
-          <div className="flex flex-col md:flex-row justify-between">
+          <div className="flex flex-col md:flex-row justify-between gap-5 lg:gap-20">
             <div className="w-auto md:w-[630px]">
-              <p className="text-[48px] leading-[140%] font-semibold text-white">
+              <p className="text-[36px] text-center lg:text-left lg:text-[48px] leading-[140%] font-semibold text-white">
                 Produce Stunning Printing For Your Business
               </p>
             </div>
-            <div className="flex justify-center items-center w-auto md:w-[400px]">
-              <p className="text-[#DADADA] text-xl font-normal leading-[160%]">
+            <div className="flex justify-center items-center w-auto lg:w-[400px]">
+              <p className="text-[#DADADA] text-center lg:text-left text-xl font-normal leading-[160%]">
                 Imprint printing press is the foremost provider of varied offset
                 printing solutions to more than a thousand clients today..
               </p>

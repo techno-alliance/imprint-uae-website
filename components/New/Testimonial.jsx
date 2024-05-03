@@ -25,7 +25,7 @@ export default function Testimonial() {
     <>
       <div className="bg-black">
         <div className="max-w-screen-xl mx-auto px-10">
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col justify-center items-center lg:items-start gap-3">
             <button
               className="button-58 flex transition duration-300 py-2 w-max rounded-full text-[16px] lg:text-[20px] px-4 text-white"
               href=""
@@ -35,17 +35,17 @@ export default function Testimonial() {
               </span>
               <span className="pb-3">Testimonials</span>
             </button>
-            <div className="flex flex-col md:flex-row justify-between">
-              <div className="w-auto md:w-[400px]">
-                <p className="text-[48px] leading-[140%] font-semibold text-white">
+            <div className="flex flex-col md:flex-row justify-between gap-5 lg:gap-20">
+              <div className="w-auto lg:w-[400px]">
+                <p className="text-[36px] lg:text-[48px] text-center lg:text-left leading-[140%] font-semibold text-white">
                 Our customers love what we do
                 </p>
               </div>
               <div className="flex justify-center items-center">
               <div className='h-[80px] bg-[#737373] w-[1px]'/>
               </div>
-              <div className="flex justify-center items-center w-auto md:w-[400px]">
-                <p className="text-[#DADADA] text-xl font-normal leading-[160%]">
+              <div className="flex justify-center items-center w-auto lg:w-[400px]">
+                <p className="text-[#DADADA] text-center lg:text-left text-xl font-normal leading-[160%]">
                   Imprint printing press is the foremost provider of varied
                   offset printing solutions to more than a thousand clients
                   today..
@@ -81,12 +81,12 @@ export default function Testimonial() {
         breakpoints={{
           320: {
             slidesPerView: 1,
-            spaceBetween: 30,
+            spaceBetween: 0,
           },
 
           640: {
             slidesPerView: 1,
-            spaceBetween: 30,
+            spaceBetween: 0,
           },
 
           768: {
@@ -115,7 +115,8 @@ export default function Testimonial() {
         <div className="absolute right-[80px] bottom-[0px] z-20">
           <SwiperNavButtons />
         </div>
-        <SwiperSlide className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[550px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
+        <SwiperSlide className="!p-3 lg:!p-0 !bg-black !w-fit">
+          <div className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[550px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
           <div className="flex flex-col justify-between w-full h-full">
             <div className="flex justify-start">
               <p className="text-sm font-extrabold text-white">
@@ -144,9 +145,11 @@ export default function Testimonial() {
               —our global in-house and partner facilities offer competitive
               shipping rates and consistent quality.
             </p>
+          </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[500px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
+        <SwiperSlide className="!p-3 lg:!p-0 !bg-black !w-fit">
+          <div className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[500px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
           <div className="flex flex-col justify-between w-full h-full">
             <div className="flex justify-start">
               <p className="text-sm font-extrabold text-white">
@@ -175,9 +178,11 @@ export default function Testimonial() {
               —our global in-house and partner facilities offer competitive
               shipping rates and consistent quality.
             </p>
+          </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[500px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
+        <SwiperSlide className="!p-3 lg:!p-0 !bg-black !w-fit">
+          <div className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[500px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
           <div className="flex flex-col justify-between w-full h-full">
             <div className="flex justify-start">
               <p className="text-sm font-extrabold text-white">
@@ -206,9 +211,11 @@ export default function Testimonial() {
               —our global in-house and partner facilities offer competitive
               shipping rates and consistent quality.
             </p>
+          </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[500px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
+        <SwiperSlide className="!p-3 lg:!p-0 !bg-black !w-fit">
+          <div className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[500px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
           <div className="flex flex-col justify-between w-full h-full">
             <div className="flex justify-start">
               <p className="text-sm font-extrabold text-white">
@@ -237,9 +244,11 @@ export default function Testimonial() {
               —our global in-house and partner facilities offer competitive
               shipping rates and consistent quality.
             </p>
+          </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[500px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
+        <SwiperSlide className="!p-3 lg:!p-0 !bg-black !w-fit">
+          <div className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[500px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
           <div className="flex flex-col justify-between w-full h-full">
             <div className="flex justify-start">
               <p className="text-sm font-extrabold text-white">
@@ -268,6 +277,7 @@ export default function Testimonial() {
               —our global in-house and partner facilities offer competitive
               shipping rates and consistent quality.
             </p>
+          </div>
           </div>
         </SwiperSlide>
       </Swiper>
