@@ -31,7 +31,12 @@ body {
     text-wrap: balance;
   }
 }
-
+.vh-center {
+  @apply flex justify-center items-center;
+}
+.gradient-text {
+  @apply bg-gradient-primary bg-clip-text text-transparent;
+}
 body {
   background-color: #000;
 }

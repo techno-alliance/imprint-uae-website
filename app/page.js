@@ -268,7 +268,7 @@ export default function Home() {
       <section className="py-20">
       <Slider/>
       </section>
-      <FeaturedProjects1/>
+      {/* <FeaturedProjects1/> */}
       <section className="bg-black py-20">
       <div className="max-w-screen-xl mx-auto">
       <Testimonial/>
