@@ -31,10 +31,10 @@ export const TwoColumnSection = ({
         <div className="col-span-6 md:col-span-3 w-full flex flex-col gap-8">
           <div className="flex flex-col gap-3">
             <p className="text-2xl md:text-[32px] leading-[140%] font-semibold">
-              {bentoImages[0].title}
+              {bentoImages[0].title} Food Packaging
             </p>
             <p className="text-sm md:text-[20px] font-normal text-[#DADADA]">
-              {bentoImages[0].subtitle}
+              {bentoImages[0].subtitle} Imprint printing press is the foremost provider of varied offset printing solutions to more than a thousand clients today..
             </p>
             <a
               href=""
@@ -54,17 +54,17 @@ export const TwoColumnSection = ({
         <div className="col-span-6 md:col-span-3 w-full flex flex-col gap-8">
           <div className="w-full h-[700px] rounded-[20px] overflow-hidden">
             <Image
-              src={bentoImages[0].image1}
+              src={bentoImages[0].image3}
               alt="bento"
               className="w-full h-full object-cover object-center"
             />
           </div>
           <div className="flex flex-col gap-3">
             <p className="text-2xl md:text-[32px] leading-[140%] font-semibold">
-              {bentoImages[0].title}
+              {bentoImages[0].title2} Food Packaging
             </p>
             <p className="text-sm md:text-[20px] font-normal text-[#DADADA]">
-              {bentoImages[0].subtitle}
+              {bentoImages[0].subtitle2} Imprint printing press is the foremost provider of varied offset printing solutions to more than a thousand clients today..
             </p>
             <a
               href=""

@@ -17,18 +17,18 @@ const bentoImages = [
     image3: bento3,
   },
 ];
-const bentoImages2 = [
-  {
-    image1: bento1,
-    title: "Fresh Packaging Solutions",
-    subtitle: "Imprint printing press is the foremost provider of varied offset printing solutions to more than a thousand clients today..",
-  },
-  {
-    image1: bento3,
-    title: "Fresh Packaging Solutions",
-    subtitle: "Imprint printing press is the foremost provider of varied offset printing solutions to more than a thousand clients today..",
-  },
-];
+// const bentoImages2 = [
+//   {
+//     image1: bento1,
+//     title: "Fresh Packaging Solutions",
+//     subtitle: "Imprint printing press is the foremost provider of varied offset printing solutions to more than a thousand clients today..",
+//   },
+//   {
+//     image2: bento3,
+//     title2: "Fresh Packaging Solutions",
+//     subtitle2: "Imprint printing press is the foremost provider of varied offset printing solutions to more than a thousand clients today..",
+//   },
+// ];
 const page = () => {
   return (
     <div className="text-white flex flex-col gap-[120px]">
@@ -48,7 +48,7 @@ const page = () => {
           header="Elegance in Every Package-Our"
           headercolor="Cosmetic Solutions"
           description="Imprint printing press is the foremost provider of varied offset printing solutions to more than a thousand clients today.."
-          bentoImages={bentoImages2}
+          bentoImages={bentoImages}
         />
       </div>
     </div>
