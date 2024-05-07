@@ -17,6 +17,8 @@ import { FaXTwitter } from "react-icons/fa6";
 import { RiYoutubeLine } from "react-icons/ri";
 import { FiArrowUpRight } from "react-icons/fi";
 import { BsSend } from "react-icons/bs";
+import { GrCircleQuestion } from "react-icons/gr";
+
 
 // import { Resend } from 'resend';
 export default function Page() {
@@ -93,7 +95,7 @@ export default function Page() {
   // });
   return (
     <div className="bg-black">
-      <div className="max-w-screen-xl mx-auto px-10 2xl:px-0 flex flex-col gap-[120px]">
+      <div className="max-w-screen-xl mx-auto px-5 lg:px-10 2xl:px-0 flex flex-col gap-[120px]">
         <div className="pt-40">
           <div className="flex flex-col gap-12">
             <div className=" h-9 md:h-10 rounded-full p-2.5 text-sm md:text-base border border-[#2E2E2E] bg-[#1A1A1A] text-primary vh-center w-[123px]">
@@ -415,7 +417,7 @@ export default function Page() {
                     Send Message
                   </span>
 
-                  <span className="pb-3">Send a Mail</span>
+                  <span className="pb-3">Send Message</span>
                 </button>
               </div>
             </form>
@@ -444,13 +446,13 @@ export default function Page() {
               href=""
             >
               <div className="bg-black rounded-full w-12 h-12 text-2xl text-white flex justify-center items-center">
-                <BsSend />
+                <GrCircleQuestion />
               </div>
               <span className="text-btn flex gap-2 items-center">
-                Send Message
+              Ask any question
               </span>
 
-              <span className="pb-3">Send a Mail</span>
+              <span className="pb-3">Ask any question</span>
             </button>
           </div>
         </div>

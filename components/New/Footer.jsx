@@ -7,7 +7,7 @@ import { PiEnvelopeSimpleLight } from "react-icons/pi";
 const Footer = () => {
   return (
     <footer className="bg-[#000] relative pt-32">
-      <div className="max-w-screen-xl mx-auto px-10 2xl:px-0 py-12">
+      <div className="max-w-screen-xl mx-auto px-5 lg:px-10 2xl:px-0 py-12">
         <div className="flex flex-col lg:flex-row justify-between gap-10 lg:gap-56">
           <div className="flex flex-col justify-between gap-10">
             <div className="flex flex-col justify-center items-center lg:items-start gap-5">
@@ -41,7 +41,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col gap-5">
-            <p className="text-white text-4xl lg:text-[76px] font-medium leading-[145%] text-center lg:text-left">
+            <p className="text-white text-2xl lg:text-[76px] font-medium leading-[145%] text-center lg:text-left">
               Print with Precision, Connect with Ease
             </p>
             <div className="flex justify-center lg:justify-start">
@@ -75,12 +75,12 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row justify-between pt-20">
-          <p className="text-white text-center">TERMS & CONDITIONS</p>
-          <p className="text-white text-center">
+        <div className="flex flex-col lg:flex-row justify-between pt-10 lg:pt-20">
+          <p className="text-white text-sm lg:text-[16px] text-center">TERMS & CONDITIONS</p>
+          <p className="text-white text-sm lg:text-[16px] text-center">
             2024 Copyright. All right reserved
           </p>
-          <p className="text-white text-center">PRIVACY POLICY</p>
+          <p className="text-white text-sm lg:text-[16px] text-center">PRIVACY POLICY</p>
         </div>
       </div>
     </footer>
