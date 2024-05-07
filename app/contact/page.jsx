@@ -93,16 +93,16 @@ export default function Page() {
   // });
   return (
     <div className="bg-black">
-      <div className="max-w-screen-xl mx-auto px-10 flex flex-col gap-[120px]">
+      <div className="max-w-screen-xl mx-auto px-10 2xl:px-0 flex flex-col gap-[120px]">
         <div className="pt-40">
           <div className="flex flex-col gap-12">
             <div className=" h-9 md:h-10 rounded-full p-2.5 text-sm md:text-base border border-[#2E2E2E] bg-[#1A1A1A] text-primary vh-center w-[123px]">
               Contact Us
             </div>
-            <p className="text-white text-6xl w-auto lg:w-[800px]">
+            <p className="text-white text-2xl lg:text-6xl w-auto lg:w-[800px]">
               Have question or want to get in touch with us
             </p>
-            <div className="flex gap-10 items-center">
+            <div className="flex flex-col lg:flex-row gap-10 items-center">
               <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -169,7 +169,7 @@ export default function Page() {
                   />
                 </svg>
               </div>
-              <p className="text-white text-xl w-auto lg:w-[800px]">
+              <p className="text-white text-sm lg:text-xl w-auto lg:w-[800px]">
                 Imprint printing press is the foremost provider of varied offset
                 printing solutions to more than a thousand clients today..
               </p>
@@ -178,35 +178,35 @@ export default function Page() {
         </div>
         <div>
           <div className="flex flex-col gap-6 rounded-[20px] p-4 bg-[#1E1E1E]">
-            <div className="w-full h-[370px] overflow-hidden">
+            <div className="w-full h-[200px] lg:h-[370px] rounded-[10px] border border-[#404040] overflow-hidden">
               <Image
                 className="object-cover object-center w-full h-full"
                 src={location}
               />
             </div>
-            <div className="w-full flex justify-between items-center">
+            <div className="w-full flex flex-row justify-between items-center gap-6">
               <div>
-                <p className="gradient-text text-[32px] font-semibold">
+                <p className="gradient-text text-[16px] lg:text-[32px] font-semibold">
                   Imprint{" "}
                   <span className="text-white">Printing Press L.L.C</span>
                 </p>
-                <p className="text-white/60 text-2xl font-light">
+                <p className="text-white/60 text-sm lg:text-2xl font-light">
                   Address : Ajam, U.A.E P.O. Box. 22628
                 </p>
               </div>
               <div>
-                <p className="gradient-text text-xl">View Map</p>
+                <p className="gradient-text text-sm lg:text-xl">View Map</p>
               </div>
             </div>
           </div>
         </div>
         <div className="flex justify-between flex-col lg:flex lg:flex-row gap-20">
-          <div className="flex flex-col justify-between">
+          <div className="flex flex-col justify-between gap-5">
             <div className="flex flex-col">
               <p className="text-[#080C2E] text-[23px] lg:text-[46px] font-semibold dark:text-white">
                 Contact Information
               </p>
-              <p className="text-white">
+              <p className="text-white text-sm">
                 Fill out the from below and one of our friendly team members
                 will get back to you shortly
               </p>
@@ -215,19 +215,19 @@ export default function Page() {
               <div className="flex flex-col gap-5">
                 <p className="text-white">Follow us on social media</p>
                 <div className="flex justify-between items-center">
-                  <div className="w-[50px] h-[50px] text-white text-3xl p-2 bg-[#2E2E2E] flex justify-center items-center rounded-full">
+                  <div className="w-[28px] h-[28px] lg:w-[50px] lg:h-[50px] text-white text-[16px] lg:text-3xl p-2 bg-[#2E2E2E] flex justify-center items-center rounded-full">
                     <FaInstagram />
                   </div>
-                  <div className="w-[50px] h-[50px] text-white text-3xl p-2 bg-[#2E2E2E] flex justify-center items-center rounded-full">
+                  <div className="w-[28px] h-[28px] lg:w-[50px] lg:h-[50px] text-white text-[16px] lg:text-3xl p-2 bg-[#2E2E2E] flex justify-center items-center rounded-full">
                     <FaLinkedinIn />
                   </div>
-                  <div className="w-[50px] h-[50px] text-white text-3xl p-2 bg-[#2E2E2E] flex justify-center items-center rounded-full">
+                  <div className="w-[28px] h-[28px] lg:w-[50px] lg:h-[50px] text-white text-[16px] lg:text-3xl p-2 bg-[#2E2E2E] flex justify-center items-center rounded-full">
                     <FaFacebookF />
                   </div>
-                  <div className="w-[50px] h-[50px] text-white text-3xl p-2 bg-[#2E2E2E] flex justify-center items-center rounded-full">
+                  <div className="w-[28px] h-[28px] lg:w-[50px] lg:h-[50px] text-white text-[16px] lg:text-3xl p-2 bg-[#2E2E2E] flex justify-center items-center rounded-full">
                     <FaXTwitter />
                   </div>
-                  <div className="w-[50px] h-[50px] text-white text-3xl p-2 bg-[#2E2E2E] flex justify-center items-center rounded-full">
+                  <div className="w-[28px] h-[28px] lg:w-[50px] lg:h-[50px] text-white text-[16px] lg:text-3xl p-2 bg-[#2E2E2E] flex justify-center items-center rounded-full">
                     <RiYoutubeLine />
                   </div>
                 </div>
@@ -267,7 +267,7 @@ export default function Page() {
               class="flex flex-col gap-8 bg-[#1E1E1E] rounded-[20px] p-8"
               onSubmit={handleSubmit}
             >
-              <div class="flex justify-between gap-6">
+              <div class="flex flex-col lg:flex-row justify-between gap-6">
                 <div class="w-full">
                   <label
                     class="block tracking-wide text-gray-700 text-xs font-semibold mb-2 dark:text-[#fff]"
@@ -310,7 +310,7 @@ export default function Page() {
                   />
                 </div>
               </div>
-              <div class="flex justify-between gap-6">
+              <div class="flex flex-col lg:flex-row justify-between gap-6">
                 <div class="w-full ">
                   <label
                     class="block tracking-wide text-[#fff] text-xs font-semibold mb-2"

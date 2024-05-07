@@ -13,7 +13,7 @@ export default function index() {
 
     return (
         <div className={styles.header}>
-            <div className='max-w-screen-xl mx-auto px-10'>
+            <div className='max-w-screen-xl mx-auto px-5 lg:px-10 2xl:px-0'>
             <div className={styles.bar}>
             <a href="/">
               <Image

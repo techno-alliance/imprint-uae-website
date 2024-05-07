@@ -6,7 +6,7 @@ import { useEffect } from "react";
 export const BentoGrid = ({ className, children }) => {
   return (
     <div className="bg-black py-2">
-      <div className="max-w-screen-xl mx-auto px-10">
+      <div className="max-w-screen-xl mx-auto px-5 lg:px-10 2xl:px-0">
         <div className="flex flex-col justify-center items-center lg:items-start gap-3">
           <button
             className="button-58 flex transition duration-300 py-2 w-max rounded-full text-[16px] lg:text-[20px] px-4 text-white"
@@ -19,12 +19,12 @@ export const BentoGrid = ({ className, children }) => {
           </button>
           <div className="flex flex-col md:flex-row justify-between gap-5 lg:gap-20">
             <div className="w-auto md:w-[630px]">
-              <p className="text-[36px] text-center lg:text-left lg:text-[48px] leading-[140%] font-semibold text-white">
+              <p className="text-2xl text-center lg:text-left lg:text-[48px] leading-[140%] font-semibold text-white">
                 Produce Stunning Printing For Your Business
               </p>
             </div>
             <div className="flex justify-center items-center w-auto lg:w-[400px]">
-              <p className="text-[#DADADA] text-center lg:text-left text-xl font-normal leading-[160%]">
+              <p className="text-[#DADADA] text-center lg:text-left text-sm lg:text-xl font-normal leading-[160%]">
                 Imprint printing press is the foremost provider of varied offset
                 printing solutions to more than a thousand clients today..
               </p>
@@ -34,7 +34,7 @@ export const BentoGrid = ({ className, children }) => {
       </div>
       <div
         className={cn(
-          "grid grid-cols-1 md:grid-cols-2 rounded-xl gap-4 max-w-screen-xl mx-auto py-20 px-10",
+          "grid grid-cols-1 md:grid-cols-2 rounded-xl gap-4 max-w-screen-xl mx-auto py-10 lg:py-20 px-5 lg:px-10 2xl:px-0",
           className
         )}
       >
