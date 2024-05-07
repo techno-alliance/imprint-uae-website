@@ -24,7 +24,7 @@ export default function Testimonial() {
   return (
     <>
       <div className="bg-black">
-        <div className="max-w-screen-xl mx-auto px-10">
+        <div className="max-w-screen-xl mx-auto">
           <div className="flex flex-col justify-center items-center lg:items-start gap-3">
             <button
               className="button-58 flex transition duration-300 py-2 w-max rounded-full text-[16px] lg:text-[20px] px-4 text-white"
@@ -72,7 +72,7 @@ export default function Testimonial() {
       <Swiper
         slidesPerView={3}
         spaceBetween={20}
-        centeredSlides={true}
+       
         // loop={true}
         // pagination={{
         //   clickable: true,
@@ -112,10 +112,10 @@ export default function Testimonial() {
         modules={[Pagination, Navigation]}
         className="mySwiper !pb-24"
       >
-        <div className="absolute right-[80px] bottom-[0px] z-20">
+        <div className="absolute left-1/2 bottom-[0px] z-20 -translate-x-[50%]">
           <SwiperNavButtons />
         </div>
-        <SwiperSlide className="!p-3 lg:!p-0 !bg-black !w-fit">
+        <SwiperSlide className="!p-3 lg:!p-0 !bg-black">
           <div className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[550px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
           <div className="flex flex-col justify-between w-full h-full">
             <div className="flex justify-start">
@@ -148,7 +148,7 @@ export default function Testimonial() {
           </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="!p-3 lg:!p-0 !bg-black !w-fit">
+        <SwiperSlide className="!p-3 lg:!p-0 !bg-black">
           <div className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[500px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
           <div className="flex flex-col justify-between w-full h-full">
             <div className="flex justify-start">
@@ -181,7 +181,7 @@ export default function Testimonial() {
           </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="!p-3 lg:!p-0 !bg-black !w-fit">
+        <SwiperSlide className="!p-3 lg:!p-0 !bg-black">
           <div className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[500px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
           <div className="flex flex-col justify-between w-full h-full">
             <div className="flex justify-start">
@@ -214,7 +214,7 @@ export default function Testimonial() {
           </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="!p-3 lg:!p-0 !bg-black !w-fit">
+        <SwiperSlide className="!p-3 lg:!p-0 !bg-black">
           <div className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[500px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
           <div className="flex flex-col justify-between w-full h-full">
             <div className="flex justify-start">
@@ -247,7 +247,7 @@ export default function Testimonial() {
           </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="!p-3 lg:!p-0 !bg-black !w-fit">
+        <SwiperSlide className="!p-3 lg:!p-0 !bg-black">
           <div className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[500px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
           <div className="flex flex-col justify-between w-full h-full">
             <div className="flex justify-start">

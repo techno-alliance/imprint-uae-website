@@ -24,7 +24,7 @@ export default function App() {
   return (
     <>
     <div className='bg-black'>
-    <div className="max-w-screen-xl mx-auto px-10">
+    <div className="">
         <div className="flex flex-col justify-center items-center lg:items-start gap-3">
           <button
             className="button-58 flex transition duration-300 py-2 w-max rounded-full text-[16px] lg:text-[20px] px-4 text-white"
@@ -54,7 +54,7 @@ export default function App() {
       <Swiper
         slidesPerView={3}
         spaceBetween={30}
-        centeredSlides={true}
+        // centeredSlides={true}
         // loop={true}
         // pagination={{
         //   clickable: true,
@@ -79,12 +79,12 @@ export default function App() {
   
           1024:{
             slidesPerView:3,
-            spaceBetween:30,
+            spaceBetween:10,
           },
   
           1280: {
             slidesPerView: 3,
-            spaceBetween: 30,
+            spaceBetween: 10,
           },
   
           1536:{
@@ -98,7 +98,7 @@ export default function App() {
         <div className='absolute right-[80px] top-[0px] z-20'>
         <SwiperNavButtons/>
         </div>
-        <SwiperSlide className='!p-3 lg:!p-0 !bg-black !w-fit'>
+        <SwiperSlide className='!p-3 lg:!p-0 !bg-black'>
           <div className='rounded-[10px] !w-full !h-full lg:!w-[450px] lg:!h-[550px] !overflow-hidden !relative group'>
           <Image src={project1} className='w-full h-full object-cover'/>
           <div className='absolute top-0 right-0 p-5'>
@@ -114,7 +114,7 @@ export default function App() {
           </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className='!p-3 lg:!p-0 !bg-black !w-fit'>
+        <SwiperSlide className='!p-3 lg:!p-0 !bg-black'>
           <div className='rounded-[10px] !w-full !h-full lg:!w-[450px] lg:!h-[550px] !overflow-hidden !relative group'>
           <Image src={project4} className='w-full h-full object-cover'/>
           <div className='absolute top-0 right-0 p-5'>
@@ -130,7 +130,7 @@ export default function App() {
           </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className='!p-3 lg:!p-0 !bg-black !w-fit'>
+        <SwiperSlide className='!p-3 lg:!p-0 !bg-black'>
           <div className='rounded-[10px] !w-auto !h-auto lg:!w-[450px] lg:!h-[550px] !overflow-hidden !relative group'>
           <Image src={book} className='w-full h-full object-cover'/>
           <div className='absolute top-0 right-0 p-5'>
@@ -146,7 +146,7 @@ export default function App() {
           </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className='!p-3 lg:!p-0 !bg-black !w-fit'>
+        <SwiperSlide className='!p-3 lg:!p-0 !bg-black'>
           <div className='rounded-[10px] !w-auto !h-auto lg:!w-[450px] lg:!h-[550px] !overflow-hidden !relative group'>
           <Image src={box} className='w-full h-full object-cover'/>
           <div className='absolute top-0 right-0 p-5'>
@@ -162,7 +162,7 @@ export default function App() {
           </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className='!p-3 lg:!p-0 !bg-black !w-fit'>
+        <SwiperSlide className='!p-3 lg:!p-0 !bg-black'>
           <div className='rounded-[10px] !w-auto !h-auto lg:!w-[450px] lg:!h-[550px] !overflow-hidden !relative group'>
           <Image src={box} className='w-full h-full object-cover'/>
           <div className='absolute top-0 right-0 p-5'>

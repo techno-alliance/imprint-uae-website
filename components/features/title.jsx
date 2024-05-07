@@ -34,8 +34,8 @@ export const FeatureTitle = ({ children, id }) => {
     <p
       ref={ref}
       className={classNames(
-        "feature-title py-16 font-heading text-5xl transition-colors",
-        isInView ? "text-white" : "text-black/5"
+        "feature-title py-20 font-heading text-4xl font-semibold transition-colors",
+        isInView ? "text-white" : "text-black"
       )}
     >
       {children}

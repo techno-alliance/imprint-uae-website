@@ -13,28 +13,28 @@ import { useFeatureStore } from "@/components/features/store";
 import { useEffect } from "react";
 import { useHidePageOverflow } from "@/util/toggle-page-overflow";
 import { useEscapePress } from "@/util/use-escape-press";
-
+import { useState } from "react";
 const features = [
   {
-    title: "Use your calendar as a todo list",
+    title: "Imprint Project 1",
     id: "todo-list",
     card: Todo,
     visual: OtherVisual,
   },
   {
-    title: "Color your calendar to organize",
+    title: "Imprint Project 2",
     id: "colors",
     card: Colors,
     visual: OtherVisual,
   },
   {
-    title: "Instantly know if someone is available",
+    title: "Imprint Project 3",
     id: "availability",
     card: Availability,
     visual: OtherVisual,
   },
   {
-    title: "Track what you listened to when",
+    title: "Imprint Project 4",
     id: "music",
     card: Music,
     visual: MusicVisual,
@@ -53,7 +53,13 @@ const features = [
   // },
 ];
 
+const randomColor = () => {
+  const colors = ["#FF5733", "#33FF57", "#5733FF", "#33FFFF", "#FFFF33"];
+  return colors[Math.floor(Math.random() * colors.length)];
+};
+
 function App() {
+  const [bgColor, setBgColor] = useState("#FFFFFF");
   const [scope, animate] = useAnimate();
   const fullscreenFeature = useFeatureStore((state) => state.fullscreenFeature);
   const lastFullscreenFeature = useFeatureStore(
@@ -113,6 +119,20 @@ function App() {
       ]);
     }
   }, [animate, fullscreenFeature, lastFullscreenFeature]);
+
+  useEffect(() => {
+    // Update background color on scroll
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      const newColor = randomColor();
+      setBgColor(newColor);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <div className="mx-auto max-w-6xl px-4">

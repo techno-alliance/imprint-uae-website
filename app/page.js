@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <div className="pt-[20px] md:pt-[60px]">
       <Hero />
-      <div className="bg-black py-20">
+      <div className="max-w-screen-xl mx-auto py-20">
         <MovingImage />
       </div>
       <BentoGridDemo />
@@ -265,8 +265,10 @@ export default function Home() {
      <section className="bg-black">
      <MakeCall/>
      </section>
-      <section className="py-20">
+      <section className="bg-black py-20">
+      <div className="max-w-screen-xl mx-auto px-10">
       <Slider/>
+      </div>
       </section>
       <FeaturedProjects1/>
       <section className="bg-black py-20">
@@ -276,7 +278,6 @@ export default function Home() {
       </section>
       <Slider2/>
       <Blog/>
-      
     </div>
   );
 }

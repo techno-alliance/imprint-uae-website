@@ -23,7 +23,7 @@ export default function App() {
   return (
     <div className="py-20 bg-[#36393A]">
       <div className="bg-[#36393A]">
-        <div className="max-w-screen-xl mx-auto px-10">
+        <div className="max-w-screen-xl mx-auto">
           <div className="flex flex-col gap-3">
             <button
               className="button-58 flex transition duration-300 py-2 w-max rounded-full text-[16px] lg:text-[20px] px-4 text-white"
@@ -52,10 +52,10 @@ export default function App() {
         </div>
       </div>
       <Swiper
-        slidesPerView={3}
+        slidesPerView={1}
         spaceBetween={30}
         // centeredSlides={true}
-        loop={true}
+        // loop={true}
         // pagination={{
         //   clickable: true,
         // }}
@@ -72,32 +72,32 @@ export default function App() {
           },
 
           768: {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 20,
           },
 
           1024: {
-            slidesPerView: 3,
+            slidesPerView: 1,
             spaceBetween: 10,
           },
 
           1280: {
-            slidesPerView: 3,
+            slidesPerView: 1,
             spaceBetween: 30,
           },
 
           1536: {
-            slidesPerView: 3,
+            slidesPerView: 1,
             spaceBetween: 30,
           },
         }}
         modules={[Pagination, Navigation]}
         className="mySwiper !bg-[#36393A] !pb-24"
       >
-        <div className="absolute right-[80px] bottom-[0px] z-20">
+        <div className="absolute left-1/2 -translate-x-[50%] bottom-[0px] z-20">
           <SwiperNavButtons />
         </div>
-        <SwiperSlide className="!p-3 lg:!p-0 !bg-[#36393A] !w-full lg:!w-auto">
+        <SwiperSlide className="!p-3 lg:!p-0 !bg-[#36393A]">
           <div className="flex flex-col lg:flex-row gap-10">
             <div className="w-[300px] flex flex-col justify-end">
               <p className="text-white text-left text-[28px] font-semibold">Speed Master CD 102</p>
@@ -112,7 +112,7 @@ export default function App() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="!p-3 lg:!p-0 !bg-[#36393A] !w-full lg:!w-auto">
+        <SwiperSlide className="!p-3 lg:!p-0 !bg-[#36393A]">
           <div className="flex flex-col lg:flex-row gap-10">
             <div className="w-[300px] flex flex-col justify-end">
             <p className="text-white text-left text-[28px] font-semibold">Speed Master CD 102</p>
@@ -127,7 +127,7 @@ export default function App() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="!p-3 lg:!p-0 !bg-[#36393A] !w-full lg:!w-auto">
+        <SwiperSlide className="!p-3 lg:!p-0 !bg-[#36393A]">
           <div className="flex flex-col lg:flex-row gap-10">
             <div className="w-[300px] flex flex-col justify-end">
             <p className="text-white text-left text-[28px] font-semibold">Speed Master CD 102</p>
@@ -142,7 +142,7 @@ export default function App() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="!p-3 lg:!p-0 !bg-[#36393A] !w-full lg:!w-auto">
+        <SwiperSlide className="!p-3 lg:!p-0 !bg-[#36393A]">
           <div className="flex flex-col lg:flex-row gap-10">
             <div className="w-[300px] flex flex-col justify-end">
             <p className="text-white text-left text-[28px] font-semibold">Speed Master CD 102</p>
@@ -157,7 +157,7 @@ export default function App() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="!p-3 lg:!p-0 !bg-[#36393A] !w-full lg:!w-auto">
+        <SwiperSlide className="!p-3 lg:!p-0 !bg-[#36393A]">
           <div className="flex flex-col lg:flex-row gap-10">
             <div className="w-[300px] flex flex-col justify-end">
             <p className="text-white text-left text-[28px] font-semibold">Speed Master CD 102</p>
