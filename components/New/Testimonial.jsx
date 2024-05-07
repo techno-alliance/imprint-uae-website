@@ -107,7 +107,7 @@ export default function Testimonial() {
           },
         }}
         modules={[Pagination, Navigation]}
-        className="mySwiper !pb-24"
+        className="mySwiper !pb-24 !pt-20"
       >
         <div className="absolute left-1/2 bottom-[0px] z-20 -translate-x-[50%]">
           <SwiperNavButtons />

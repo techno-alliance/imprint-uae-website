@@ -92,7 +92,7 @@ export default function App() {
           },
         }}
         modules={[Pagination, Navigation]}
-        className="mySwiper !bg-[#36393A] !pb-24"
+        className="mySwiper !bg-[#36393A] !pb-24 !pt-16"
       >
         <div className="absolute left-1/2 -translate-x-[50%] bottom-[0px] z-20">
           <SwiperNavButtons />
