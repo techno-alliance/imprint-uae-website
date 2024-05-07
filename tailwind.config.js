@@ -13,11 +13,15 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        primary: "#5ACEF1",
       },
+      // backgroundImage: {
+      //   "gradient-primary": "linear-gradient(89deg, #69DCFF 0.77%, #94DFFF 26.38%, #05B6EB 54.69%)",
+      //   "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+      //   "gradient-conic":
+      //     "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      // },
       animation: {
         scroll: 'scroll 40s linear infinite',
       },
@@ -51,6 +55,7 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+          "gradient-primary": "linear-gradient(89deg, #69DCFF 0.77%, #94DFFF 26.38%, #05B6EB 54.69%)",
       },
       animation: {
         "infinite-scroll": "infinite-scroll 35s linear infinite",
@@ -61,6 +66,7 @@ module.exports = {
           to: { transform: "translateX(-100%)" },
         },
       },
+    
     },
   },
   plugins: [],

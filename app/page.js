@@ -270,7 +270,7 @@ export default function Home() {
       <Slider/>
       </div>
       </section>
-      <FeaturedProjects1/>
+      {/* <FeaturedProjects1/> */}
       <section className="bg-black py-20">
       <div className="max-w-screen-xl mx-auto">
       <Testimonial/>
