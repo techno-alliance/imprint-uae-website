@@ -21,7 +21,7 @@ import { SwiperNavButtons } from "./SwiperNavButtons";
 
 export default function App() {
   return (
-    <div className="py-20 bg-[#36393A]">
+    <div className="bg-[#36393A]">
       <div className="bg-[#36393A]">
         <div className="max-w-screen-xl mx-auto">
           <div className="flex flex-col gap-3">

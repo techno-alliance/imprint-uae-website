@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Blog = () => {
   return (
-    <section className="max-w-screen-xl mx-auto py-20">
+    <section className="max-w-screen-xl mx-auto py-10 lg:py-20">
         <div className="flex flex-col gap-10 lg:gap-20">
           <div className="flex flex-col gap-5 justify-center items-center">
           <button

@@ -7,10 +7,10 @@ import { PiEnvelopeSimpleLight } from "react-icons/pi";
 const Footer = () => {
   return (
     <footer className="bg-[#000] relative pt-32">
-      <div className="max-w-screen-xl mx-auto px-12 py-12">
-        <div className="flex flex-col lg:flex-row justify-between gap-56">
+      <div className="max-w-screen-xl mx-auto px-5 lg:px-10 2xl:px-0 py-12">
+        <div className="flex flex-col lg:flex-row justify-between gap-10 lg:gap-56">
           <div className="flex flex-col justify-between gap-10">
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col justify-center items-center lg:items-start gap-5">
               <div className="w-[100px]">
                 <Image
                   className="w-[100%] h-[100%] object-cover object-center"
@@ -41,10 +41,10 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col gap-5">
-            <p className="text-white text-4xl lg:text-[76px] font-medium leading-[145%] text-center lg:text-left">
+            <p className="text-white text-2xl lg:text-[76px] font-medium leading-[145%] text-center lg:text-left">
               Print with Precision, Connect with Ease
             </p>
-            <div>
+            <div className="flex justify-center lg:justify-start">
               <button
                 className="button-57 flex justify-center items-center gap-3 transition duration-300 py-1 w-max rounded-full text-[16px] lg:text-[20px] px-1 pr-4 text-white"
                 href=""
@@ -75,12 +75,12 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row justify-between pt-20">
-          <p className="text-white text-center">TERMS & CONDITIONS</p>
-          <p className="text-white text-center">
+        <div className="flex flex-col lg:flex-row justify-between pt-10 lg:pt-20">
+          <p className="text-white text-sm lg:text-[16px] text-center">TERMS & CONDITIONS</p>
+          <p className="text-white text-sm lg:text-[16px] text-center">
             2024 Copyright. All right reserved
           </p>
-          <p className="text-white text-center">PRIVACY POLICY</p>
+          <p className="text-white text-sm lg:text-[16px] text-center">PRIVACY POLICY</p>
         </div>
       </div>
     </footer>

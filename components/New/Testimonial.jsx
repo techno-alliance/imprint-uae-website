@@ -70,9 +70,9 @@ export default function Testimonial() {
         </div>
       </div>
       <Swiper
-        slidesPerView={3}
-        spaceBetween={20}
-       
+        slidesPerView={2.5}
+        spaceBetween={20}  
+        centeredSlides={true}  
         // loop={true}
         // pagination={{
         //   clickable: true,
@@ -95,17 +95,14 @@ export default function Testimonial() {
           },
 
           1024: {
-            slidesPerView: 3,
             spaceBetween: 10,
           },
 
           1280: {
-            slidesPerView: 3,
             spaceBetween: 10,
           },
 
           1536: {
-            slidesPerView: 3,
             spaceBetween: 30,
           },
         }}
@@ -116,7 +113,7 @@ export default function Testimonial() {
           <SwiperNavButtons />
         </div>
         <SwiperSlide className="!p-3 lg:!p-0 !bg-black">
-          <div className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[550px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
+          <div className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[700px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
           <div className="flex flex-col justify-between w-full h-full">
             <div className="flex justify-start">
               <p className="text-sm font-extrabold text-white">
@@ -149,7 +146,7 @@ export default function Testimonial() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="!p-3 lg:!p-0 !bg-black">
-          <div className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[500px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
+          <div className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[700px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
           <div className="flex flex-col justify-between w-full h-full">
             <div className="flex justify-start">
               <p className="text-sm font-extrabold text-white">
@@ -182,7 +179,7 @@ export default function Testimonial() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="!p-3 lg:!p-0 !bg-black">
-          <div className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[500px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
+          <div className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[700px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
           <div className="flex flex-col justify-between w-full h-full">
             <div className="flex justify-start">
               <p className="text-sm font-extrabold text-white">
@@ -215,7 +212,7 @@ export default function Testimonial() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="!p-3 lg:!p-0 !bg-black">
-          <div className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[500px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
+          <div className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[700px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
           <div className="flex flex-col justify-between w-full h-full">
             <div className="flex justify-start">
               <p className="text-sm font-extrabold text-white">
@@ -248,7 +245,7 @@ export default function Testimonial() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="!p-3 lg:!p-0 !bg-black">
-          <div className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[500px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
+          <div className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[700px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
           <div className="flex flex-col justify-between w-full h-full">
             <div className="flex justify-start">
               <p className="text-sm font-extrabold text-white">
