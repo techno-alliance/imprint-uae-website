@@ -3,7 +3,7 @@ import { FaPhone } from "react-icons/fa6";
 
 const MakeCall = () => {
   return (
-    <div className='flex flex-col lg:flex-row gap-10 lg:gap-0 justify-between items-center max-w-screen-xl mx-auto py-20 px-10'>
+    <div className='flex flex-col lg:flex-row gap-10 lg:gap-0 justify-between items-center max-w-screen-xl mx-auto w-full'>
         <div className='flex flex-col gap-2'>
             <p className='text-white'>Printing Projects</p>
             <p className='text-white'>For Collaboration ?</p>

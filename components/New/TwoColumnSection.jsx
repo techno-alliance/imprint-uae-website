@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { PiArrowUpRight } from "react-icons/pi";
 
 export const TwoColumnSection = ({
   header = "",
@@ -31,19 +32,19 @@ export const TwoColumnSection = ({
         <div className="col-span-6 md:col-span-3 w-full flex flex-col gap-8">
           <div className="flex flex-col gap-3">
             <p className="text-2xl md:text-[32px] leading-[140%] font-semibold">
-              {bentoImages[0].title} Food Packaging
+              {bentoImages[0].title}
             </p>
-            <p className="text-sm md:text-[20px] font-normal text-[#DADADA]">
-              {bentoImages[0].subtitle} Imprint printing press is the foremost provider of varied offset printing solutions to more than a thousand clients today..
+            <p className="text-sm md:text-[20px] font-normal text-[#DADADA] leading-[160%]">
+              {bentoImages[0].subtitle}
             </p>
             <a
               href=""
-              className="text-sm md:text-[20px] font-normal text-[#DADADA] pt-5"
+              className="text-sm md:text-[20px] font-normal text-[#DADADA] pt-5 flex items-center gap-2"
             >
-              Choose Now
+              Choose Now <PiArrowUpRight />
             </a>
           </div>
-          <div className="w-full h-[700px] rounded-[20px] overflow-hidden">
+          <div className="w-full h-[450px] md:h-[700px] rounded-[20px] overflow-hidden">
             <Image
               src={bentoImages[0].image1}
               alt="bento"
@@ -52,25 +53,25 @@ export const TwoColumnSection = ({
           </div>
         </div>
         <div className="col-span-6 md:col-span-3 w-full flex flex-col gap-8">
-          <div className="w-full h-[700px] rounded-[20px] overflow-hidden">
+          <div className="w-full  h-[450px] md:h-[700px] rounded-[20px] overflow-hidden">
             <Image
-              src={bentoImages[0].image3}
+              src={bentoImages[0].image2}
               alt="bento"
               className="w-full h-full object-cover object-center"
             />
           </div>
           <div className="flex flex-col gap-3">
             <p className="text-2xl md:text-[32px] leading-[140%] font-semibold">
-              {bentoImages[0].title2} Food Packaging
+              {bentoImages[0].title2}
             </p>
-            <p className="text-sm md:text-[20px] font-normal text-[#DADADA]">
-              {bentoImages[0].subtitle2} Imprint printing press is the foremost provider of varied offset printing solutions to more than a thousand clients today..
+            <p className="text-sm md:text-[20px] font-normal text-[#DADADA] leading-[160%]">
+              {bentoImages[0].subtitle2}
             </p>
             <a
               href=""
-              className="text-sm md:text-[20px] font-normal text-[#DADADA] pt-5"
+              className="text-sm md:text-[20px] font-normal text-[#DADADA] pt-5 flex items-center gap-2"
             >
-              Choose Now
+              Choose Now <PiArrowUpRight />
             </a>
           </div>
         </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import packaging from "/public/images/pageimages/packaging.png";
 import user1 from "/public/images/user1.png";
 import user2 from "/public/images/user2.png";
 import Image from "next/image";
@@ -24,7 +23,7 @@ export const PageName = ({ pagename, image }) => {
           className="w-full h-full object-cover object-center"
         />
       </div>
-      <div className=" flex flex-col max-w-screen-xl mx-auto px-10">
+      <div className=" flex flex-col max-w-screen-xl mx-auto px-10 2xl:px-0">
         <p className="text-sm md:text-xl">Unleash Your Vision</p>
         <div className="flex items-center gap-3">
           <h1 className="text-[36px] md:text-[100px] font-semibold">{pagename}</h1>
