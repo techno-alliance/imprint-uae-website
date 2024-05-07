@@ -7,6 +7,17 @@ import { IoMdMail } from "react-icons/io";
 import { useRef } from "react";
 import Link from "next/link";
 import { GoArrowUpRight } from "react-icons/go";
+import Image from "next/image";
+import location from "@/public/images/location.png";
+import { PiEnvelopeSimpleLight } from "react-icons/pi";
+import { FaInstagram } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { RiYoutubeLine } from "react-icons/ri";
+import { FiArrowUpRight } from "react-icons/fi";
+import { BsSend } from "react-icons/bs";
+
 // import { Resend } from 'resend';
 export default function Page() {
   const [message, setMessage] = useState("");
@@ -48,7 +59,8 @@ export default function Page() {
 
         setForm({ name: "", email: "", message: "" });
       })
-      .then((result) => {
+      .then(
+        (result) => {
           if (result.status === 200) {
             setMessage(`
               <div className="flex flex-col justify-center items-center gap-2">
@@ -81,25 +93,195 @@ export default function Page() {
   // });
   return (
     <div className="bg-black">
-      <div className="max-w-screen-xl mx-auto px-32">
-        <div className="flex justify-between flex-col lg:flex lg:flex-row gap-20 pt-40">
-          <div className="flex flex-col justify-between items-center">
-            <form class="flex flex-col" onSubmit={handleSubmit}>
-              <div class=" mb-2">
-                <div class="w-full md:w-1/2 mb-6 md:mb-0">
+      <div className="max-w-screen-xl mx-auto px-10 flex flex-col gap-[120px]">
+        <div className="pt-40">
+          <div className="flex flex-col gap-12">
+            <div className=" h-9 md:h-10 rounded-full p-2.5 text-sm md:text-base border border-[#2E2E2E] bg-[#1A1A1A] text-primary vh-center w-[123px]">
+              Contact Us
+            </div>
+            <p className="text-white text-6xl w-auto lg:w-[800px]">
+              Have question or want to get in touch with us
+            </p>
+            <div className="flex gap-10 items-center">
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="149"
+                  height="24"
+                  viewBox="0 0 149 24"
+                  fill="none"
+                >
+                  <rect
+                    x="4.72412"
+                    y="0.531891"
+                    width="11"
+                    height="21"
+                    transform="rotate(13 4.72412 0.531891)"
+                    fill="#28AAE3"
+                  />
+                  <rect
+                    x="26.9438"
+                    y="0.531891"
+                    width="11"
+                    height="21"
+                    transform="rotate(13 26.9438 0.531891)"
+                    fill="#28AAE3"
+                  />
+                  <rect
+                    x="49.1636"
+                    y="0.531891"
+                    width="11"
+                    height="21"
+                    transform="rotate(13 49.1636 0.531891)"
+                    fill="#28AAE3"
+                  />
+                  <rect
+                    x="71.3833"
+                    y="0.531891"
+                    width="11"
+                    height="21"
+                    transform="rotate(13 71.3833 0.531891)"
+                    fill="#28AAE3"
+                  />
+                  <rect
+                    x="93.603"
+                    y="0.531891"
+                    width="11"
+                    height="21"
+                    transform="rotate(13 93.603 0.531891)"
+                    fill="#28AAE3"
+                  />
+                  <rect
+                    x="115.823"
+                    y="0.531891"
+                    width="11"
+                    height="21"
+                    transform="rotate(13 115.823 0.531891)"
+                    fill="#28AAE3"
+                  />
+                  <rect
+                    x="138.042"
+                    y="0.531891"
+                    width="11"
+                    height="21"
+                    transform="rotate(13 138.042 0.531891)"
+                    fill="#28AAE3"
+                  />
+                </svg>
+              </div>
+              <p className="text-white text-xl w-auto lg:w-[800px]">
+                Imprint printing press is the foremost provider of varied offset
+                printing solutions to more than a thousand clients today..
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div className="flex flex-col gap-6 rounded-[20px] p-4 bg-[#1E1E1E]">
+            <div className="w-full h-[370px] overflow-hidden">
+              <Image
+                className="object-cover object-center w-full h-full"
+                src={location}
+              />
+            </div>
+            <div className="w-full flex justify-between items-center">
+              <div>
+                <p className="gradient-text text-[32px] font-semibold">
+                  Imprint{" "}
+                  <span className="text-white">Printing Press L.L.C</span>
+                </p>
+                <p className="text-white/60 text-2xl font-light">
+                  Address : Ajam, U.A.E P.O. Box. 22628
+                </p>
+              </div>
+              <div>
+                <p className="gradient-text text-xl">View Map</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex justify-between flex-col lg:flex lg:flex-row gap-20">
+          <div className="flex flex-col justify-between">
+            <div className="flex flex-col">
+              <p className="text-[#080C2E] text-[23px] lg:text-[46px] font-semibold dark:text-white">
+                Contact Information
+              </p>
+              <p className="text-white">
+                Fill out the from below and one of our friendly team members
+                will get back to you shortly
+              </p>
+            </div>
+            <div className="flex flex-col gap-10">
+              <div className="flex flex-col gap-5">
+                <p className="text-white">Follow us on social media</p>
+                <div className="flex justify-between items-center">
+                  <div className="w-[50px] h-[50px] text-white text-3xl p-2 bg-[#2E2E2E] flex justify-center items-center rounded-full">
+                    <FaInstagram />
+                  </div>
+                  <div className="w-[50px] h-[50px] text-white text-3xl p-2 bg-[#2E2E2E] flex justify-center items-center rounded-full">
+                    <FaLinkedinIn />
+                  </div>
+                  <div className="w-[50px] h-[50px] text-white text-3xl p-2 bg-[#2E2E2E] flex justify-center items-center rounded-full">
+                    <FaFacebookF />
+                  </div>
+                  <div className="w-[50px] h-[50px] text-white text-3xl p-2 bg-[#2E2E2E] flex justify-center items-center rounded-full">
+                    <FaXTwitter />
+                  </div>
+                  <div className="w-[50px] h-[50px] text-white text-3xl p-2 bg-[#2E2E2E] flex justify-center items-center rounded-full">
+                    <RiYoutubeLine />
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col gap-5">
+                <div className="bg-[#1E1E1E] p-[18px] rounded-[10px] border border-[rgba(255,_255,_255,_0.10)]">
+                  <div>
+                    <p className="text-white">Office hours</p>
+                    <p className="text-white">9:00 am -6:00 pm</p>
+                  </div>
+                </div>
+                <button className="bg-[#1E1E1E] flex justify-between items-center p-[18px] rounded-[10px] border border-[rgba(255,_255,_255,_0.10)]">
+                  <div>
+                    <p className="text-white text-left">
+                      your can email us here{" "}
+                    </p>
+                    <p className="text-white">imprintuae@gmail.com</p>
+                  </div>
+                  <div className="text-white text-2xl">
+                    <FiArrowUpRight />
+                  </div>
+                </button>
+                <button className="bg-[#1E1E1E] flex justify-between items-center p-[18px] rounded-[10px] border border-[rgba(255,_255,_255,_0.10)]">
+                  <div>
+                    <p className="text-white text-left">Give us a call on</p>
+                    <p className="text-white">+97123466789</p>
+                  </div>
+                  <div className="text-white text-2xl">
+                    <FiArrowUpRight />
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col justify-end">
+            <form
+              class="flex flex-col gap-8 bg-[#1E1E1E] rounded-[20px] p-8"
+              onSubmit={handleSubmit}
+            >
+              <div class="flex justify-between gap-6">
+                <div class="w-full">
                   <label
-                    class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2 dark:text-[#fff]"
+                    class="block tracking-wide text-gray-700 text-xs font-semibold mb-2 dark:text-[#fff]"
                     for="grid-first-name"
                   >
                     {" "}
-                    Name <span className="text-red-500">*</span>
+                    First Name <span className="text-red-500">*</span>
                   </label>
                   <input
-                    class="w-full text-gray-700 border rounded-[3px] py-1 px-2 mb-3 leading-tight focus:outline-1 outline-[#000] focus:bg-white"
+                    class="w-full text-gray-700 bg-[#232323] border border-[rgba(255,_255,_255,_0.10)] rounded-[10px] p-4 leading-tight focus:outline-1 outline-[#000]"
                     id="grid-first-name"
                     type="text"
                     name="name"
-                    placeholder="Name"
+                    placeholder="Enter First Name"
                     required
                     value={form.name}
                     onChange={handleChange}
@@ -109,13 +291,35 @@ export default function Page() {
                 </div>
                 <div class="w-full ">
                   <label
-                    class="block uppercase tracking-wide text-[#fff] text-xs font-bold mb-2"
+                    class="block tracking-wide text-[#fff] text-xs font-semibold mb-2"
+                    for="grid-last-name"
+                  >
+                    Last Name<span className="text-red-500">*</span>
+                  </label>
+                  <input
+                    class=" w-full text-gray-700 bg-[#232323] border border-[rgba(255,_255,_255,_0.10)] rounded-[10px] p-4 leading-tight focus:outline-1 outline-[#000]"
+                    id="grid-last-name"
+                    type="text"
+                    name="name"
+                    placeholder="Enter last Name"
+                    required
+                    value={form.name}
+                    onChange={handleChange}
+                    onFocus={handleFocus}
+                    onBlur={handleBlur}
+                  />
+                </div>
+              </div>
+              <div class="flex justify-between gap-6">
+                <div class="w-full ">
+                  <label
+                    class="block tracking-wide text-[#fff] text-xs font-semibold mb-2"
                     for="grid-email"
                   >
                     Email<span className="text-red-500">*</span>
                   </label>
                   <input
-                    class=" w-full text-gray-700 border border-gray-200 rounded-[3px] py-2 px-4 mb-3 leading-tight focus:outline-1 outline-[#000]"
+                    class=" w-full text-gray-700 bg-[#232323] border border-[rgba(255,_255,_255,_0.10)] rounded-[10px] p-4 leading-tight focus:outline-1 outline-[#000]"
                     id="grid-email"
                     type="email"
                     name="email"
@@ -127,74 +331,127 @@ export default function Page() {
                     onBlur={handleBlur}
                   />
                 </div>
-              </div>
-              <div class=" mb-6">
                 <div class="w-full ">
                   <label
-                    class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2 dark:text-[#fff]"
-                    for="grid-message"
+                    class="block tracking-wide text-[#fff] text-xs font-semibold mb-2"
+                    for="grid-email"
                   >
-                    Message
+                    Phone Number<span className="text-red-500">*</span>
                   </label>
-                  <textarea
-                    class="appearance-none block w-full text-gray-700 border border-gray-200 rounded-[3px] py-1 px-4 mb-3 leading-tight focus:outline-1 outline-[#000]"
-                    id="grid-message"
-                    type="text"
-                    name="message"
-                    placeholder=""
+                  <input
+                    class=" w-full text-gray-700 bg-[#232323] border border-[rgba(255,_255,_255,_0.10)] rounded-[10px] p-4 leading-tight focus:outline-1 outline-[#000]"
+                    id="grid-email"
+                    type="email"
+                    name="email"
+                    placeholder="Enter your Phone Number"
                     required
-                    value={form.message}
+                    value={form.phone}
                     onChange={handleChange}
                     onFocus={handleFocus}
                     onBlur={handleBlur}
                   />
                 </div>
               </div>
+              <div class="w-full ">
+                <label
+                  class="block tracking-wide text-[#fff] text-xs font-semibold mb-2"
+                  for="grid-last-name"
+                >
+                  Subject<span className="text-red-500">*</span>
+                </label>
+                <input
+                  class=" w-full text-gray-700 bg-[#232323] border border-[rgba(255,_255,_255,_0.10)] rounded-[10px] p-4 leading-tight focus:outline-1 outline-[#000]"
+                  id="grid-last-name"
+                  type="text"
+                  name="name"
+                  placeholder="Enter your Subject"
+                  required
+                  value={form.subject}
+                  onChange={handleChange}
+                  onFocus={handleFocus}
+                  onBlur={handleBlur}
+                />
+              </div>
+              <div class="w-full ">
+                <label
+                  class="block tracking-wide text-gray-700 text-xs font-semibold mb-2 dark:text-[#fff]"
+                  for="grid-message"
+                >
+                  Message
+                </label>
+                <textarea
+                  class="appearance-none block w-full bg-[#232323] border border-[rgba(255,_255,_255,_0.10)] rounded-[10px] p-4 leading-tight focus:outline-1 outline-[#000]"
+                  id="grid-message"
+                  type="text"
+                  name="message"
+                  placeholder=""
+                  required
+                  value={form.message}
+                  onChange={handleChange}
+                  onFocus={handleFocus}
+                  onBlur={handleBlur}
+                />
+              </div>
 
-              <button
-                className=" py-2 w-max rounded-full px-4 text-white" type="submit"
-                
+              {/* <button
+                className=" py-2 w-max rounded-full px-4 text-white"
+                type="submit"
                 disabled={isLoading}
                 onFocus={handleFocus}
                 onBlur={handleBlur}
               >
                 {isLoading ? "Sending" : "Submit"}
-                {/* <span className="text-btn flex gap-2 items-center">
-                  {isLoading ? "Sending" : "Submit"}
-                  <GoArrowUpRight className="text-[26px]" />
-                </span> */}
-                {/* <span className="pb-3">
-                  {isLoading ? "Sending" : "Submit"}
-                  <GoArrowUpRight className="text-[26px]" />
-                </span> */}
-              </button>
+                
+              </button> */}
+              <div className="flex justify-center">
+                <button
+                  className="button-57 flex justify-center items-center gap-3 transition duration-300 py-1 w-max rounded-full text-[16px] lg:text-[20px] px-1 pr-4 text-white"
+                  href=""
+                >
+                  <div className="bg-black rounded-full w-12 h-12 text-2xl text-white flex justify-center items-center">
+                    <BsSend />
+                  </div>
+                  <span className="text-btn flex gap-2 items-center">
+                    Send Message
+                  </span>
+
+                  <span className="pb-3">Send a Mail</span>
+                </button>
+              </div>
             </form>
-            <div className="mt-5">{message}</div>
           </div>
-          <div className="flex flex-col">
-            <div className="flex flex-col gap-10">
-              <p className="text-[#080C2E] text-[23px] lg:text-[46px] font-semibold dark:text-white">
-                Contact Information
-              </p>
-              <p className="text-[#080C2E] text-[14px] lg:text-[16px] font-normal leading-[32px] flex items-center gap-3 dark:text-white">
-                <span>
-                  <ImLocation />
-                </span>
-                #7th Street, abc , Mauritania North West Africa 425680{" "}
-              </p>
-              <p className="text-[#080C2E] text-[14px] lg:text-[16px] font-normal leading-[32px] flex items-center gap-3 dark:text-white">
-                <span>
-                  <LuPhone />
-                </span>
-                41165116
-              </p>
-              <p className="text-[#080C2E] text-[14px] lg:text-[16px] font-normal leading-[32px] flex items-center gap-3 dark:text-white">
-                <span>
-                  <IoMdMail />
-                </span>
-                mail@dvjnv
-              </p>
-            </div>
+        </div>
+        <div
+          className="flex flex-col lg:flex-row justify-between items-center gap-6 p-10 rounded-[20px] backdrop-filter backdrop-blur-[25px] border border-[#262626]"
+          style={{
+            background:
+              "linear-gradient(153deg, #1E1E1E 66.5%, #03354B 102.1%)",
+          }}
+        >
+          <div>
+            <p className="text-white text-[32px] font-bold">
+              We’re Here to Assist You
+            </p>
+            <p className="w-auto lg:w-[500px] text-[#DADADA] text-[16px]">
+              Imprint Printing Press is not just any ordinary printing company -
+              we are the foremost provider of varied offset printing solutions
+              to more than a thousand clients today.
+            </p>
+          </div>
+          <div className="flex justify-center">
+            <button
+              className="button-57 flex justify-center items-center gap-3 transition duration-300 py-1 w-max rounded-full text-[16px] lg:text-[20px] px-1 pr-4 text-white"
+              href=""
+            >
+              <div className="bg-black rounded-full w-12 h-12 text-2xl text-white flex justify-center items-center">
+                <BsSend />
+              </div>
+              <span className="text-btn flex gap-2 items-center">
+                Send Message
+              </span>
+
+              <span className="pb-3">Send a Mail</span>
+            </button>
           </div>
         </div>
       </div>

@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#000] relative pt-32">
       <div className="max-w-screen-xl mx-auto px-12 py-12">
-        <div className="flex flex-col lg:flex-row justify-between gap-56">
+        <div className="flex flex-col lg:flex-row justify-between gap-10 lg:gap-56">
           <div className="flex flex-col justify-between gap-10">
             <div className="flex flex-col gap-5">
               <div className="w-[100px]">
@@ -44,7 +44,7 @@ const Footer = () => {
             <p className="text-white text-4xl lg:text-[76px] font-medium leading-[145%] text-center lg:text-left">
               Print with Precision, Connect with Ease
             </p>
-            <div>
+            <div className="flex justify-center lg:justify-start">
               <button
                 className="button-57 flex justify-center items-center gap-3 transition duration-300 py-1 w-max rounded-full text-[16px] lg:text-[20px] px-1 pr-4 text-white"
                 href=""

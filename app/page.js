@@ -272,12 +272,20 @@ export default function Home() {
       </section>
       {/* <FeaturedProjects1/> */}
       <section className="bg-black py-20">
-      <div className="max-w-screen-xl mx-auto">
+      <div className="max-w-screen-xl mx-auto px-10">
       <Testimonial/>
       </div>
       </section>
+      <section className="py-20 bg-[#36393A]">
+      <div className="max-w-screen-xl mx-auto px-10">
       <Slider2/>
+      </div>
+      </section>
+      <section>
+      <div className="max-w-screen-xl mx-auto px-10">
       <Blog/>
+      </div>
+      </section>
     </div>
   );
 }
