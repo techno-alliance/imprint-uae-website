@@ -113,8 +113,8 @@ export default function Testimonial() {
           <SwiperNavButtons />
         </div>
         <SwiperSlide className="!p-3 lg:!p-0 !bg-black">
-          <div className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[700px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
-          <div className="flex flex-col justify-between w-full h-full">
+          <div className="!flex !flex-col lg:!flex-row !justify-between gap-5 lg:gap-0 rounded-[10px] !p-3 !w-full !h-full lg:!w-[700px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
+          <div className="flex flex-col gap-5 lg:gap-0 justify-between w-full h-full">
             <div className="flex justify-start">
               <p className="text-sm font-extrabold text-white">
                 Etisalat Telecom LLC
@@ -146,8 +146,8 @@ export default function Testimonial() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="!p-3 lg:!p-0 !bg-black">
-          <div className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[700px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
-          <div className="flex flex-col justify-between w-full h-full">
+          <div className="!flex !flex-col lg:!flex-row !justify-between gap-5 lg:gap-0 rounded-[10px] !p-3 !w-full !h-full lg:!w-[700px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
+          <div className="flex flex-col gap-5 lg:gap-0 justify-between w-full h-full">
             <div className="flex justify-start">
               <p className="text-sm font-extrabold text-white">
                 Etisalat Telecom LLC
@@ -179,8 +179,8 @@ export default function Testimonial() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="!p-3 lg:!p-0 !bg-black">
-          <div className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[700px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
-          <div className="flex flex-col justify-between w-full h-full">
+          <div className="!flex !flex-col lg:!flex-row !justify-between gap-5 lg:gap-0 rounded-[10px] !p-3 !w-full !h-full lg:!w-[700px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
+          <div className="flex flex-col gap-5 lg:gap-0 justify-between w-full h-full">
             <div className="flex justify-start">
               <p className="text-sm font-extrabold text-white">
                 Etisalat Telecom LLC
@@ -212,8 +212,8 @@ export default function Testimonial() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="!p-3 lg:!p-0 !bg-black">
-          <div className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[700px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
-          <div className="flex flex-col justify-between w-full h-full">
+          <div className="!flex !flex-col lg:!flex-row !justify-between gap-5 lg:gap-0 rounded-[10px] !p-3 !w-full !h-full lg:!w-[700px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
+          <div className="flex flex-col gap-5 lg:gap-0 justify-between w-full h-full">
             <div className="flex justify-start">
               <p className="text-sm font-extrabold text-white">
                 Etisalat Telecom LLC
@@ -245,8 +245,8 @@ export default function Testimonial() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="!p-3 lg:!p-0 !bg-black">
-          <div className="!flex !flex-col lg:!flex-row !justify-between rounded-[10px] !p-3 !w-full !h-full lg:!w-[700px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
-          <div className="flex flex-col justify-between w-full h-full">
+          <div className="!flex !flex-col lg:!flex-row !justify-between gap-5 lg:gap-0 rounded-[10px] !p-3 !w-full !h-full lg:!w-[700px] lg:!h-[300px] !overflow-hidden !relative group !bg-[#1E1E1E]">
+          <div className="flex flex-col gap-5 lg:gap-0 justify-between w-full h-full">
             <div className="flex justify-start">
               <p className="text-sm font-extrabold text-white">
                 Etisalat Telecom LLC
