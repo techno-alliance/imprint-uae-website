@@ -8,7 +8,7 @@ import TextVideo from "./TextVideo";
 const Hero = () => {
   return (
     <section className="relative overflow-hidden bg-black">
-      <div className="min-h-screen h-full max-w-screen-xl mx-auto relative">
+      <div className="max-w-screen-xl mx-auto relative 2xl:h-[950px] h-full">
         <div className="px-5 lg:px-10 2xl:px-0">
           <div className="flex flex-col pt-24 gap-4 relative text-left xs:text-left">
             <div className="text-[#C6C6C6] text-sm lg:text-lg">
