@@ -24,7 +24,7 @@ export default function Testimonial() {
   return (
     <>
       <div className="bg-black">
-        <div className="max-w-screen-xl mx-auto">
+        <div className="">
           <div className="flex flex-col justify-center items-center lg:items-start gap-3">
             <button
               className="button-58 flex transition duration-300 py-2 w-max rounded-full text-[16px] lg:text-[20px] px-4 text-white"
@@ -35,7 +35,7 @@ export default function Testimonial() {
               </span>
               <span className="pb-3">Testimonials</span>
             </button>
-            <div className="flex flex-col md:flex-row justify-between gap-5 lg:gap-20">
+            <div className="flex flex-col md:flex-row justify-between gap-5 lg:gap-10 w-full">
               <div className="w-auto lg:w-[400px]">
                 <p className="text-[36px] lg:text-[48px] text-center lg:text-left leading-[140%] font-semibold text-white">
                 Our customers love what we do
@@ -44,7 +44,7 @@ export default function Testimonial() {
               <div className="flex justify-center items-center">
               <div className='h-[80px] bg-[#737373] w-[1px]'/>
               </div>
-              <div className="flex justify-center items-center w-auto lg:w-[400px]">
+              <div className="flex justify-center items-center w-auto lg:w-[360px]">
                 <p className="text-[#DADADA] text-center lg:text-left text-xl font-normal leading-[160%]">
                   Imprint printing press is the foremost provider of varied
                   offset printing solutions to more than a thousand clients
