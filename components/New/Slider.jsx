@@ -95,7 +95,7 @@ export default function App() {
         modules={[Pagination, Navigation]}
         className="mySwiper !pt-24"
       >
-        <div className='absolute lg:right-[80px] top-[0px] z-20 -translate-x-[50%] left-1/2'>
+        <div className='absolute lg:right-0 lg:translate-x-[0%] top-[0px] z-20 translate-x-[50%] right-1/2'>
         <SwiperNavButtons/>
         </div>
         <SwiperSlide className='!p-3 lg:!p-0 !bg-black'>
