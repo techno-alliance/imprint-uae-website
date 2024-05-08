@@ -272,14 +272,14 @@ export default function Page() {
               <div class="flex flex-col lg:flex-row justify-between gap-6">
                 <div class="w-full">
                   <label
-                    class="block tracking-wide text-gray-700 text-xs font-semibold mb-2 dark:text-[#fff]"
+                    class="block tracking-wide text-white text-xs font-semibold mb-2 dark:text-[#fff]"
                     for="grid-first-name"
                   >
                     {" "}
                     First Name <span className="text-red-500">*</span>
                   </label>
                   <input
-                    class="w-full text-gray-700 bg-[#232323] border border-[rgba(255,_255,_255,_0.10)] rounded-[10px] p-4 leading-tight focus:outline-1 outline-[#000]"
+                    class="w-full text-white bg-[#232323] border border-[rgba(255,_255,_255,_0.10)] rounded-[10px] p-4 leading-tight"
                     id="grid-first-name"
                     type="text"
                     name="name"
@@ -299,7 +299,7 @@ export default function Page() {
                     Last Name<span className="text-red-500">*</span>
                   </label>
                   <input
-                    class=" w-full text-gray-700 bg-[#232323] border border-[rgba(255,_255,_255,_0.10)] rounded-[10px] p-4 leading-tight focus:outline-1 outline-[#000]"
+                    class=" w-full text-white bg-[#232323] border border-[rgba(255,_255,_255,_0.10)] rounded-[10px] p-4 leading-tight"
                     id="grid-last-name"
                     type="text"
                     name="name"
@@ -321,7 +321,7 @@ export default function Page() {
                     Email<span className="text-red-500">*</span>
                   </label>
                   <input
-                    class=" w-full text-gray-700 bg-[#232323] border border-[rgba(255,_255,_255,_0.10)] rounded-[10px] p-4 leading-tight focus:outline-1 outline-[#000]"
+                    class=" w-full text-white bg-[#232323] border border-[rgba(255,_255,_255,_0.10)] rounded-[10px] p-4 leading-tight"
                     id="grid-email"
                     type="email"
                     name="email"
@@ -341,7 +341,7 @@ export default function Page() {
                     Phone Number<span className="text-red-500">*</span>
                   </label>
                   <input
-                    class=" w-full text-gray-700 bg-[#232323] border border-[rgba(255,_255,_255,_0.10)] rounded-[10px] p-4 leading-tight focus:outline-1 outline-[#000]"
+                    class=" w-full text-white bg-[#232323] border border-[rgba(255,_255,_255,_0.10)] rounded-[10px] p-4 leading-tight"
                     id="grid-email"
                     type="email"
                     name="email"
@@ -362,7 +362,7 @@ export default function Page() {
                   Subject<span className="text-red-500">*</span>
                 </label>
                 <input
-                  class=" w-full text-gray-700 bg-[#232323] border border-[rgba(255,_255,_255,_0.10)] rounded-[10px] p-4 leading-tight focus:outline-1 outline-[#000]"
+                  class=" w-full text-white bg-[#232323] border border-[rgba(255,_255,_255,_0.10)] rounded-[10px] p-4 leading-tight"
                   id="grid-last-name"
                   type="text"
                   name="name"
@@ -376,13 +376,13 @@ export default function Page() {
               </div>
               <div class="w-full ">
                 <label
-                  class="block tracking-wide text-gray-700 text-xs font-semibold mb-2 dark:text-[#fff]"
+                  class="block tracking-wide text-white text-xs font-semibold mb-2 dark:text-[#fff]"
                   for="grid-message"
                 >
                   Message
                 </label>
                 <textarea
-                  class="appearance-none block w-full bg-[#232323] border border-[rgba(255,_255,_255,_0.10)] rounded-[10px] p-4 leading-tight focus:outline-1 outline-[#000]"
+                  class="appearance-none block w-full bg-[#232323] border border-[rgba(255,_255,_255,_0.10)] rounded-[10px] p-4 leading-tight"
                   id="grid-message"
                   type="text"
                   name="message"
