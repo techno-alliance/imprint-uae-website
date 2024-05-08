@@ -262,7 +262,9 @@ export default function Home() {
         </div>
       </section>
       <section className="bg-black">
+        <div className="max-w-screen-xl mx-auto px-5 lg:px-10 2xl:px-0 py-10">
         <MakeCall />
+        </div>
       </section>
       <section className="bg-black py-10 lg:py-20">
         <div className="max-w-screen-xl mx-auto px-5 lg:px-10 2xl:px-0">
