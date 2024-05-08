@@ -16,11 +16,11 @@ const Blog = () => {
             href=""
           >
             <span className="text-btn flex gap-2 items-center">
-              Our service
+            Latest Blog
             </span>
-            <span className="pb-3">Our service</span>
+            <span className="pb-3">Latest Blog</span>
           </button>
-            <p className="text-3xl lg:text-5xl font-semibold text-white">Discover latest news here</p>
+            <p className="text-2xl lg:text-5xl font-semibold text-white">Discover latest news here</p>
             <p className="text-lg font-normal text-white/60 w-auto lg:w-[642px] text-center">Imprint printing press is the foremost provider of varied offset printing solutions to more than a thousand clients today..</p>
           </div>
           <div className="flex flex-col lg:flex-row justify-between gap-5 p-5 lg:p-0">

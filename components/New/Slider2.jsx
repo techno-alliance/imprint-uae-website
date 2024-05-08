@@ -30,18 +30,18 @@ export default function App() {
               href=""
             >
               <span className="text-btn flex gap-2 items-center">
-                Our service
+              Machines
               </span>
-              <span className="pb-3">Our service</span>
+              <span className="pb-3">Machines</span>
             </button>
             <div className="flex flex-col md:flex-row justify-between">
               <div className="w-auto md:w-[630px]">
-                <p className="text-[48px] leading-[140%] font-semibold text-white">
-                  Produce Stunning Printing For Your Business
+                <p className="text-2xl lg:text-[48px] leading-[140%] font-semibold text-white">
+                Innovation in Printing-Our Cutting-Edge Equipments
                 </p>
               </div>
               <div className="flex justify-center items-center w-auto md:w-[400px]">
-                <p className="text-[#DADADA] text-xl font-normal leading-[160%]">
+                <p className="text-[#DADADA] text-sm lg:text-xl font-normal leading-[160%]">
                   Imprint printing press is the foremost provider of varied
                   offset printing solutions to more than a thousand clients
                   today..

@@ -41,7 +41,7 @@ export default function App() {
                 Produce Stunning Printing For Your Business
               </p>
             </div>
-            <div className="flex justify-center items-center w-auto lg:w-[400px]">
+            <div className="flex justify-center items-center w-auto lg:w-[400px] pb-5">
               <p className="text-[#DADADA] text-center lg:text-left text-xl font-normal leading-[160%]">
                 Imprint printing press is the foremost provider of varied offset
                 printing solutions to more than a thousand clients today..
@@ -95,85 +95,85 @@ export default function App() {
         modules={[Pagination, Navigation]}
         className="mySwiper !pt-24"
       >
-        <div className='absolute right-[80px] top-[0px] z-20'>
+        <div className='absolute lg:right-[80px] top-[0px] z-20 -translate-x-[50%] left-1/2'>
         <SwiperNavButtons/>
         </div>
         <SwiperSlide className='!p-3 lg:!p-0 !bg-black'>
-          <div className='rounded-[10px] !w-full !h-full lg:!w-[450px] lg:!h-[550px] !overflow-hidden !relative group'>
+          <div className='rounded-[10px] !w-full !h-[250px] lg:!w-[450px] lg:!h-[550px] !overflow-hidden !relative group'>
           <Image src={project1} className='w-full h-full object-cover'/>
           <div className='absolute top-0 right-0 p-5'>
             <div className='flex justify-center items-center bg-white py-2 px-4 rounded-full'>
               <p className='text-black text-[16px] font-semibold'>Printing</p>
             </div>
           </div>
-          <div className='absolute bottom-0 p-5 w-full'>
-            <div className='flex w-full justify-between items-center bg-transparent py-3 px-5 rounded-[10px] transition-transform duration-300 group-hover:bg-white/20'>
-              <p className='text-transparent text-[28px] font-normal transition-transform duration-300 group-hover:text-white'>Printing</p>
-              <p className='text-transparent text-[28px] font-normal transition-transform duration-300 group-hover:text-white'><GoArrowUpRight/></p>
+          <div className='absolute bottom-0 p-5 w-full transition-all duration-300 opacity-0 group-hover:opacity-100'>
+            <div className='flex w-full justify-between items-center py-3 px-5 bg-white/20 rounded-[10px]'>
+              <p className='text-[28px] font-normal text-white'>Printing</p>
+              <p className='text-[28px] font-normal text-white'><GoArrowUpRight/></p>
             </div>
           </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className='!p-3 lg:!p-0 !bg-black'>
-          <div className='rounded-[10px] !w-full !h-full lg:!w-[450px] lg:!h-[550px] !overflow-hidden !relative group'>
+          <div className='rounded-[10px] !w-full !h-[250px] lg:!w-[450px] lg:!h-[550px] !overflow-hidden !relative group'>
           <Image src={project4} className='w-full h-full object-cover'/>
           <div className='absolute top-0 right-0 p-5'>
             <div className='flex justify-center items-center bg-white py-2 px-4 rounded-full'>
               <p className='text-black text-[16px] font-semibold'>Printing</p>
             </div>
           </div>
-          <div className='absolute bottom-0 p-5 w-full'>
-            <div className='flex w-full justify-between items-center bg-transparent py-3 px-5 rounded-[10px] transition-transform duration-300 group-hover:bg-white/20'>
-              <p className='text-transparent text-[28px] font-normal transition-transform duration-300 group-hover:text-white'>Printing</p>
-              <p className='text-transparent text-[28px] font-normal transition-transform duration-300 group-hover:text-white'><GoArrowUpRight/></p>
+          <div className='absolute bottom-0 p-5 w-full transition-all duration-300 opacity-0 group-hover:opacity-100'>
+            <div className='flex w-full justify-between items-center py-3 px-5 bg-white/20 rounded-[10px]'>
+              <p className='text-[28px] font-normal text-white'>Printing</p>
+              <p className='text-[28px] font-normal text-white'><GoArrowUpRight/></p>
             </div>
           </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className='!p-3 lg:!p-0 !bg-black'>
-          <div className='rounded-[10px] !w-auto !h-auto lg:!w-[450px] lg:!h-[550px] !overflow-hidden !relative group'>
+          <div className='rounded-[10px] !w-full !h-[250px] lg:!w-[450px] lg:!h-[550px] !overflow-hidden !relative group'>
           <Image src={book} className='w-full h-full object-cover'/>
           <div className='absolute top-0 right-0 p-5'>
             <div className='flex justify-center items-center bg-white py-2 px-4 rounded-full'>
               <p className='text-black text-[16px] font-semibold'>Printing</p>
             </div>
           </div>
-          <div className='absolute bottom-0 p-5 w-full'>
-            <div className='flex w-full justify-between items-center bg-transparent py-3 px-5 rounded-[10px] transition-transform duration-300 group-hover:bg-white/20'>
-              <p className='text-transparent text-[28px] font-normal transition-transform duration-300 group-hover:text-white'>Printing</p>
-              <p className='text-transparent text-[28px] font-normal transition-transform duration-300 group-hover:text-white'><GoArrowUpRight/></p>
+          <div className='absolute bottom-0 p-5 w-full transition-all duration-300 opacity-0 group-hover:opacity-100'>
+            <div className='flex w-full justify-between items-center py-3 px-5 bg-white/20 rounded-[10px]'>
+              <p className='text-[28px] font-normal text-white'>Printing</p>
+              <p className='text-[28px] font-normal text-white'><GoArrowUpRight/></p>
             </div>
           </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className='!p-3 lg:!p-0 !bg-black'>
-          <div className='rounded-[10px] !w-auto !h-auto lg:!w-[450px] lg:!h-[550px] !overflow-hidden !relative group'>
+          <div className='rounded-[10px] !w-full !h-[250px] lg:!w-[450px] lg:!h-[550px] !overflow-hidden !relative group'>
           <Image src={box} className='w-full h-full object-cover'/>
           <div className='absolute top-0 right-0 p-5'>
             <div className='flex justify-center items-center bg-white py-2 px-4 rounded-full'>
               <p className='text-black text-[16px] font-semibold'>Printing</p>
             </div>
           </div>
-          <div className='absolute bottom-0 p-5 w-full'>
-            <div className='flex w-full justify-between items-center bg-transparent py-3 px-5 rounded-[10px] transition-transform duration-300 group-hover:bg-white/20'>
-              <p className='text-transparent text-[28px] font-normal transition-transform duration-300 group-hover:text-white'>Printing</p>
-              <p className='text-transparent text-[28px] font-normal transition-transform duration-300 group-hover:text-white'><GoArrowUpRight/></p>
+          <div className='absolute bottom-0 p-5 w-full transition-all duration-300 opacity-0 group-hover:opacity-100'>
+            <div className='flex w-full justify-between items-center py-3 px-5 bg-white/20 rounded-[10px]'>
+              <p className='text-[28px] font-normal text-white'>Printing</p>
+              <p className='text-[28px] font-normal text-white'><GoArrowUpRight/></p>
             </div>
           </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className='!p-3 lg:!p-0 !bg-black'>
-          <div className='rounded-[10px] !w-auto !h-auto lg:!w-[450px] lg:!h-[550px] !overflow-hidden !relative group'>
+          <div className='rounded-[10px] !w-full !h-[250px] lg:!w-[450px] lg:!h-[550px] !overflow-hidden !relative group'>
           <Image src={box} className='w-full h-full object-cover'/>
           <div className='absolute top-0 right-0 p-5'>
             <div className='flex justify-center items-center bg-white py-2 px-4 rounded-full'>
               <p className='text-black text-[16px] font-semibold'>Printing</p>
             </div>
           </div>
-          <div className='absolute bottom-0 p-5 w-full'>
-            <div className='flex w-full justify-between items-center bg-transparent py-3 px-5 rounded-[10px] transition-transform duration-300 group-hover:bg-white/20'>
-              <p className='text-transparent text-[28px] font-normal transition-transform duration-300 group-hover:text-white'>Printing</p>
-              <p className='text-transparent text-[28px] font-normal transition-transform duration-300 group-hover:text-white'><GoArrowUpRight/></p>
+          <div className='absolute bottom-0 p-5 w-full transition-all duration-300 opacity-0 group-hover:opacity-100'>
+            <div className='flex w-full justify-between items-center py-3 px-5 bg-white/20 rounded-[10px]'>
+              <p className='text-[28px] font-normal text-white'>Printing</p>
+              <p className='text-[28px] font-normal text-white'><GoArrowUpRight/></p>
             </div>
           </div>
           </div>
