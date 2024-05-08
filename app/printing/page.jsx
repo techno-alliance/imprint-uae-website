@@ -77,7 +77,7 @@ const page = () => {
         <MovingImage />
       </div>
 
-      <div className=" max-w-screen-xl mx-auto flex flex-col gap-[120px] px-10 2xl:px-0">
+      <div className=" max-w-screen-xl mx-auto flex flex-col gap-[120px] px-10 2xl:px-0 w-full">
         <TwoColumnSection
           header="Sealed with Quality-Our "
           headercolor="Food Packaging"
