@@ -56,7 +56,6 @@ export default function PageSlider({
                 slidesPerView: 1,
                 spaceBetween: 10,
                 centeredSlides: true,
-                width: "100% !important",
               },
               640: {
                 slidesPerView: 2,
@@ -80,14 +79,14 @@ export default function PageSlider({
 
             {sliderdata.map((item, index) => (
               <SwiperSlide className="!bg-transparent">
-                <div className="md:h-[230px] border border-[#262626] rounded-[20px] md:w-[526px] bg-[#1e1e1e] flex flex-col md:flex-row items-center p-2.5">
+                <div className="lg:h-[230px] border border-[#262626] rounded-[20px] lg:w-[526px] bg-[#1e1e1e] flex flex-col lg:flex-row items-center p-2.5 gap-4 lg:gap-0">
                   <div className="flex flex-col gap-2">
                     <p className="text-sm 2xl:text-xl font-medium">{item.title}</p>
                     <p className="text-[10px] 2xl:text-sm leading-[160%]">
                       {item.description}
                     </p>
                   </div>
-                  <div className=" h-full w-[240px] rounded-[15px] overflow-hidden shrink-0">
+                  <div className=" lg:h-full w-full lg:w-[240px] h-[240px] rounded-[15px] overflow-hidden shrink-0">
                     <Image
                       src={item.image}
                       alt="bento"
