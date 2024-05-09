@@ -8,8 +8,8 @@ import TextVideo from "./TextVideo";
 const Hero = () => {
   return (
     <section className="relative overflow-hidden bg-black">
-      <div className="max-w-screen-xl mx-auto relative 2xl:h-[950px] h-screen lg:h-full">
-        <div className="px-5 lg:px-10 2xl:px-0">
+      <div className="max-w-screen-xl mx-auto relative 2xl:h-[950px] min-h-screen h-full lg:h-full flex flex-col gap-6">
+        <div className="px-5 lg:px-10 2xl:px-0 flex flex-col gap-6">
           <div className="flex flex-col pt-24 gap-4 relative text-left xs:text-left">
             <div className="text-[#C6C6C6] text-sm lg:text-lg">
               Unleash Your Vision
@@ -49,7 +49,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="lp_center pt-12 pb-[55vh] sm:pt-8 sm:pb-[30%] flex justify-between items-center">
+          <div className="lp_center flex justify-between items-center">
             <div className="two_circle flex sm:w-1/2 sm:flex-row gap-12 items-center">
               <div className="circles flex relative">
                 <div className="circle1 bg-[#1265D7] w-14 h-14 rounded-full"></div>
@@ -72,7 +72,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="bottam_lp_img bottam_lp_img_desktop hidden md:hidden portrait:hidden landscape:block sm:block absolute -bottom-12 md:-bottom-12 left-1/2 -translate-x-1/2 -translate-y-0 w-full px-5 lg:px-10 2xl:px-0">
+        <div className="bottam_lp_img bottam_lp_img_desktop hidden md:hidden portrait:hidden landscape:block sm:block w-full px-5 lg:px-10 2xl:px-0 relative -bottom-[166px]">
           <div className="relative">
             <div className="flex overflow-hidden rounded-[45px]">
               <Image className="w-full" src={landing} alt="" />
@@ -90,7 +90,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="bottam_lp_img bottam_lp_img_mobile_screen block md:block portrait:block landscape:hidden sm:hidden bottom-0 h-[50vh] overflow-hidden rounded-t-3xl absolute">
+        <div className="bottam_lp_img bottam_lp_img_mobile_screen block md:block portrait:block landscape:hidden sm:hidden relative overflow-hidden rounded-t-3xl">
           <div className="relative">
             <div className="flex">
               <Image className="w-full h-[50vh] object-cover" src={landing} alt="" />
