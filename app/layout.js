@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <SmoothScroller/>
-        <AnimatedCursor 
+        <AnimatedCursor
         innerSize={10}
         outerSize={15}
         color='32, 143, 237'
@@ -40,7 +40,7 @@ export default function RootLayout({ children }) {
           '.link',
           'p',
           'h1'
-        ]}/>
+        ]} className="hidden lg:block"/>
         <Header/>
         <Transition/>
         {children}

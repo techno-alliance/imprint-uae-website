@@ -9,7 +9,7 @@ const VideoPlayer = () => {
         muted
         className="w-[150px] object-cover rounded-full"
       >
-        <source src="/Videos/Techno.mp4" type="video/mp4" />
+        <source src="/Videos/imprint.mp4" type="video/mp4" />
       </video>
     </div>
   );
