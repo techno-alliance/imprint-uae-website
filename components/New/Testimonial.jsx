@@ -9,6 +9,7 @@ import project4 from "@/public/images/project4.png";
 import book from "@/public/images/books1.png";
 import { FaPhone } from "react-icons/fa6";
 import Ellipse from "@/public/images/Ellipse.png"
+import Link from "next/link";
 
 // Import Swiper styles
 import "swiper/css";
@@ -53,9 +54,9 @@ export default function Testimonial() {
                 </p>
               </div>
               <div className="flex justify-center items-center">
-                <button
+                <Link
                   className="button-57 flex justify-center items-center gap-3 transition duration-300 py-1 w-max rounded-full text-[16px] lg:text-[20px] px-1 pr-4 text-white"
-                  href=""
+                  href="/contact"
                 >
                   <div className="bg-black rounded-full w-12 h-12 text-2xl text-white flex justify-center items-center">
                     <FaPhone />
@@ -64,7 +65,7 @@ export default function Testimonial() {
                     Make a Call?
                   </span>
                   <span className="pb-3">Make a Call?</span>
-                </button>
+                </Link>
               </div>
             </div>
           </div>

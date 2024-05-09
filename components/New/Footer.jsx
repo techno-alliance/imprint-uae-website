@@ -45,9 +45,9 @@ const Footer = () => {
               Print with Precision, Connect with Ease
             </p>
             <div className="flex justify-center lg:justify-start">
-              <button
+              <Link
                 className="button-57 flex justify-center items-center gap-3 transition duration-300 py-1 w-max rounded-full text-[16px] lg:text-[20px] px-1 pr-4 text-white"
-                href=""
+                href="mailto:someone@example.com"
               >
                 <div className="bg-black rounded-full w-12 h-12 text-2xl text-white flex justify-center items-center">
                   <PiEnvelopeSimpleLight />
@@ -57,7 +57,7 @@ const Footer = () => {
                 </span>
 
                 <span className="pb-3">Send a Mail</span>
-              </button>
+              </Link>
             </div>
             <div className="flex flex-col lg:flex-row justify-between">
               <Link href="/" className="text-white text-center">

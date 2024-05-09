@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { FaPhone } from "react-icons/fa6";
 import { PiArrowUpRight } from "react-icons/pi";
+import Link from "next/link";
 
 export const Section3rd = ({
   header = "",
@@ -27,9 +28,9 @@ export const Section3rd = ({
             <p className="text-sm md:text-[16px] font-normal md:w-[400px] xl:w-[540px] pt-2">
               {description}
             </p>
-            <button
+            <Link
               className="mt-6 button-57 flex justify-center items-center gap-5 transition duration-300 py-1 w-max rounded-full text-[16px] lg:text-[20px] px-1 pr-4 text-white"
-              href=""
+              href="/contact"
             >
               <div className="bg-black rounded-full w-12 h-12 text-white flex justify-center items-center">
                 <FaPhone />
@@ -39,7 +40,7 @@ export const Section3rd = ({
               </span>
 
               <span className="pb-3">Make an enquiry?</span>
-            </button>
+            </Link>
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaPhone } from "react-icons/fa6";
+import Link from 'next/link';
 
 const MakeCall = () => {
   return (
@@ -14,9 +15,9 @@ const MakeCall = () => {
             <p className='text-white'>Our Office Address</p>
         </div>
         <div className='h-[1px] bg-[#737373] w-[240px]'/>
-        <button
+        <Link
             className="button-57 flex justify-center items-center gap-5 transition duration-300 py-1 w-max rounded-full text-[16px] lg:text-[20px] px-1 pr-4 text-white"
-            href=""
+            href="/contact"
           >
             <div className='bg-black rounded-full w-12 h-12 text-white flex justify-center items-center'>
             <FaPhone />
@@ -26,7 +27,7 @@ const MakeCall = () => {
             </span>
             
             <span className="pb-3">Make a Call?</span>
-        </button>
+        </Link>
     </div>
   )
 }
