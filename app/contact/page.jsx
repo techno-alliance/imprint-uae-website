@@ -244,7 +244,7 @@ export default function Page() {
                     <p className="text-white">9:00 am -6:00 pm</p>
                   </div>
                 </div>
-                <button className="bg-[#1E1E1E] flex justify-between items-center p-[18px] rounded-[10px] border border-[rgba(255,_255,_255,_0.10)]">
+                <a href="mailto:someone@example.com" className="bg-[#1E1E1E] flex justify-between items-center p-[18px] rounded-[10px] border border-[rgba(255,_255,_255,_0.10)]">
                   <div>
                     <p className="text-white text-left">
                       your can email us here{" "}
@@ -254,16 +254,16 @@ export default function Page() {
                   <div className="text-white text-2xl">
                     <FiArrowUpRight />
                   </div>
-                </button>
-                <button className="bg-[#1E1E1E] flex justify-between items-center p-[18px] rounded-[10px] border border-[rgba(255,_255,_255,_0.10)]">
+                </a>
+                <div className="bg-[#1E1E1E] flex justify-between items-center p-[18px] rounded-[10px] border border-[rgba(255,_255,_255,_0.10)]">
                   <div>
                     <p className="text-white text-left">Give us a call on</p>
                     <p className="text-white">+97123466789</p>
                   </div>
-                  <div className="text-white text-2xl">
+                  {/* <div className="text-white text-2xl">
                     <FiArrowUpRight />
-                  </div>
-                </button>
+                  </div> */}
+                </div>
               </div>
             </div>
           </div>
