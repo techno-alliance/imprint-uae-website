@@ -181,10 +181,13 @@ export default function Page() {
         <div>
           <div className="flex flex-col gap-6 rounded-[20px] p-4 bg-[#1E1E1E]">
             <div className="w-full h-[200px] lg:h-[370px] rounded-[10px] border border-[#404040] overflow-hidden">
-              <Image
+              {/* <Image
                 className="object-cover object-center w-full h-full"
                 src={location}
-              />
+              /> */}
+              <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Imprint%20Dubai%20Printing,%2035W5+F36%20-%20Al%20Sufouh%20-%20Al%20Sufouh%202%20-%20Dubai%20-%20United%20Arab%20Emirates+(imprint)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                {/* <a href="https://www.gps.ie/">gps devices</a> */}
+              </iframe>
             </div>
             <div className="w-full flex flex-row justify-between items-center gap-6">
               <div>
@@ -197,7 +200,7 @@ export default function Page() {
                 </p>
               </div>
               <div>
-                <p className="gradient-text text-sm lg:text-xl">View Map</p>
+                <a href="https://www.google.com/maps/dir//Imprint+Dubai+Printing+35W5%2BF36+Al+Sufouh+-+Al+Sufouh+2+-+Dubai+United+Arab+Emirates/@25.0961678,55.1576416,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3e5f6b424fffffff:0x1adc53ad79e84356!2m2!1d55.1576416!2d25.0961678?entry=ttu" className="gradient-text text-sm lg:text-xl">View Map</a>
               </div>
             </div>
           </div>
