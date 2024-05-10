@@ -80,7 +80,7 @@ const page = () => {
       <div className=" max-w-screen-xl mx-auto flex flex-col gap-[120px] px-10 2xl:px-0 w-full">
         <TwoColumnSection
           header="Sealed with Quality-Our "
-          headercolor="Food Packaging"
+          headercolor="Featured Products"
           description="Imprint printing press is the foremost provider of varied offset printing solutions to more than a thousand clients today.."
           bentoImages={bentoImages}
         />
@@ -99,7 +99,7 @@ const page = () => {
         />
         <PageSlider
           header="More explore-Our "
-          headercolor="Latest Packaging Collection"
+          headercolor="Latest Printing Collection"
           description="Imprint printing press is the foremost provider of varied offset printing solutions to more than a thousand clients today.."
           sliderdata={sliderdata}
         />

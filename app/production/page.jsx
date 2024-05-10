@@ -99,7 +99,7 @@ const page = () => {
         />
         <PageSlider
           header="More explore-Our "
-          headercolor="Latest Packaging Collection"
+          headercolor="Latest Productions"
           description="Imprint printing press is the foremost provider of varied offset printing solutions to more than a thousand clients today.."
           sliderdata={sliderdata}
         />

@@ -232,7 +232,7 @@ export default function Page() {
                 <div className="bg-[#1E1E1E] flex justify-between items-center p-[18px] rounded-[10px] border border-[rgba(255,_255,_255,_0.10)]">
                   <div>
                     <p className="text-white text-left">Give us a call on</p>
-                    <p className="text-white">+97123466789</p>
+                    <p className="text-white">+97167052100</p>
                   </div>
                   {/* <div className="text-white text-2xl">
                     <FiArrowUpRight />
@@ -408,18 +408,17 @@ export default function Page() {
                 className="object-cover object-center w-full h-full"
                 src={location}
               /> */}
-              <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Imprint%20Dubai%20Printing,%2035W5+F36%20-%20Al%20Sufouh%20-%20Al%20Sufouh%202%20-%20Dubai%20-%20United%20Arab%20Emirates+(imprint)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed&amp;mode=night_mode">
-                {/* <a href="https://www.gps.ie/">gps devices</a> */}
+              <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" loading="lazy"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.1186223709838!2d55.49122789497259!3d25.400839600867403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f580a9b6eba8f%3A0x48c973c177f11612!2sImprint%20Printing%20Press!5e0!3m2!1sen!2sin!4v1715338542679!5m2!1sen!2sin">
               </iframe>
             </div>
             <div className="w-full flex flex-row justify-between items-center gap-6">
               <div>
                 <p className="gradient-text text-[16px] lg:text-[32px] font-semibold">
                   Imprint{" "}
-                  <span className="text-white">Printing Press L.L.C</span>
+                  <span className="text-white">Printing Press</span>
                 </p>
                 <p className="text-white/60 text-sm lg:text-2xl font-light">
-                  Address : Ajam, U.A.E P.O. Box. 22628
+                  Address : near Ajman Private School - Al Jerf 2 - Ajman - United Arab Emirates
                 </p>
               </div>
               <div>

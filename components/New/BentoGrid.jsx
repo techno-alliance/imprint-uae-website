@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { FaPhone } from "react-icons/fa6";
 
@@ -41,9 +42,9 @@ export const BentoGrid = ({
             }}
           />
           <div className="absolute bottom-5 right-5 translate-y-[80px] group-hover:translate-y-0 transition-all duration-300">
-            <button
+            <Link
               className="button-57 flex justify-center items-center gap-5 transition duration-300 py-1 w-max rounded-full text-[16px] lg:text-[20px] px-1 pr-4 text-white"
-              href=""
+              href="/contact"
             >
               <div className="bg-black rounded-full w-12 h-12 text-white flex justify-center items-center">
                 <FaPhone />
@@ -53,7 +54,7 @@ export const BentoGrid = ({
               </span>
 
               <span className="pb-3">Make an enquiry?</span>
-            </button>
+            </Link>
           </div>
         </div>
         <div className="rounded-[20px] col-span-9 row-span-6 md:col-span-5 md:row-span-3 md:col-start-5 overflow-hidden relative group">
@@ -70,9 +71,9 @@ export const BentoGrid = ({
             }}
           />
           <div className="absolute bottom-5 right-5 translate-y-[80px] group-hover:translate-y-0 transition-all duration-300">
-            <button
+          <Link
               className="button-57 flex justify-center items-center gap-5 transition duration-300 py-1 w-max rounded-full text-[16px] lg:text-[20px] px-1 pr-4 text-white"
-              href=""
+              href="/contact"
             >
               <div className="bg-black rounded-full w-12 h-12 text-white flex justify-center items-center">
                 <FaPhone />
@@ -82,7 +83,7 @@ export const BentoGrid = ({
               </span>
 
               <span className="pb-3">Make an enquiry?</span>
-            </button>
+            </Link>
           </div>
         </div>
         <div className="rounded-[20px] col-span-9 row-span-6 md:col-span-5 md:row-span-3 md:col-start-5 md:row-start-4 overflow-hidden relative group">
@@ -99,9 +100,9 @@ export const BentoGrid = ({
             }}
           />
           <div className="absolute bottom-5 right-5 translate-y-[80px] group-hover:translate-y-0 transition-all duration-300">
-            <button
+          <Link
               className="button-57 flex justify-center items-center gap-5 transition duration-300 py-1 w-max rounded-full text-[16px] lg:text-[20px] px-1 pr-4 text-white"
-              href=""
+              href="/contact"
             >
               <div className="bg-black rounded-full w-12 h-12 text-white flex justify-center items-center">
                 <FaPhone />
@@ -111,7 +112,7 @@ export const BentoGrid = ({
               </span>
 
               <span className="pb-3">Make an enquiry?</span>
-            </button>
+            </Link>
           </div>
         </div>
       </div>

@@ -22,7 +22,7 @@ const Footer = () => {
                   GET IN TOUCH
                 </p>
                 <p className="text-gray-400 text-center md:text-left">
-                  youremail@gmail.com
+                  imprintuae@gmail.com
                 </p>
               </div>
             </div>
