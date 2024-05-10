@@ -17,7 +17,7 @@ const Hero = () => {
             <div className="font-bold text-white text-4xl xss:text-5xl xs:text-[46px] sm:text-[48px] md:text-[50px] sm:leading-[48px] md:leading-[50px] lg:text-[76px] lg:leading-[76px] 2xl:text-8xl flex gap-10">
               <div className="flex flex-col">
                 {" "}
-                <span>Your Ultimate Offset</span>
+                <h1>Your Ultimate Offset</h1>
                 <div className="flex items-center gap-2">
                   <div className="text-[#1265D7]">Printing</div><TextVideo/>Partner
                 </div>
@@ -66,8 +66,7 @@ const Hero = () => {
             </div>
             <div className="w-1/2 sm:w-2/5 text-[#5C5858] hidden sm:block 2xl:text-xl">
               <span>
-                Imprint printing press is the foremost provider of varied offset
-                printing solutions to more than a thousand clients today..
+              We’re pioneers, passionately delivering offset solutions to over a thousand clients, right now and every day
               </span>
             </div>
           </div>

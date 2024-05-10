@@ -25,9 +25,9 @@ export const Section3rd = ({
             <p className="gradient-text font-semibold">{headercolor}</p>
           </div>
           <div className="flex flex-col gap-6">
-            <p className="text-sm md:text-[16px] font-normal md:w-[400px] xl:w-[540px] pt-2">
+            {/* <p className="text-sm md:text-[16px] font-normal md:w-[400px] xl:w-[540px] pt-2">
               {description}
-            </p>
+            </p> */}
             <Link
               className="mt-6 button-57 flex justify-center items-center gap-5 transition duration-300 py-1 w-max rounded-full text-[16px] lg:text-[20px] px-1 pr-4 text-white"
               href="/contact"

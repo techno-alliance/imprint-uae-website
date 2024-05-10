@@ -14,7 +14,7 @@
         margin: 0px;
         display: flex;
         overflow: hidden;
-        font-size: 32px;
+        font-size: 30px;
         padding-right: 30px;
         padding-top: 10px;
         font-weight: 300;
@@ -28,7 +28,8 @@
         margin-top: 80px;
 
         p{
-            font-size: 3vw;
+            // font-size: 3vw;
+            font-size : clamp(1.5rem, 10vw, 3.5rem);
             padding-right: 2vw;
         }
     }

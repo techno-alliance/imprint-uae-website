@@ -27,17 +27,17 @@ export default function RootLayout({ children }) {
         innerScale={0.7}
         outerScale={10}
         clickables={[
-          'a',
-          'input[type="text"]',
-          'input[type="email"]',
-          'input[type="number"]',
-          'input[type="submit"]',
-          'input[type="image"]',
-          'label[for]',
-          'select',
-          'textarea',
-          'button',
-          '.link',
+          // 'a',
+          // 'input[type="text"]',
+          // 'input[type="email"]',
+          // 'input[type="number"]',
+          // 'input[type="submit"]',
+          // 'input[type="image"]',
+          // 'label[for]',
+          // 'select',
+          // 'textarea',
+          // 'button',
+          // '.link',
           'p',
           'h1'
         ]} className="hidden lg:block"/>

@@ -60,17 +60,20 @@ const Footer = () => {
               </Link>
             </div>
             <div className="flex flex-col lg:flex-row justify-between">
-              <Link href="/" className="text-white text-center">
+              <Link href="/" className="text-[#DADADA]/50 hover:text-white text-center">
                 Home
               </Link>
-              <Link href="/printing" className="text-white text-center">
+              <Link href="/printing" className="text-[#DADADA]/50 hover:text-white text-center">
                 Printing
               </Link>
-              <Link href="/packaging" className="text-white text-center">
+              <Link href="/packaging" className="text-[#DADADA]/50 hover:text-white text-center">
                 Packaging
               </Link>
-              <Link href="/production" className="text-white text-center">
+              <Link href="/production" className="text-[#DADADA]/50 hover:text-white text-center">
                 Production
+              </Link>
+              <Link href="/contact" className="text-[#DADADA]/50 hover:text-white text-center">
+                Contact us
               </Link>
             </div>
           </div>

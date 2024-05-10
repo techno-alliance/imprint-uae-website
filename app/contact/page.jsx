@@ -279,10 +279,10 @@ export default function Page() {
                     class=" w-full text-white bg-[#232323] border border-[rgba(255,_255,_255,_0.10)] rounded-[10px] p-4 leading-tight"
                     id="grid-last-name"
                     type="text"
-                    name="name"
+                    name="lastname"
                     placeholder="Enter last Name"
                     required
-                    value={form.name}
+                    value={form.lastname}
                     onChange={handleChange}
                     onFocus={handleFocus}
                     onBlur={handleBlur}
@@ -313,15 +313,16 @@ export default function Page() {
                 <div class="w-full ">
                   <label
                     class="block tracking-wide text-[#fff] text-xs font-semibold mb-2"
-                    for="grid-email"
+                    for="grid-number"
                   >
                     Phone Number<span className="text-red-500">*</span>
                   </label>
                   <input
                     class=" w-full text-white bg-[#232323] border border-[rgba(255,_255,_255,_0.10)] rounded-[10px] p-4 leading-tight"
                     id="grid-email"
-                    type="email"
-                    name="email"
+                    type="number"
+                    name="phonenumber"
+                    maxLength="15"
                     placeholder="Enter your Phone Number"
                     required
                     value={form.phone}
@@ -340,9 +341,9 @@ export default function Page() {
                 </label>
                 <input
                   class=" w-full text-white bg-[#232323] border border-[rgba(255,_255,_255,_0.10)] rounded-[10px] p-4 leading-tight"
-                  id="grid-last-name"
+                  id="grid-subject"
                   type="text"
-                  name="name"
+                  name="subject"
                   placeholder="Enter your Subject"
                   required
                   value={form.subject}
@@ -359,7 +360,7 @@ export default function Page() {
                   Message
                 </label>
                 <textarea
-                  class="appearance-none block w-full bg-[#232323] border border-[rgba(255,_255,_255,_0.10)] rounded-[10px] p-4 leading-tight"
+                  class="appearance-none text-white block w-full bg-[#232323] border border-[rgba(255,_255,_255,_0.10)] rounded-[10px] p-4 leading-tight"
                   id="grid-message"
                   type="text"
                   name="message"
@@ -407,7 +408,7 @@ export default function Page() {
                 className="object-cover object-center w-full h-full"
                 src={location}
               /> */}
-              <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Imprint%20Dubai%20Printing,%2035W5+F36%20-%20Al%20Sufouh%20-%20Al%20Sufouh%202%20-%20Dubai%20-%20United%20Arab%20Emirates+(imprint)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+              <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Imprint%20Dubai%20Printing,%2035W5+F36%20-%20Al%20Sufouh%20-%20Al%20Sufouh%202%20-%20Dubai%20-%20United%20Arab%20Emirates+(imprint)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed&amp;mode=night_mode">
                 {/* <a href="https://www.gps.ie/">gps devices</a> */}
               </iframe>
             </div>

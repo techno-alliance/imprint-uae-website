@@ -21,9 +21,9 @@ export const BentoGrid = ({
           <p>{header}</p>
           <p className="gradient-text font-semibold">{headercolor}</p>
         </div>
-        <p className="text-[14px] md:text-[16px] font-normal md:w-[540px] text-center">
+        {/* <p className="text-[14px] md:text-[16px] font-normal md:w-[540px] text-center">
           {description}
-        </p>
+        </p> */}
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-9 md:grid-rows-6 gap-4 2xl:gap-8 h-full md:h-[807px] w-full">

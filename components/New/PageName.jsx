@@ -7,7 +7,7 @@ const Images = [
     user1,
     user2,
 ];
-export const PageName = ({ pagename, image }) => {
+export const PageName = ({ pagename, image, description }) => {
   return (
     <div
       className="h-full md:h-[473px] relative pt-[134px] pb-8"
@@ -26,7 +26,8 @@ export const PageName = ({ pagename, image }) => {
       <div className=" flex flex-col max-w-screen-xl mx-auto px-10 2xl:px-0">
         <p className="text-sm md:text-xl">Unleash Your Vision</p>
         <div className="flex items-center gap-3">
-          <h1 className="text-[36px] md:text-[100px] font-semibold">{pagename}</h1>
+          <h1 className="text-2xl md:text-6xl font-semibold">{pagename}</h1>
+          {/* <h1 className="text-[36px] md:text-[100px] font-semibold">{pagename}</h1> */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="79"
@@ -62,9 +63,8 @@ export const PageName = ({ pagename, image }) => {
               <p className="text-base font-semibold leading-none md:leading-normal">Satisfied Clients</p>
             </div>
           </div>
-          <p className="text-xl md:w-[400px] lg:w-[614px]">
-            Imprint printing press is the foremost provider of varied offset
-            printing solutions to more than a thousand clients today..
+          <p className="text-sm md:text-xl md:w-[400px] lg:w-[614px]">
+            {description}
           </p>
         </div>
       </div>

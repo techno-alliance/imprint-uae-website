@@ -71,7 +71,7 @@ const sliderdata = [
 const page = () => {
   return (
     <div className="text-white flex flex-col gap-[120px]">
-      <PageName pagename="Packaging" image={packaging} />
+      <PageName pagename="Let our Packaging tell your brand stories" image={packaging} description="We're the specialised ones making your product excel in the market. from concept to creation, we ensure your product grabs cent percent attention." />
       <div className="max-w-screen-xl mx-auto w-full">
         <MovingImage />
       </div>
@@ -83,7 +83,7 @@ const page = () => {
           description="Imprint printing press is the foremost provider of varied offset printing solutions to more than a thousand clients today.."
           bentoImages={bentoImages2}
         />
-        <MakeCall className="w-full px-0" />
+        {/* <MakeCall className="w-full px-0" /> */}
         <BentoGrid
           header="Elegance in Every Package-Our"
           headercolor="Cosmetic Solutions"
@@ -102,7 +102,7 @@ const page = () => {
           description="Imprint printing press is the foremost provider of varied offset printing solutions to more than a thousand clients today.."
           sliderdata={sliderdata}
         />
-         <MakeCall className="w-full px-0" />
+         {/* <MakeCall className="w-full px-0" /> */}
       </div>
     </div>
   );
