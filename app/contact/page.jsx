@@ -178,33 +178,7 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <div>
-          <div className="flex flex-col gap-6 rounded-[20px] p-4 bg-[#1E1E1E]">
-            <div className="w-full h-[200px] lg:h-[370px] rounded-[10px] border border-[#404040] overflow-hidden">
-              {/* <Image
-                className="object-cover object-center w-full h-full"
-                src={location}
-              /> */}
-              <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Imprint%20Dubai%20Printing,%2035W5+F36%20-%20Al%20Sufouh%20-%20Al%20Sufouh%202%20-%20Dubai%20-%20United%20Arab%20Emirates+(imprint)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-                {/* <a href="https://www.gps.ie/">gps devices</a> */}
-              </iframe>
-            </div>
-            <div className="w-full flex flex-row justify-between items-center gap-6">
-              <div>
-                <p className="gradient-text text-[16px] lg:text-[32px] font-semibold">
-                  Imprint{" "}
-                  <span className="text-white">Printing Press L.L.C</span>
-                </p>
-                <p className="text-white/60 text-sm lg:text-2xl font-light">
-                  Address : Ajam, U.A.E P.O. Box. 22628
-                </p>
-              </div>
-              <div>
-                <a href="https://www.google.com/maps/dir//Imprint+Dubai+Printing+35W5%2BF36+Al+Sufouh+-+Al+Sufouh+2+-+Dubai+United+Arab+Emirates/@25.0961678,55.1576416,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3e5f6b424fffffff:0x1adc53ad79e84356!2m2!1d55.1576416!2d25.0961678?entry=ttu" className="gradient-text text-sm lg:text-xl">View Map</a>
-              </div>
-            </div>
-          </div>
-        </div>
+        
         <div className="flex justify-between flex-col lg:flex lg:flex-row gap-20">
           <div className="flex flex-col justify-between gap-5">
             <div className="flex flex-col">
@@ -219,7 +193,7 @@ export default function Page() {
             <div className="flex flex-col gap-10">
               <div className="flex flex-col gap-5">
                 <p className="text-white">Follow us on social media</p>
-                <div className="flex justify-between items-center">
+                <div className="flex gap-5 items-center">
                   <div className="w-[28px] h-[28px] lg:w-[50px] lg:h-[50px] text-white text-[16px] lg:text-3xl p-2 bg-[#2E2E2E] flex justify-center items-center rounded-full">
                     <FaInstagram />
                   </div>
@@ -426,7 +400,34 @@ export default function Page() {
             </form>
           </div>
         </div>
-        <div
+        <div>
+          <div className="flex flex-col gap-6 rounded-[20px] p-4 bg-[#1E1E1E]">
+            <div className="w-full h-[200px] lg:h-[370px] rounded-[10px] border border-[#404040] overflow-hidden">
+              {/* <Image
+                className="object-cover object-center w-full h-full"
+                src={location}
+              /> */}
+              <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Imprint%20Dubai%20Printing,%2035W5+F36%20-%20Al%20Sufouh%20-%20Al%20Sufouh%202%20-%20Dubai%20-%20United%20Arab%20Emirates+(imprint)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                {/* <a href="https://www.gps.ie/">gps devices</a> */}
+              </iframe>
+            </div>
+            <div className="w-full flex flex-row justify-between items-center gap-6">
+              <div>
+                <p className="gradient-text text-[16px] lg:text-[32px] font-semibold">
+                  Imprint{" "}
+                  <span className="text-white">Printing Press L.L.C</span>
+                </p>
+                <p className="text-white/60 text-sm lg:text-2xl font-light">
+                  Address : Ajam, U.A.E P.O. Box. 22628
+                </p>
+              </div>
+              <div>
+                <a href="https://www.google.com/maps/dir//Imprint+Dubai+Printing+35W5%2BF36+Al+Sufouh+-+Al+Sufouh+2+-+Dubai+United+Arab+Emirates/@25.0961678,55.1576416,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3e5f6b424fffffff:0x1adc53ad79e84356!2m2!1d55.1576416!2d25.0961678?entry=ttu" className="gradient-text text-sm lg:text-xl">View Map</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <div
           className="flex flex-col lg:flex-row justify-between items-center gap-6 p-10 rounded-[20px] backdrop-filter backdrop-blur-[25px] border border-[#262626]"
           style={{
             background:
@@ -458,7 +459,7 @@ export default function Page() {
               <span className="pb-3">Ask any question</span>
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
