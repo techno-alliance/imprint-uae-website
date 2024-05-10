@@ -60,7 +60,7 @@ export const PageName = ({ pagename, image, description }) => {
             </div>
             <div>
               <p className="text-lg font-bold leading-none md:leading-normal">2000+</p>
-              <p className="text-base font-semibold leading-none md:leading-normal">Satisfied Clients</p>
+              <p className="text-base font-semibold leading-none md:leading-normal">satisfied clients</p>
             </div>
           </div>
           <p className="text-sm md:text-xl md:w-[400px] lg:w-[614px]">

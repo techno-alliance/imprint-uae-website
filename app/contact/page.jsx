@@ -186,7 +186,7 @@ export default function Page() {
                 Contact Information
               </p>
               <p className="text-white text-sm">
-                Fill out the from below and one of our friendly team members
+                Fill out the form below and one of our friendly team members
                 will get back to you shortly
               </p>
             </div>
@@ -221,7 +221,7 @@ export default function Page() {
                 <a href="mailto:someone@example.com" className="bg-[#1E1E1E] flex justify-between items-center p-[18px] rounded-[10px] border border-[rgba(255,_255,_255,_0.10)]">
                   <div>
                     <p className="text-white text-left">
-                      your can email us here{" "}
+                      you can email us here{" "}
                     </p>
                     <p className="text-white">imprintuae@gmail.com</p>
                   </div>
@@ -280,7 +280,7 @@ export default function Page() {
                     id="grid-last-name"
                     type="text"
                     name="lastname"
-                    placeholder="Enter last Name"
+                    placeholder="Enter Last Name"
                     required
                     value={form.lastname}
                     onChange={handleChange}
@@ -302,7 +302,7 @@ export default function Page() {
                     id="grid-email"
                     type="email"
                     name="email"
-                    placeholder="Enter your email"
+                    placeholder="Enter your Email"
                     required
                     value={form.email}
                     onChange={handleChange}
@@ -364,7 +364,7 @@ export default function Page() {
                   id="grid-message"
                   type="text"
                   name="message"
-                  placeholder=""
+                  placeholder="Enter your Message"
                   required
                   value={form.message}
                   onChange={handleChange}

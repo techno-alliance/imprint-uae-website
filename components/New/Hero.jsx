@@ -58,7 +58,7 @@ const Hero = () => {
               </div>
               <div className="text-white flex flex-col text-sm font-[500]">
                 <span>15,000+</span>
-                <span>Satisfied client</span>
+                <span>satisfied clients</span>
               </div>
             </div>
             <div className="xmas_star w-14 block sm:hidden">
