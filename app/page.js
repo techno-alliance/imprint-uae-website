@@ -267,11 +267,11 @@ export default function Home() {
       </div> */}
       {/* <StickyScrollRevealDemo/> */}
       {/* <FeaturedProjects/> */}
-      <section className="bg-black py-10 lg:py-20">
+      {/* <section className="bg-black py-10 lg:py-20">
         <div className="max-w-screen-xl mx-auto px-5 lg:px-10 2xl:px-0">
           <Testimonial />
         </div>
-      </section>
+      </section> */}
       <section className="py-10 lg:py-20 bg-[#36393A]">
         <div className="max-w-screen-xl mx-auto px-5 lg:px-10 2xl:px-0">
           <Slider2 />
