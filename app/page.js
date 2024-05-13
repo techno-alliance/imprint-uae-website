@@ -39,7 +39,7 @@ export default function Home() {
               <span className="pb-3">About</span>
             </button>
             <p className="text-2xl lg:text-5xl text-white font-semibold text-center">
-              Why? <span className="text-[#5ACEF1] font-bold">IMPRINT</span>
+              Why <span className="text-[#5ACEF1] font-bold">IMPRINT ?</span>
             </p>
             <p className="text-sm lg:text-[17px] text-white font-normal text-center w-auto md:w-[600px]">
               Imprint printing press is the foremost provider of varied offset
@@ -47,7 +47,7 @@ export default function Home() {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 pt-20">
-            <div className="p-9 bg-[#1A1A1A] rounded-[10px] flex flex-col lg:flex-row justify-center gap-5 items-start">
+            <div className="p-7 bg-[#1A1A1A] rounded-[10px] flex flex-col lg:flex-row justify-center gap-5 items-start">
                 <div className="">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -64,15 +64,13 @@ export default function Home() {
                   </svg>
                 </div>
                 <div className="flex flex-col gap-5">
-                  <p className="text-white text-[16px] lg:text-xl">Localfu fulfillment</p>
+                  <p className="text-white text-[16px] lg:text-xl">Creative Versatility</p>
                   <p className="text-white text-xs lg:text-sm opacity-[0.6]">
-                    Get speed and consistency—our global in-house and partner
-                    facilities offer competitive shipping rates and consistent
-                    quality.
+                  We handle a wide range of printing projects with expertise. Our team bring imagination to life through paper.
                   </p>
                 </div>
             </div>
-            <div className="p-9 bg-[#1A1A1A] rounded-[10px] flex flex-col lg:flex-row justify-center gap-5 items-start">
+            <div className="p-7 bg-[#1A1A1A] rounded-[10px] flex flex-col lg:flex-row justify-center gap-5 items-start">
               
                 <div className="">
                   <svg
@@ -90,16 +88,14 @@ export default function Home() {
                   </svg>
                 </div>
                 <div className="flex flex-col gap-5">
-                  <p className="text-white text-[16px] lg:text-xl">Localfu fulfillment</p>
+                  <p className="text-white text-[16px] lg:text-xl">Timely Delivery</p>
                   <p className="text-white text-xs lg:text-sm opacity-[0.6]">
-                    Get speed and consistency—our global in-house and partner
-                    facilities offer competitive shipping rates and consistent
-                    quality.
+                  We deliver products on time to ensure customer satisfaction efficiently. Our motto lies in time-bound and on-date completion of printing projects.
                   </p>
                 </div>
               
             </div>
-            <div className="p-9 bg-[#1A1A1A] rounded-[10px] flex flex-col lg:flex-row justify-center gap-5 items-start">
+            <div className="p-7 bg-[#1A1A1A] rounded-[10px] flex flex-col lg:flex-row justify-center gap-5 items-start">
            
                 <div className="">
                   <svg
@@ -117,16 +113,14 @@ export default function Home() {
                   </svg>
                 </div>
                 <div className="flex flex-col gap-5">
-                  <p className="text-white text-[16px] lg:text-xl">Localfu fulfillment</p>
+                  <p className="text-white text-[16px] lg:text-xl">Exemplary Craftsmanship</p>
                   <p className="text-white text-xs lg:text-sm opacity-[0.6]">
-                    Get speed and consistency—our global in-house and partner
-                    facilities offer competitive shipping rates and consistent
-                    quality.
+                  Our printing press is characterised by exemplary craftsmanship, promising accurate attention to detail. We stand for precision in our work. 
                   </p>
                 </div>
              
             </div>
-            <div className="p-9 bg-[#1A1A1A] rounded-[10px] flex flex-col lg:flex-row justify-center gap-5 items-start">
+            <div className="p-7 bg-[#1A1A1A] rounded-[10px] flex flex-col lg:flex-row justify-center gap-5 items-start">
               
                 <div className="">
                   <svg
@@ -198,16 +192,14 @@ export default function Home() {
                   </svg>
                 </div>
                 <div className="flex flex-col gap-5">
-                  <p className="text-white text-[16px] lg:text-xl">Localfu fulfillment</p>
+                  <p className="text-white text-[16px] lg:text-xl">Customisation Excellence</p>
                   <p className="text-white text-xs lg:text-sm opacity-[0.6]">
-                    Get speed and consistency—our global in-house and partner
-                    facilities offer competitive shipping rates and consistent
-                    quality.
+                  Experience top-tier customisation in printing. We stand alongside you to match your unique requirements and preferences.
                   </p>
                 </div>
              
             </div>
-            <div className="p-9 bg-[#1A1A1A] rounded-[10px] flex flex-col lg:flex-row justify-center gap-5 items-start">
+            <div className="p-7 bg-[#1A1A1A] rounded-[10px] flex flex-col lg:flex-row justify-center gap-5 items-start">
               
                 <div className="">
                   <svg
@@ -225,16 +217,14 @@ export default function Home() {
                   </svg>
                 </div>
                 <div className="flex flex-col gap-5">
-                  <p className="text-white text-[16px] lg:text-xl">Localfu fulfillment</p>
+                  <p className="text-white text-[16px] lg:text-xl">Customer Service:</p>
                   <p className="text-white text-xs lg:text-sm opacity-[0.6]">
-                    Get speed and consistency—our global in-house and partner
-                    facilities offer competitive shipping rates and consistent
-                    quality.
+                  Our printing press prioritises customer needs, offering swift assistance and maintaining exceptional service standards.
                   </p>
                 </div>
               
             </div>
-            <div className="p-9 bg-[#1A1A1A] rounded-[10px] flex flex-col lg:flex-row justify-center gap-5 items-start">
+            <div className="p-7 bg-[#1A1A1A] rounded-[10px] flex flex-col lg:flex-row justify-center gap-5 items-start">
              
                 <div className="">
                   <svg
@@ -252,11 +242,9 @@ export default function Home() {
                   </svg>
                 </div>
                 <div className="flex flex-col gap-5">
-                  <p className="text-white text-[16px] lg:text-xl">Localfu fulfillment</p>
+                  <p className="text-white text-[16px] lg:text-xl">Superior Quality</p>
                   <p className="text-white text-xs lg:text-sm opacity-[0.6]">
-                    Get speed and consistency—our global in-house and partner
-                    facilities offer competitive shipping rates and consistent
-                    quality.
+                  Our dedicated team never compromise on product quality, because we believe quality is the soul of success.
                   </p>
                 </div>
               
@@ -264,11 +252,11 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-black">
+      {/* <section className="bg-black">
         <div className="max-w-screen-xl mx-auto px-5 lg:px-10 2xl:px-0 py-10">
         <MakeCall />
         </div>
-      </section>
+      </section> */}
       <section className="bg-black py-10 lg:py-20">
         <div className="max-w-screen-xl mx-auto px-5 lg:px-10 2xl:px-0">
           <Slider />
@@ -279,11 +267,11 @@ export default function Home() {
       </div> */}
       {/* <StickyScrollRevealDemo/> */}
       {/* <FeaturedProjects/> */}
-      <section className="bg-black py-10 lg:py-20">
+      {/* <section className="bg-black py-10 lg:py-20">
         <div className="max-w-screen-xl mx-auto px-5 lg:px-10 2xl:px-0">
           <Testimonial />
         </div>
-      </section>
+      </section> */}
       <section className="py-10 lg:py-20 bg-[#36393A]">
         <div className="max-w-screen-xl mx-auto px-5 lg:px-10 2xl:px-0">
           <Slider2 />

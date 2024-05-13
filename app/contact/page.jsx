@@ -186,7 +186,7 @@ export default function Page() {
                 Contact Information
               </p>
               <p className="text-white text-sm">
-                Fill out the from below and one of our friendly team members
+                Fill out the form below and one of our friendly team members
                 will get back to you shortly
               </p>
             </div>
@@ -221,7 +221,7 @@ export default function Page() {
                 <a href="mailto:someone@example.com" className="bg-[#1E1E1E] flex justify-between items-center p-[18px] rounded-[10px] border border-[rgba(255,_255,_255,_0.10)]">
                   <div>
                     <p className="text-white text-left">
-                      your can email us here{" "}
+                      you can email us here{" "}
                     </p>
                     <p className="text-white">imprintuae@gmail.com</p>
                   </div>
@@ -279,10 +279,10 @@ export default function Page() {
                     class=" w-full text-white bg-[#232323] border border-[rgba(255,_255,_255,_0.10)] rounded-[10px] p-4 leading-tight"
                     id="grid-last-name"
                     type="text"
-                    name="name"
-                    placeholder="Enter last Name"
+                    name="lastname"
+                    placeholder="Enter Last Name"
                     required
-                    value={form.name}
+                    value={form.lastname}
                     onChange={handleChange}
                     onFocus={handleFocus}
                     onBlur={handleBlur}
@@ -302,7 +302,7 @@ export default function Page() {
                     id="grid-email"
                     type="email"
                     name="email"
-                    placeholder="Enter your email"
+                    placeholder="Enter your Email"
                     required
                     value={form.email}
                     onChange={handleChange}
@@ -313,15 +313,16 @@ export default function Page() {
                 <div class="w-full ">
                   <label
                     class="block tracking-wide text-[#fff] text-xs font-semibold mb-2"
-                    for="grid-email"
+                    for="grid-number"
                   >
                     Phone Number<span className="text-red-500">*</span>
                   </label>
                   <input
                     class=" w-full text-white bg-[#232323] border border-[rgba(255,_255,_255,_0.10)] rounded-[10px] p-4 leading-tight"
                     id="grid-email"
-                    type="email"
-                    name="email"
+                    type="number"
+                    name="phonenumber"
+                    maxLength="15"
                     placeholder="Enter your Phone Number"
                     required
                     value={form.phone}
@@ -340,9 +341,9 @@ export default function Page() {
                 </label>
                 <input
                   class=" w-full text-white bg-[#232323] border border-[rgba(255,_255,_255,_0.10)] rounded-[10px] p-4 leading-tight"
-                  id="grid-last-name"
+                  id="grid-subject"
                   type="text"
-                  name="name"
+                  name="subject"
                   placeholder="Enter your Subject"
                   required
                   value={form.subject}
@@ -359,11 +360,11 @@ export default function Page() {
                   Message
                 </label>
                 <textarea
-                  class="appearance-none block w-full bg-[#232323] border border-[rgba(255,_255,_255,_0.10)] rounded-[10px] p-4 leading-tight"
+                  class="appearance-none text-white block w-full bg-[#232323] border border-[rgba(255,_255,_255,_0.10)] rounded-[10px] p-4 leading-tight"
                   id="grid-message"
                   type="text"
                   name="message"
-                  placeholder=""
+                  placeholder="Enter your Message"
                   required
                   value={form.message}
                   onChange={handleChange}

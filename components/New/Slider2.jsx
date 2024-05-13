@@ -5,8 +5,10 @@ import Image from "next/image";
 import box from "@/public/images/pad.png";
 import { GoArrowUpRight } from "react-icons/go";
 import project1 from "@/public/images/machine.png";
-import project4 from "@/public/images/project4.png";
-import book from "@/public/images/books1.png";
+import machine1 from "@/public/images/machine1.jpeg";
+import machine2 from "@/public/images/machine2.jpeg";
+import machine3 from "@/public/images/machine3.png";
+import machine4 from "@/public/images/machine4.png"
 
 // Import Swiper styles
 import "swiper/css";
@@ -41,11 +43,11 @@ export default function App() {
                 </p>
               </div>
               <div className="flex justify-center items-center w-auto md:w-[400px]">
-                <p className="text-[#DADADA] text-sm lg:text-xl font-normal leading-[160%]">
+                {/* <p className="text-[#DADADA] text-sm lg:text-xl font-normal leading-[160%]">
                   Imprint printing press is the foremost provider of varied
                   offset printing solutions to more than a thousand clients
                   today..
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
@@ -115,7 +117,7 @@ export default function App() {
         <SwiperSlide className="!p-3 lg:!p-0 !bg-[#36393A]">
           <div className="flex flex-col lg:flex-row gap-10">
             <div className="w-[300px] flex flex-col justify-end">
-            <p className="text-white text-left text-[28px] font-semibold">Speed Master CD 102</p>
+            <p className="text-white text-left text-[28px] font-semibold">HP latex 370</p>
               <p className="text-[#ADACAC] text-left text-xl font-normal">
                 Experience the pinnacle of printing precision with Speedmaster
                 CD 102. Where speed meets finesse, delivering vibrant colors and
@@ -123,14 +125,14 @@ export default function App() {
               </p>
             </div>
             <div className="rounded-[10px] w-auto h-auto lg:w-[550px] lg:h-[400px] overflow-hidden relative group">
-              <Image src={project1} className="w-full h-full object-cover" />
+              <Image src={machine1} className="w-full h-full object-cover" />
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="!p-3 lg:!p-0 !bg-[#36393A]">
           <div className="flex flex-col lg:flex-row gap-10">
             <div className="w-[300px] flex flex-col justify-end">
-            <p className="text-white text-left text-[28px] font-semibold">Speed Master CD 102</p>
+            <p className="text-white text-left text-[28px] font-semibold">RICOH Pro C7200x</p>
               <p className="text-[#ADACAC] text-left text-xl font-normal">
                 Experience the pinnacle of printing precision with Speedmaster
                 CD 102. Where speed meets finesse, delivering vibrant colors and
@@ -138,14 +140,14 @@ export default function App() {
               </p>
             </div>
             <div className="rounded-[10px] w-auto h-auto lg:w-[550px] lg:h-[400px] overflow-hidden relative group">
-              <Image src={project1} className="w-full h-full object-cover" />
+              <Image src={machine2} className="w-full h-full object-cover" />
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="!p-3 lg:!p-0 !bg-[#36393A]">
           <div className="flex flex-col lg:flex-row gap-10">
             <div className="w-[300px] flex flex-col justify-end">
-            <p className="text-white text-left text-[28px] font-semibold">Speed Master CD 102</p>
+            <p className="text-white text-left text-[28px] font-semibold">Folder Gluer Machine</p>
               <p className="text-[#ADACAC] text-left text-xl font-normal">
                 Experience the pinnacle of printing precision with Speedmaster
                 CD 102. Where speed meets finesse, delivering vibrant colors and
@@ -153,14 +155,14 @@ export default function App() {
               </p>
             </div>
             <div className="rounded-[10px] w-auto h-auto lg:w-[550px] lg:h-[400px] overflow-hidden relative group">
-              <Image src={project1} className="w-full h-full object-cover" />
+              <Image src={machine3} className="w-full h-full object-cover" />
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="!p-3 lg:!p-0 !bg-[#36393A]">
           <div className="flex flex-col lg:flex-row gap-10">
             <div className="w-[300px] flex flex-col justify-end">
-            <p className="text-white text-left text-[28px] font-semibold">Speed Master CD 102</p>
+            <p className="text-white text-left text-[28px] font-semibold">Automatic Sheet Paper Cutting Machine</p>
               <p className="text-[#ADACAC] text-left text-xl font-normal">
                 Experience the pinnacle of printing precision with Speedmaster
                 CD 102. Where speed meets finesse, delivering vibrant colors and
@@ -168,7 +170,7 @@ export default function App() {
               </p>
             </div>
             <div className="rounded-[10px] w-auto h-auto lg:w-[550px] lg:h-[400px] overflow-hidden relative group">
-              <Image src={project1} className="w-full h-full object-cover" />
+              <Image src={machine4} className="w-full h-full object-cover" />
             </div>
           </div>
         </SwiperSlide>

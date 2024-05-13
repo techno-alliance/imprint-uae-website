@@ -22,9 +22,9 @@ export const TwoColumnSection = ({
             <p>{header}</p>
             <p className="gradient-text font-semibold">{headercolor}</p>
           </div>
-          <p className="text-sm md:text-[16px] font-normal md:w-[400px] xl:w-[540px] pt-2">
+          {/* <p className="text-sm md:text-[16px] font-normal md:w-[400px] xl:w-[540px] pt-2">
             {description}
-          </p>
+          </p> */}
         </div>
       </div>
 

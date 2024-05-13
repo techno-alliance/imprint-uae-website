@@ -24,10 +24,10 @@ export const BentoGrid = ({ className, children }) => {
               </p>
             </div>
             <div className="flex justify-center items-center w-auto lg:w-[400px]">
-              <p className="text-[#DADADA] text-center lg:text-left text-sm lg:text-xl font-normal leading-[160%]">
+              {/* <p className="text-[#DADADA] text-center lg:text-left text-sm lg:text-xl font-normal leading-[160%]">
                 Imprint printing press is the foremost provider of varied offset
                 printing solutions to more than a thousand clients today..
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
