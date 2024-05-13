@@ -5,6 +5,7 @@ import Footer from "@/components/New/Footer";
 import SmoothScroller from "@/components/SmoothScroll";
 import Transition from "@/components/Transition";
 import AnimatedCursor from "react-animated-cursor";
+import { Toaster } from "react-hot-toast";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -43,6 +44,7 @@ export default function RootLayout({ children }) {
         ]} className="hidden lg:block"/>
         <Header/>
         <Transition/>
+        <Toaster position="bottom-right" toastOptions={{duration: 3000}}/>
         {children}
         <Footer/>
         </body>

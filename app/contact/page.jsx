@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 import { ImLocation } from "react-icons/im";
 import { LuPhone } from "react-icons/lu";
 import { IoMdMail } from "react-icons/io";
@@ -18,72 +18,13 @@ import { RiYoutubeLine } from "react-icons/ri";
 import { FiArrowUpRight } from "react-icons/fi";
 import { BsSend } from "react-icons/bs";
 import { GrCircleQuestion } from "react-icons/gr";
+import { Formik } from "formik";
+import SignUpForm from "@/components/New/SignUpForm";
 
 
 // import { Resend } from 'resend';
 export default function Page() {
-  const [message, setMessage] = useState("");
-  const formRef = useRef(null);
-  const [form, setForm] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-  const [isLoading, setIsLoading] = useState(false);
-
-  const handleChange = (e) => {
-    setForm({ ...form, [e.target.name]: e.target.value });
-  };
-  const handleFocus = () => {};
-  const handleBlur = () => {};
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setIsLoading(true);
-
-    emailjs
-      .send(
-        "service_vj5cq8l",
-        "template_9jhjori",
-        {
-          // from_name:form.name,
-          // to_name:"Abishek",
-          // from_email:form.email,
-          // to_email:"anilabishek@gmail.com",
-          // message:form.message
-          name: form.name,
-          email: form.email,
-          message: form.message,
-        },
-        "NVhsrWDzPJVBQJFu4"
-      )
-      .then(() => {
-        setIsLoading(false);
-
-        setForm({ name: "", email: "", message: "" });
-      })
-      .then(
-        (result) => {
-          if (result.status === 200) {
-            setMessage(`
-              <div className="flex flex-col justify-center items-center gap-2">
-                <span className="text-[#E5B250] text-center">
-                  Thanks for getting in touch. Our team will contact you within
-                  48 hours.
-                </span>
-              </div>
-            `);
-          }
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      )
-      .catch((error) => {
-        setIsLoading(false);
-        console.log(error);
-      });
-  };
+ 
 
   // const resend = new Resend('re_78nHJ5um_DjUZhJbZKqi3ht8tbVpaQYq8');
 
@@ -241,7 +182,7 @@ export default function Page() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col justify-end">
+          {/* <div className="flex flex-col justify-end">
             <form
               class="flex flex-col gap-8 bg-[#1E1E1E] rounded-[20px] p-8"
               onSubmit={handleSubmit}
@@ -372,17 +313,6 @@ export default function Page() {
                   onBlur={handleBlur}
                 />
               </div>
-
-              {/* <button
-                className=" py-2 w-max rounded-full px-4 text-white"
-                type="submit"
-                disabled={isLoading}
-                onFocus={handleFocus}
-                onBlur={handleBlur}
-              >
-                {isLoading ? "Sending" : "Submit"}
-                
-              </button> */}
               <div className="flex justify-center">
                 <button
                   className="button-57 flex justify-center items-center gap-3 transition duration-300 py-1 w-max rounded-full text-[16px] lg:text-[20px] px-1 pr-4 text-white"
@@ -399,7 +329,8 @@ export default function Page() {
                 </button>
               </div>
             </form>
-          </div>
+          </div> */}
+          <SignUpForm/>
         </div>
         <div>
           <div className="flex flex-col gap-6 rounded-[20px] p-4 bg-[#1E1E1E]">

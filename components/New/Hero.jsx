@@ -82,8 +82,7 @@ const Hero = () => {
                   Imprint Printing
                 </span>
                 <span className="text-sm text-black">
-                  Imprint Printing Press is not just any ordinary printing
-                  company - we are the foremost provider of varied{" "}
+                We’re pioneers, passionately delivering offset solutions to over a thousand clients, right now and every day
                 </span>
               </div>
             </div>
