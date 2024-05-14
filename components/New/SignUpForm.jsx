@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
@@ -9,27 +9,39 @@ import toast from 'react-hot-toast';
 
 const SignUpForm = () => {
 
-  
-    const sendEmail = async e => {
-        e.preventDefault()
-        const response = await fetch("/api/send", {
-          method: "POST",
-          headers: {
-            "content-Type": "application/json"
-          },
-          body: JSON.stringify(data)
-        })
-      
-        if (response.status === 200) {
-          setData({})
-          toast.success(`Hey ${data.name}, your message was sent successfully`)
-        }
+  // const [data, setData] = useState({
+  //   firstname: '',
+  //   lastname: '',
+  //   phonenumber: '',
+  //   email: '',
+  //   subject: '',
+  //   message: '',
+  // })
+  const sendEmail = async (values) => {
+    try {
+      const response = await fetch('/api/send', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(values),
+      });
+
+      if (response.ok) {
+        toast.success(`Hey ${values.firstname}, your message was sent successfully`);
+      } else {
+        toast.error('Failed to send message');
       }
+    } catch (error) {
+      console.error('Error sending email:', error);
+      toast.error('An error occurred while sending the message');
+    }
+  };
   return (
     <div className="flex flex-col justify-end">
         <Formik
        initialValues={{ firstname:'', lastname:'', phonenumber:'', email: '', subject: '' }}
-       validate={values => {
+       validate={(values) => {
          const errors = {};
          if (!values.firstname) {
             errors.firstname = 'Required';
@@ -52,12 +64,7 @@ const SignUpForm = () => {
          }
          return errors;
        }}
-       onSubmit={(values, { setSubmitting }) => {
-         setTimeout(() => {
-           alert(JSON.stringify(values, null, 2));
-           setSubmitting(false);
-         }, 400);
-       }}
+       onSubmit={(e) => sendEmail(e)}
      >
         {({
          values,
