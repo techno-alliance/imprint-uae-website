@@ -10,21 +10,21 @@ import toast from 'react-hot-toast';
 const SignUpForm = () => {
 
   
-    // const sendEmail = async e => {
-    //     e.preventDefault()
-    //     const response = await fetch("/api/send", {
-    //       method: "POST",
-    //       headers: {
-    //         "content-Type": "application/json"
-    //       },
-    //       body: JSON.stringify(data)
-    //     })
+    const sendEmail = async e => {
+        e.preventDefault()
+        const response = await fetch("/api/send", {
+          method: "POST",
+          headers: {
+            "content-Type": "application/json"
+          },
+          body: JSON.stringify(data)
+        })
       
-    //     if (response.status === 200) {
-    //       setData({})
-    //       toast.success(`Hey ${data.name}, your message was sent successfully`)
-    //     }
-    //   }
+        if (response.status === 200) {
+          setData({})
+          toast.success(`Hey ${data.name}, your message was sent successfully`)
+        }
+      }
   return (
     <div className="flex flex-col justify-end">
         <Formik
