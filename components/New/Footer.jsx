@@ -29,9 +29,9 @@ const Footer = () => {
             <div className="flex flex-col justify-center">
               <p className="text-white text-center md:text-left">LOCATION</p>
               <p className="text-gray-400 text-center md:text-left">
-                Near Ajman Private School Ajman - United Arab
+                Near Ajman Private School, Ajman -
               </p>
-              <p className="text-gray-400 text-center md:text-left">Emirates</p>
+              <p className="text-gray-400 text-center md:text-left">United Arab Emirates</p>
             </div>
             <div className="text-gray-400">
               <p className="text-white text-center md:text-left">FOLLOW</p>
