@@ -70,7 +70,7 @@ const Hero = () => {
             <div className=" text-[#5C5858] block 2xl:text-xl w-full md:w-[40%]">
               <span>
                 We’re pioneers, passionately delivering offset solutions to over
-                a thousand clients, right now and every day
+                a thousand clients, right now and every day.
               </span>
             </div>
           </div>
