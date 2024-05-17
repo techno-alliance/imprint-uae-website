@@ -11,8 +11,8 @@ import { Toaster } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Imprint printing press",
-  description: "Designed by HR Minds Engineered for HR Succes| AI based Job Description Creation| Smart Candidate Profile Management",
+  title: "Imprint UAE | Printing press",
+  description: "Looking for a reliable printing press in the UAE? Imprint uae provides fast and affordable printing solutions.",
 };
 
 export default function RootLayout({ children }) {
