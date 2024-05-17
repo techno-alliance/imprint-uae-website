@@ -13,15 +13,15 @@ const Hero = () => {
             <div className="text-[#C6C6C6] text-sm lg:text-lg">
               Unleash Your Vision
             </div>
-            <div className="font-bold text-white text-4xl xss:text-5xl xs:text-[46px] sm:text-[48px] md:text-[50px] sm:leading-[48px] md:leading-[50px] lg:text-[76px] lg:leading-[76px] 2xl:text-8xl flex gap-10">
+            <div className="font-bold text-white text-4xl lg:text-6xl lg:leading-[76px] 2xl:text-8xl flex gap-10">
               <div className="flex flex-col">
                 {" "}
-                <h1>Your Ultimate Offset</h1>
+                <h1>Imprint Press for you to</h1>
                 <div className="flex items-center gap-2">
-                  <div className="text-[#1265D7]">Printing</div>
+                  <div className="text-[#1265D7]">make a lasting</div>
                   <TextVideo />
-                  Partner
-                </div>
+                  impression
+                </div>  
               </div>
               <div className="hidden sm:block">
                 <svg
