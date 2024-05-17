@@ -93,7 +93,7 @@ export const BentoGridItem = ({
           height={100}
           className="object-cover object-center"/>
         
-      <div className={cn("absolute flex justify-center items-center bottom-0 w-full bg-black/10 h-[50px] md:h-[170px] ",
+      {/* <div className={cn("absolute flex justify-center items-center bottom-0 w-full bg-black/10 h-[50px] md:h-[170px] ",
       {"transition-transform duration-300": isHovered }
       )}
       style={{
@@ -102,7 +102,7 @@ export const BentoGridItem = ({
       
       >
         <p className={cn("text-center text-transparent text-2xl md:text-[64px] leading-[160%] font-normal",{"text-white transition-transform duration-300": isHovered})}>{textArray[currentIndex]}</p>
-      </div>
+      </div> */}
     </div>
   );
 };

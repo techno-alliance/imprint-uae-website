@@ -71,7 +71,7 @@ const sliderdata = [
 const page = () => {
   return (
     <div className="text-white flex flex-col gap-[120px]">
-      <PageName pagename="Let our Packaging tell your brand stories" image={packaging} description="We're the specialised ones making your product excel in the market. from concept to creation, we ensure your product grabs cent percent attention." />
+      <PageName title="Packaging" pagename="Let our Packaging tell your brand stories" image={packaging} description="We're the specialised ones making your product excel in the market. from concept to creation, we ensure your product grabs cent percent attention." />
       <div className="max-w-screen-xl mx-auto w-full">
         <MovingImage />
       </div>

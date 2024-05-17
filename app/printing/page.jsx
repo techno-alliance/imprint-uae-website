@@ -72,7 +72,7 @@ const sliderdata = [
 const page = () => {
   return (
     <div className="text-white flex flex-col gap-[120px]">
-      <PageName pagename=" The Absolute Solution for Your Printing Queries." image={printing} description="Imprint Press offering you printing solutions, ensuring satisfaction with your needs."/>
+      <PageName title="Printing" pagename=" The Absolute Solution for Your Printing Queries." image={printing} description="Imprint Press offering you printing solutions, ensuring satisfaction with your needs."/>
       <div className="max-w-screen-xl mx-auto w-full">
         <MovingImage />
       </div>
