@@ -9,42 +9,42 @@ import toast from 'react-hot-toast';
 
 const SignUpForm = () => {
 
-  const [data, setData] = useState({
-    firstname: '',
-    lastname: '',
-    phonenumber: '',
-    email: '',
-    subject: '',
-    message: '',
-  })
-  const sendEmail = async (values) => {
-    try {
-      const response = await fetch('/api/send', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(values),
-      });
+  // const [data, setData] = useState({
+  //   firstname: '',
+  //   lastname: '',
+  //   phonenumber: '',
+  //   email: '',
+  //   subject: '',
+  //   message: '',
+  // })
+  // const sendEmail = async (values) => {
+  //   try {
+  //     const response = await fetch('/api/send', {
+  //       method: 'POST',
+  //       headers: {
+  //         'Content-Type': 'application/json',
+  //       },
+  //       body: JSON.stringify(values),
+  //     });
 
-      if (response.ok) {
-        setData({
-          firstname: '',
-          lastname: '',
-          phonenumber: '',
-          email: '',
-          subject: '',
-          message: '',
-        });
-        toast.success(`Hey ${values.firstname}, your message was sent successfully`);
-      } else {
-        toast.error('Failed to send message');
-      }
-    } catch (error) {
-      console.error('Error sending email:', error);
-      toast.error('An error occurred while sending the message');
-    }
-  };
+  //     if (response.ok) {
+  //       setData({
+  //         firstname: '',
+  //         lastname: '',
+  //         phonenumber: '',
+  //         email: '',
+  //         subject: '',
+  //         message: '',
+  //       });
+  //       toast.success(`Hey ${values.firstname}, your message was sent successfully`);
+  //     } else {
+  //       toast.error('Failed to send message');
+  //     }
+  //   } catch (error) {
+  //     console.error('Error sending email:', error);
+  //     toast.error('An error occurred while sending the message');
+  //   }
+  // };
   return (
     <div className="flex flex-col justify-end">
         <Formik
