@@ -7,7 +7,7 @@ const Images = [
     user1,
     user2,
 ];
-export const PageName = ({ pagename, image, description }) => {
+export const PageName = ({title, pagename, image, description }) => {
   return (
     <div
       className="h-full md:h-[473px] relative pt-[134px] pb-8"
@@ -24,7 +24,7 @@ export const PageName = ({ pagename, image, description }) => {
         />
       </div>
       <div className=" flex flex-col max-w-screen-xl mx-auto px-10 2xl:px-0">
-        <p className="text-sm md:text-xl">Unleash Your Vision</p>
+        <p className="text-sm md:text-xl">{title}</p>
         <div className="flex items-center gap-3">
           <h1 className="text-2xl md:text-6xl font-semibold">{pagename}</h1>
           {/* <h1 className="text-[36px] md:text-[100px] font-semibold">{pagename}</h1> */}
