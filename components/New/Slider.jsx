@@ -7,6 +7,7 @@ import { GoArrowUpRight } from "react-icons/go";
 import project1 from "@/public/images/project1.png"
 import project4 from "@/public/images/project4.png"
 import book from "@/public/images/books1.png"
+import book2 from "@/public/images/card.png"
 
 
 // Import Swiper styles
@@ -164,7 +165,7 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide className='!p-3 lg:!p-0 !bg-black'>
           <div className='rounded-[10px] !w-full !h-[250px] lg:!w-[450px] lg:!h-[550px] !overflow-hidden !relative group'>
-          <Image src={box} className='w-full h-full object-cover'/>
+          <Image src={book2} className='w-full h-full object-cover'/>
           <div className='absolute top-0 right-0 p-5'>
             <div className='flex justify-center items-center bg-white py-2 px-4 rounded-full'>
               <p className='text-black text-[16px] font-semibold'>Printing</p>

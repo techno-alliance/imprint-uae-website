@@ -9,14 +9,14 @@ import toast from 'react-hot-toast';
 
 const SignUpForm = () => {
 
-  // const [data, setData] = useState({
-  //   firstname: '',
-  //   lastname: '',
-  //   phonenumber: '',
-  //   email: '',
-  //   subject: '',
-  //   message: '',
-  // })
+  const [data, setData] = useState({
+    firstname: '',
+    lastname: '',
+    phonenumber: '',
+    email: '',
+    subject: '',
+    message: '',
+  })
   const sendEmail = async (values) => {
     try {
       const response = await fetch('/api/send', {
@@ -28,6 +28,14 @@ const SignUpForm = () => {
       });
 
       if (response.ok) {
+        setData({
+          firstname: '',
+          lastname: '',
+          phonenumber: '',
+          email: '',
+          subject: '',
+          message: '',
+        });
         toast.success(`Hey ${values.firstname}, your message was sent successfully`);
       } else {
         toast.error('Failed to send message');
@@ -95,7 +103,7 @@ const SignUpForm = () => {
                     type="text"
                     name="firstname"
                     placeholder="Enter First Name"
-                    // value={form.name}
+                    value={values.firstname}
                     onChange={handleChange}
                     // onFocus={handleFocus}
                     onBlur={handleBlur}
@@ -116,7 +124,7 @@ const SignUpForm = () => {
                     name="lastname"
                     placeholder="Enter Last Name"
                     
-                    // value={form.lastname}
+                    value={values.lastname}
                     onChange={handleChange}
                     // onFocus={handleFocus}
                     onBlur={handleBlur}
@@ -140,7 +148,7 @@ const SignUpForm = () => {
                     name="email"
                     placeholder="Enter your Email"
                     
-                    // value={form.email}
+                    value={values.email}
                     onChange={handleChange}
                     // onFocus={handleFocus}
                     onBlur={handleBlur}
@@ -161,7 +169,7 @@ const SignUpForm = () => {
                     name="phonenumber"
                     placeholder="Enter your Phone Number"
                     
-                    // value={form.phone}
+                    value={values.phonenumber}
                     onChange={handleChange}
                     // onFocus={handleFocus}
                     onBlur={handleBlur}
