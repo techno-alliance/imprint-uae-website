@@ -9,6 +9,7 @@ export function BentoGridDemo() {
         <BentoGridItem
           key={i}
           image={item.image}
+          text={item.text}
           className={i === 0 || i === 3 ? "md:col-span-2" : ""}
         />
       ))}
@@ -18,18 +19,18 @@ export function BentoGridDemo() {
 
 const items = [
   {
-
-
-
-    image: "/images/paperfood.png"
+    image: "/images/paperfood.png",
+    text:"Packaging"
   },
   {
 
-    image: "/images/paperfood2.png"
+    image: "/images/printing.png",
+    text:"Printing"
   },
   {
  
-    image: "/images/paperfood3.png"
+    image: "/images/paperfood3.png",
+    text:"Production"
   },
  
  

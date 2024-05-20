@@ -49,41 +49,42 @@ export const BentoGridItem = ({
   //   description,
   //   header,
   image,
+  text
   //   icon
 }) => {
-    const [isHovered, setIsHovered] = useState(false);
-    const [currentIndex, setCurrentIndex] = useState(0);
+  //   const [isHovered, setIsHovered] = useState(false);
+  //   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
+  // const handleMouseEnter = () => {
+  //   setIsHovered(true);
+  // };
 
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
+  // const handleMouseLeave = () => {
+  //   setIsHovered(false);
+  // };
 
-  const textArray = ["Food Packaging", "Printing", "Production"];
-  useEffect(() => {
-    let intervalId;
+  // const textArray = ["Food Packaging", "Printing", "Production"];
+  // useEffect(() => {
+  //   let intervalId;
 
-    if (isHovered) {
-      intervalId = setInterval(() => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % textArray.length);
-      }, 1000); // Change text every 2 seconds (2000 milliseconds)
-    }
+  //   if (isHovered) {
+  //     intervalId = setInterval(() => {
+  //       setCurrentIndex((prevIndex) => (prevIndex + 1) % textArray.length);
+  //     }, 1000); // Change text every 2 seconds (2000 milliseconds)
+  //   }
 
-    return () => {
-      clearInterval(intervalId);
-    };
-  }, [isHovered, textArray.length]);
+  //   return () => {
+  //     clearInterval(intervalId);
+  //   };
+  // }, [isHovered, textArray.length]);
   return (
     <div
       className={cn(
         "h-auto relative md:h-[390px] row-span-1 overflow-hidden rounded-[20px] justify-between flex flex-col group",
         className,
       )}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
+      // onMouseEnter={handleMouseEnter}
+      // onMouseLeave={handleMouseLeave}
     >
       
         <Image
@@ -93,16 +94,14 @@ export const BentoGridItem = ({
           height={100}
           className="object-cover object-center"/>
         
-      {/* <div className={cn("absolute flex justify-center items-center bottom-0 w-full bg-black/10 h-[50px] md:h-[170px] ",
-      {"transition-transform duration-300": isHovered }
-      )}
-      style={{
-        transform: `translateY(${isHovered ? "0%" : "100%"})` // Translate content from bottom to top
-      }}
+      <div className="absolute flex justify-center items-center bottom-0 w-full bg-black/10 h-[50px] md:h-[170px] "
+      // style={{
+      //   transform: `translateY(${isHovered ? "0%" : "100%"})`
+      // }}
       
       >
-        <p className={cn("text-center text-transparent text-2xl md:text-[64px] leading-[160%] font-normal",{"text-white transition-transform duration-300": isHovered})}>{textArray[currentIndex]}</p>
-      </div> */}
+        <p className="text-center text-white text-2xl md:text-[64px] leading-[160%] font-normal">{text}</p>
+      </div>
     </div>
   );
 };
