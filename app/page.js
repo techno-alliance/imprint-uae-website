@@ -13,6 +13,7 @@ import React from "react"
 import { StickyScroll } from "../components/Sparkle/Ui/StickyScroll"
 import Image from "next/image"
 import { StickyScrollRevealDemo } from "@/components/New/StickyScrollDemo";
+import Banner from "@/components/New/Banner"
 
 
 
@@ -274,7 +275,7 @@ export default function Home() {
       </section> */}
       <section className="py-10 lg:py-20 bg-[#36393A]">
         <div className="max-w-screen-xl mx-auto px-5 lg:px-10 2xl:px-0">
-          <Slider2 />
+        <Banner/>
         </div>
       </section>
       <section>

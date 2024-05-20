@@ -84,12 +84,12 @@ const Hero = () => {
                 alt=""
               />
             </div>
-            <div className="rounded-3xl lg:rounded-[20px] backdrop-blur-[31px] absolute -top-[10%] left-[3%] w-[345px] lg:w-[210px] p-4 lg:p-7">
+            <div className="rounded-3xl lg:rounded-[20px] border-[5px] border-[rgba(255,_255,_255,_0.10)] bg-[rgba(3,_4,_3,_0.40)] backdrop-blur-[31px] absolute -top-[10%] left-[3%] w-[345px] lg:w-[210px] p-4 lg:p-7">
               <div className="flex flex-col gap-2">
-                <span className="text-sm font-[500] text-black">
+                <span className="text-sm font-[500] text-white">
                   Imprint Printing
                 </span>
-                <span className="text-sm text-black">
+                <span className="text-sm text-white">
                   We’re pioneers, passionately delivering offset solutions to
                   over a thousand clients, right now and every day
                 </span>
