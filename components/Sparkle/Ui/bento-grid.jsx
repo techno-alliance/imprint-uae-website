@@ -94,7 +94,7 @@ export const BentoGridItem = ({
           height={100}
           className="object-cover object-center"/>
         
-      <div className="absolute flex justify-center items-center bottom-0 w-full bg-black/10 h-[50px] md:h-[170px] "
+      <div className="absolute flex justify-center items-center bottom-0 w-full bg-black/10 h-[50px] md:h-[170px] backdrop-filter backdrop-blur-md"
       // style={{
       //   transform: `translateY(${isHovered ? "0%" : "100%"})`
       // }}

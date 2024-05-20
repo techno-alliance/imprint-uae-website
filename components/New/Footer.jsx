@@ -26,18 +26,18 @@ const Footer = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col justify-center">
-              <p className="text-white text-center md:text-left">LOCATION</p>
-              <p className="text-gray-400 text-center md:text-left">
+            <div className="flex flex-col justify-center lg:justify-start">
+              <p className="text-white text-center lg:text-left">LOCATION</p>
+              <p className="text-gray-400 text-center lg:text-left">
                 Near Ajman Private School, Ajman -
               </p>
-              <p className="text-gray-400 text-center md:text-left">United Arab Emirates</p>
+              <p className="text-gray-400 text-center lg:text-left">United Arab Emirates</p>
             </div>
             <div className="text-gray-400">
-              <p className="text-white text-center md:text-left">FOLLOW</p>
-              <p className="text-center md:text-left">LINKEDIN</p>
-              <p className="text-center md:text-left">INSTAGRAM</p>
-              <p className="text-center md:text-left">MEDIUM</p>
+              <p className="text-white text-center lg:text-left">FOLLOW</p>
+              <p className="text-center lg:text-left">LINKEDIN</p>
+              <p className="text-center lg:text-left">INSTAGRAM</p>
+              <p className="text-center lg:text-left">MEDIUM</p>
             </div>
           </div>
           <div className="flex flex-col gap-5">
