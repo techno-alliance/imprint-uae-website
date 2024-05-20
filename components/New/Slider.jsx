@@ -4,8 +4,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import Image from 'next/image';
 import box from "@/public/images/pad.png"
 import { GoArrowUpRight } from "react-icons/go";
-import project1 from "@/public/images/project1.png"
-import project4 from "@/public/images/project4.png"
+import project1 from "@/public/images/printingnew.png"
+import project4 from "@/public/images/foodpackaging.png"
 import book from "@/public/images/books1.png"
 import book2 from "@/public/images/card.png"
 
@@ -109,7 +109,7 @@ export default function App() {
           </div>
           <div className='absolute bottom-0 p-5 w-full transition-all duration-300 opacity-0 group-hover:opacity-100'>
             <div className='flex w-full justify-between items-center py-3 px-5 bg-white/20 rounded-[10px]'>
-              <p className='text-[28px] font-normal text-white'>Printing</p>
+              <p className='text-[28px] font-normal text-white'>Business Cards</p>
               <p className='text-[28px] font-normal text-white'><GoArrowUpRight/></p>
             </div>
           </div>
@@ -120,12 +120,12 @@ export default function App() {
           <Image src={project4} className='w-full h-full object-cover'/>
           <div className='absolute top-0 right-0 p-5'>
             <div className='flex justify-center items-center bg-white py-2 px-4 rounded-full'>
-              <p className='text-black text-[16px] font-semibold'>Printing</p>
+              <p className='text-black text-[16px] font-semibold'>Packaging</p>
             </div>
           </div>
           <div className='absolute bottom-0 p-5 w-full transition-all duration-300 opacity-0 group-hover:opacity-100'>
             <div className='flex w-full justify-between items-center py-3 px-5 bg-white/20 rounded-[10px]'>
-              <p className='text-[28px] font-normal text-white'>Printing</p>
+              <p className='text-[28px] font-normal text-white'>Food Packaging</p>
               <p className='text-[28px] font-normal text-white'><GoArrowUpRight/></p>
             </div>
           </div>

@@ -7,7 +7,7 @@ const VideoPlayer = () => {
         autoPlay
         loop
         muted
-        className="w-[150px] object-cover rounded-full"
+        className="w-[60px] md:w-[80px] lg:w-[150px] object-cover rounded-full"
       >
         <source src="/Videos/imprint.mp4" type="video/mp4" />
       </video>
