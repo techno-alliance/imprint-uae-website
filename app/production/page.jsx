@@ -49,17 +49,17 @@ const bentoImages2 = [
 
 const sliderdata = [
   {
-    title: "FreshSeal Food Wraps",
+    title: "FreshSeal Cup",
     description: "Imprint printing press is the foremost provider of varied offset printing solutions to more than a thousand clients today..",
     image: slide1
   },
   {
-    title: "FreshSeal Food Wraps",
+    title: "Delight Gift Bottle",
     description: "Imprint printing press is the foremost provider of varied offset printing solutions to more than a thousand clients today..",
     image: slide2
   },
   {
-    title: "FreshSeal Food Wraps",
+    title: "TShirt design",
     description: "Imprint printing press is the foremost provider of varied offset printing solutions to more than a thousand clients today..",
     image: slide3
   },
@@ -72,7 +72,7 @@ const sliderdata = [
 const page = () => {
   return (
     <div className="text-white flex flex-col gap-[120px]">
-      <PageName title="Printing" pagename="From Ideas to Execution, We’ve Got Your Press Production Covered." image={production} description="It's more than just words and pictures; we provide expertise in design, production, and quality to achieve the best results in printing press production."/>
+      <PageName title="Production" pagename="From Ideas to Execution, We’ve Got Your Press Production Covered." image={production} description="It's more than just words and pictures; we provide expertise in design, production, and quality to achieve the best results in printing press production."/>
       <div className="max-w-screen-xl mx-auto w-full">
         <MovingImage />
       </div>

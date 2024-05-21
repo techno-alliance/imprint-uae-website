@@ -48,8 +48,9 @@ export default function App() {
   const [textKey, setTextKey] = useState(0);
 
   const handleSlideChange = (swiper) => {
+    const realIndex = swiper.realIndex; // Get the real index considering the loop
     setTextKey((prev) => prev + 1);
-    setActiveIndex(swiper.activeIndex);
+    setActiveIndex(realIndex);
   };
 
   const variants = {
@@ -81,7 +82,7 @@ export default function App() {
         </div>
       </div>
       <div className="flex flex-col md:flex-row items-center">
-        <div className="w-auto md:w-[500px] lg:w-[600px]">
+        <div className="w-auto md:w-[500px] 2xl:w-[600px]">
           <div className="flex p-4 flex-col justify-end">
             <AnimatePresence mode="wait">
               <motion.div
@@ -90,12 +91,12 @@ export default function App() {
                 animate="animate"
                 exit="exit"
                 variants={variants}
-                transition={{ duration: 0.5 }}
+                transition={{ duration: 0.3 }}
               >
-                <p className="text-white text-left text-[28px] font-semibold">
+                <p className="text-white text-left text-2xl lg:text-[28px] font-semibold">
                   {items[activeIndex].title}
                 </p>
-                <p className="text-[#ADACAC] text-left text-xl font-normal">
+                <p className="text-[#ADACAC] text-left text-sm lg:text-xl font-normal">
                   {items[activeIndex].text}
                 </p>
               </motion.div>
@@ -105,6 +106,7 @@ export default function App() {
         <Swiper
           slidesPerView={1.5}
           spaceBetween={30}
+          loop={true}
           onSlideChange={handleSlideChange}
           breakpoints={{
             320: {
@@ -133,42 +135,42 @@ export default function App() {
             },
           }}
           modules={[Pagination, Navigation]}
-          className="mySwiper !bg-[#36393A] !pb-24 !pt-16"
+          className="mySwiper !bg-[#36393A] !pb-24 pt-0 lg:!pt-16"
         >
           <div className="absolute left-1/2 -translate-x-[50%] bottom-[0px] z-20">
             <SwiperNavButtons />
           </div>
           <SwiperSlide className="!p-3 lg:!p-0 !bg-[#36393A]">
             <div className="flex flex-col lg:flex-row gap-10">
-              <div className="rounded-[10px] w-[300px] h-[300px] lg:w-[550px] lg:h-[400px] overflow-hidden relative group">
+              <div className="rounded-[10px] w-full h-[300px] lg:w-[550px] lg:h-[400px] overflow-hidden relative group">
                 <Image src={project1} className="w-full h-full object-cover" />
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="!p-3 lg:!p-0 !bg-[#36393A]">
             <div className="flex flex-col lg:flex-row gap-10">
-              <div className="rounded-[10px] w-[300px] h-[300px] lg:w-[550px] lg:h-[400px] overflow-hidden relative group">
+              <div className="rounded-[10px] w-full h-[300px] lg:w-[550px] lg:h-[400px] overflow-hidden relative group">
                 <Image src={machine1} className="w-full h-full object-cover" />
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="!p-3 lg:!p-0 !bg-[#36393A]">
             <div className="flex flex-col lg:flex-row gap-10">
-              <div className="rounded-[10px] w-[300px] h-[300px] lg:w-[550px] lg:h-[400px] overflow-hidden relative group">
+              <div className="rounded-[10px] w-full h-[300px] lg:w-[550px] lg:h-[400px] overflow-hidden relative group">
                 <Image src={machine2} className="w-full h-full object-cover" />
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="!p-3 lg:!p-0 !bg-[#36393A]">
             <div className="flex flex-col lg:flex-row gap-10">
-              <div className="rounded-[10px] w-[300px] h-[300px] lg:w-[550px] lg:h-[400px] overflow-hidden relative group">
+              <div className="rounded-[10px] w-full h-[300px] lg:w-[550px] lg:h-[400px] overflow-hidden relative group">
                 <Image src={machine3} className="w-full h-full object-cover" />
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="!p-3 lg:!p-0 !bg-[#36393A]">
             <div className="flex flex-col lg:flex-row gap-10">
-              <div className="rounded-[10px] w-[300px] h-[300px] lg:w-[550px] lg:h-[400px] overflow-hidden relative group">
+              <div className="rounded-[10px] w-full h-[300px] lg:w-[550px] lg:h-[400px] overflow-hidden relative group">
                 <Image src={machine4} className="w-full h-full object-cover" />
               </div>
             </div>
