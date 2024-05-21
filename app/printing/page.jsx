@@ -54,17 +54,17 @@ const sliderdata = [
     image: slide1
   },
   {
-    title: "FreshSeal Food Wraps",
+    title: "Flat halloween labels",
     description: "Imprint printing press is the foremost provider of varied offset printing solutions to more than a thousand clients today..",
     image: slide2
   },
   {
-    title: "FreshSeal Food Wraps",
+    title: "Banner art ",
     description: "Imprint printing press is the foremost provider of varied offset printing solutions to more than a thousand clients today..",
     image: slide3
   },
   {
-    title: "FreshSeal Food Wraps",
+    title: "Poster",
     description: "Imprint printing press is the foremost provider of varied offset printing solutions to more than a thousand clients today..",
     image: slide4
   },

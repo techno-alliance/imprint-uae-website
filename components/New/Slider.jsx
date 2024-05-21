@@ -2,12 +2,12 @@ import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Image from 'next/image';
-import box from "@/public/images/pad.png"
 import { GoArrowUpRight } from "react-icons/go";
 import project1 from "@/public/images/printingnew.png"
-import project4 from "@/public/images/foodpackaging.png"
-import book from "@/public/images/books1.png"
-import book2 from "@/public/images/card.png"
+import project2 from "@/public/images/foodpackaging.png"
+import project3 from "@/public/images/paperproduction.png"
+import project4 from "@/public/images/flyerbrochure.png"
+import project5 from "@/public/images/paperkraft.png"
 
 
 // Import Swiper styles
@@ -107,9 +107,41 @@ export default function App() {
               <p className='text-black text-[16px] font-semibold'>Printing</p>
             </div>
           </div>
-          <div className='absolute bottom-0 p-5 w-full transition-all duration-300 opacity-0 group-hover:opacity-100'>
-            <div className='flex w-full justify-between items-center py-3 px-5 bg-white/20 rounded-[10px]'>
+          <div className='absolute bottom-0 p-5 w-full'>
+            <div className='flex w-full justify-between items-center py-3 px-5 backdrop-filter backdrop-blur-lg bg-white/20 rounded-[10px] transition-all duration-300  opacity-0 group-hover:opacity-100'>
               <p className='text-[28px] font-normal text-white'>Business Cards</p>
+              <p className='text-[28px] font-normal text-white'><GoArrowUpRight/></p>
+            </div>
+          </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className='!p-3 lg:!p-0 !bg-black'>
+          <div className='rounded-[10px] !w-full !h-[250px] lg:!w-[450px] lg:!h-[550px] !overflow-hidden !relative group'>
+          <Image src={project2} className='w-full h-full object-cover'/>
+          <div className='absolute top-0 right-0 p-5'>
+            <div className='flex justify-center items-center bg-white py-2 px-4 rounded-full'>
+              <p className='text-black text-[16px] font-semibold'>Packaging</p>
+            </div>
+          </div>
+          <div className='absolute bottom-0 p-5 w-full'>
+            <div className='flex w-full justify-between items-center backdrop-filter backdrop-blur-lg py-3 px-5 bg-white/20 rounded-[10px] transition-all duration-300 opacity-0 group-hover:opacity-100'>
+              <p className='text-[28px] font-normal text-white'>Food Packaging</p>
+              <p className='text-[28px] font-normal text-white'><GoArrowUpRight/></p>
+            </div>
+          </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className='!p-3 lg:!p-0 !bg-black'>
+          <div className='rounded-[10px] !w-full !h-[250px] lg:!w-[450px] lg:!h-[550px] !overflow-hidden !relative group'>
+          <Image src={project3} className='w-full h-full object-cover'/>
+          <div className='absolute top-0 right-0 p-5'>
+            <div className='flex justify-center items-center bg-white py-2 px-4 rounded-full'>
+              <p className='text-black text-[16px] font-semibold'>Production</p>
+            </div>
+          </div>
+          <div className='absolute bottom-0 p-5 w-full'>
+            <div className='flex w-full justify-between items-center py-3 px-5 backdrop-filter backdrop-blur-lg bg-white/20 rounded-[10px] transition-all duration-300 opacity-0 group-hover:opacity-100'>
+              <p className='text-[28px] font-normal text-white'>Paper Production</p>
               <p className='text-[28px] font-normal text-white'><GoArrowUpRight/></p>
             </div>
           </div>
@@ -120,12 +152,12 @@ export default function App() {
           <Image src={project4} className='w-full h-full object-cover'/>
           <div className='absolute top-0 right-0 p-5'>
             <div className='flex justify-center items-center bg-white py-2 px-4 rounded-full'>
-              <p className='text-black text-[16px] font-semibold'>Packaging</p>
+              <p className='text-black text-[16px] font-semibold'>Printing</p>
             </div>
           </div>
-          <div className='absolute bottom-0 p-5 w-full transition-all duration-300 opacity-0 group-hover:opacity-100'>
-            <div className='flex w-full justify-between items-center py-3 px-5 bg-white/20 rounded-[10px]'>
-              <p className='text-[28px] font-normal text-white'>Food Packaging</p>
+          <div className='absolute bottom-0 p-5 w-full'>
+            <div className='flex w-full justify-between items-center py-3 px-5 backdrop-filter backdrop-blur-lg bg-white/20 rounded-[10px] transition-all duration-300 opacity-0 group-hover:opacity-100'>
+              <p className='text-[28px] font-normal text-white'>Flyer brochure</p>
               <p className='text-[28px] font-normal text-white'><GoArrowUpRight/></p>
             </div>
           </div>
@@ -133,47 +165,15 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide className='!p-3 lg:!p-0 !bg-black'>
           <div className='rounded-[10px] !w-full !h-[250px] lg:!w-[450px] lg:!h-[550px] !overflow-hidden !relative group'>
-          <Image src={book} className='w-full h-full object-cover'/>
+          <Image src={project5} className='w-full h-full object-cover'/>
           <div className='absolute top-0 right-0 p-5'>
             <div className='flex justify-center items-center bg-white py-2 px-4 rounded-full'>
-              <p className='text-black text-[16px] font-semibold'>Printing</p>
+              <p className='text-black text-[16px] font-semibold'>Production</p>
             </div>
           </div>
-          <div className='absolute bottom-0 p-5 w-full transition-all duration-300 opacity-0 group-hover:opacity-100'>
-            <div className='flex w-full justify-between items-center py-3 px-5 bg-white/20 rounded-[10px]'>
-              <p className='text-[28px] font-normal text-white'>Printing</p>
-              <p className='text-[28px] font-normal text-white'><GoArrowUpRight/></p>
-            </div>
-          </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className='!p-3 lg:!p-0 !bg-black'>
-          <div className='rounded-[10px] !w-full !h-[250px] lg:!w-[450px] lg:!h-[550px] !overflow-hidden !relative group'>
-          <Image src={box} className='w-full h-full object-cover'/>
-          <div className='absolute top-0 right-0 p-5'>
-            <div className='flex justify-center items-center bg-white py-2 px-4 rounded-full'>
-              <p className='text-black text-[16px] font-semibold'>Printing</p>
-            </div>
-          </div>
-          <div className='absolute bottom-0 p-5 w-full transition-all duration-300 opacity-0 group-hover:opacity-100'>
-            <div className='flex w-full justify-between items-center py-3 px-5 bg-white/20 rounded-[10px]'>
-              <p className='text-[28px] font-normal text-white'>Printing</p>
-              <p className='text-[28px] font-normal text-white'><GoArrowUpRight/></p>
-            </div>
-          </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className='!p-3 lg:!p-0 !bg-black'>
-          <div className='rounded-[10px] !w-full !h-[250px] lg:!w-[450px] lg:!h-[550px] !overflow-hidden !relative group'>
-          <Image src={book2} className='w-full h-full object-cover'/>
-          <div className='absolute top-0 right-0 p-5'>
-            <div className='flex justify-center items-center bg-white py-2 px-4 rounded-full'>
-              <p className='text-black text-[16px] font-semibold'>Printing</p>
-            </div>
-          </div>
-          <div className='absolute bottom-0 p-5 w-full transition-all duration-300 opacity-0 group-hover:opacity-100'>
-            <div className='flex w-full justify-between items-center py-3 px-5 bg-white/20 rounded-[10px]'>
-              <p className='text-[28px] font-normal text-white'>Printing</p>
+          <div className='absolute bottom-0 p-5 w-full'>
+            <div className='flex w-full justify-between items-center py-3 px-5 backdrop-filter backdrop-blur-lg bg-white/20 rounded-[10px] transition-all duration-300 opacity-0 group-hover:opacity-100'>
+              <p className='text-[28px] font-normal text-white'>Paper kraft box</p>
               <p className='text-[28px] font-normal text-white'><GoArrowUpRight/></p>
             </div>
           </div>

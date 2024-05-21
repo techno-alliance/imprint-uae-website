@@ -48,22 +48,22 @@ const bentoImages2 = [
 
 const sliderdata = [
   {
-    title: "FreshSeal Food Wraps",
+    title: "materials and supplies",
     description: "Imprint printing press is the foremost provider of varied offset printing solutions to more than a thousand clients today..",
     image: slide1
   },
   {
-    title: "FreshSeal Food Wraps",
+    title: "Different gift boxes",
     description: "Imprint printing press is the foremost provider of varied offset printing solutions to more than a thousand clients today..",
     image: slide2
   },
   {
-    title: "FreshSeal Food Wraps",
+    title: "Mystery box collage",
     description: "Imprint printing press is the foremost provider of varied offset printing solutions to more than a thousand clients today..",
     image: slide3
   },
   {
-    title: "FreshSeal Food Wraps",
+    title: "Rice Package paper bag",
     description: "Imprint printing press is the foremost provider of varied offset printing solutions to more than a thousand clients today..",
     image: slide4
   },
