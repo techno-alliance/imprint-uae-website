@@ -79,11 +79,11 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex flex-col lg:flex-row justify-between pt-10 lg:pt-20">
-          <p className="text-white text-sm lg:text-[16px] text-center">TERMS & CONDITIONS</p>
+          <Link href="/Terms&Condition" className="text-white text-sm lg:text-[16px] text-center">TERMS & CONDITIONS</Link>
           <p className="text-white text-sm lg:text-[16px] text-center">
             2024 Copyright. All right reserved
           </p>
-          <p className="text-white text-sm lg:text-[16px] text-center">PRIVACY POLICY</p>
+          <Link href="/Privacypolicy" className="text-white text-sm lg:text-[16px] text-center">PRIVACY POLICY</Link>
         </div>
       </div>
     </footer>
