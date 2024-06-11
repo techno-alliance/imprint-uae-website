@@ -126,8 +126,7 @@ const Hero = () => {
                   Imprint Printing
                 </span>
                 <span className="text-sm text-white">
-                  We’re pioneers, passionately delivering offset solutions to
-                  over a thousand clients, right now and every day
+                Having started as a small, limited capacity unit, Imprint has now become a leading press in the UAE known for its cutting-edge technologies, quality-driven workforce and customer centric approach.
                 </span>
               </div>
             </div>
