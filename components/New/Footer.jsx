@@ -22,7 +22,7 @@ const Footer = () => {
                   GET IN TOUCH
                 </p>
                 <p className="text-gray-400 text-center md:text-left">
-                  imprintuae@gmail.com
+                  info@imprintuae.net
                 </p>
               </div>
             </div>
@@ -33,11 +33,11 @@ const Footer = () => {
               </p>
               <p className="text-gray-400 text-center lg:text-left">United Arab Emirates</p>
             </div>
-            <div className="text-gray-400">
+            <div className="text-gray-400 flex flex-col gap-1">
               <p className="text-white text-center lg:text-left">FOLLOW</p>
-              <p className="text-center lg:text-left">LINKEDIN</p>
-              <p className="text-center lg:text-left">INSTAGRAM</p>
-              <p className="text-center lg:text-left">MEDIUM</p>
+              <Link href="https://www.linkedin.com/in/imprint-printing-press-l-l-c-77ba09102/"  className="text-center uppercase lg:text-left">LINKEDIN</Link>
+              <Link href="https://www.instagram.com/imprint.printing/" className="text-center uppercase lg:text-left">INSTAGRAM</Link>
+              <Link href="https://www.facebook.com/p/Imprint-Printing-Press-LLC-100069427084378/" className="text-center uppercase lg:text-left">FACEBOOK</Link>
             </div>
           </div>
           <div className="flex flex-col gap-5">
@@ -47,7 +47,7 @@ const Footer = () => {
             <div className="flex justify-center lg:justify-start">
               <Link
                 className="button-57 flex justify-center items-center gap-3 transition duration-300 py-1 w-max rounded-full text-[16px] lg:text-[20px] px-1 pr-4 text-white"
-                href="mailto:someone@example.com"
+                href="mailto:info@imprintuae.net"
               >
                 <div className="bg-black rounded-full w-12 h-12 text-2xl text-white flex justify-center items-center">
                   <PiEnvelopeSimpleLight />

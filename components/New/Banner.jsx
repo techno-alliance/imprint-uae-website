@@ -24,24 +24,24 @@ export default function App() {
   const items = [
     {
       title: "Speed Master CD 102",
-      text: "Experience the pinnacle of printing precision with Speedmaster CD 102. Where speed meets finesse, delivering vibrant colors and unmatched quality on every sheet."
+      text: "Experience the pinnacle of printing precision with Speedmaster CD 102. Where speed meets finesse, delivering vibrant colors and unmatched quality on every sheet.",
     },
     {
       title: "HP latex 370",
-      text: "Experience the pinnacle of printing precision with Speedmaster CD 102. Where speed meets finesse, delivering vibrant colors and unmatched quality on every sheet."
+      text: "Experience the pinnacle of printing precision with Speedmaster CD 102. Where speed meets finesse, delivering vibrant colors and unmatched quality on every sheet.",
     },
     {
       title: "Folder Gluer Machine",
-      text: "Experience the pinnacle of printing precision with Speedmaster CD 102. Where speed meets finesse, delivering vibrant colors and unmatched quality on every sheet."
+      text: "Experience the pinnacle of printing precision with Speedmaster CD 102. Where speed meets finesse, delivering vibrant colors and unmatched quality on every sheet.",
     },
     {
       title: "RICOH Pro C7200x",
-      text: "Experience the pinnacle of printing precision with Speedmaster CD 102. Where speed meets finesse, delivering vibrant colors and unmatched quality on every sheet."
+      text: "Experience the pinnacle of printing precision with Speedmaster CD 102. Where speed meets finesse, delivering vibrant colors and unmatched quality on every sheet.",
     },
     {
       title: "Automatic Sheet Paper Cutting Machine",
-      text: "Experience the pinnacle of printing precision with Speedmaster CD 102. Where speed meets finesse, delivering vibrant colors and unmatched quality on every sheet."
-    }
+      text: "Experience the pinnacle of printing precision with Speedmaster CD 102. Where speed meets finesse, delivering vibrant colors and unmatched quality on every sheet.",
+    },
   ];
 
   const [activeIndex, setActiveIndex] = useState(0);
@@ -56,11 +56,11 @@ export default function App() {
   const variants = {
     initial: { opacity: 0, y: 20 },
     animate: { opacity: 1, y: 0 },
-    exit: { opacity: 0, y: -20 }
+    exit: { opacity: 0, y: -20 },
   };
 
   return (
-    <div className="bg-[#36393A]">
+    <div className="bg-[#36393A] overflow-hidden">
       <div className="bg-[#36393A]">
         <div className="max-w-screen-xl mx-auto">
           <div className="flex flex-col gap-3">
@@ -81,9 +81,9 @@ export default function App() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row items-center">
+      <div className="flex flex-col lg:flex-row items-center">
         <div className="w-auto md:w-[500px] 2xl:w-[600px]">
-          <div className="flex p-4 flex-col justify-end">
+          <div className="flex p-4 flex-col justify-end w-auto lg:w-[400px]">
             <AnimatePresence mode="wait">
               <motion.div
                 key={textKey}
@@ -137,42 +137,32 @@ export default function App() {
           modules={[Pagination, Navigation]}
           className="mySwiper !bg-[#36393A] !pb-24 pt-0 lg:!pt-16"
         >
-          <div className="absolute left-1/2 -translate-x-[50%] bottom-[0px] z-20">
+          <div className="absolute left-1/2 -translate-x-[50%] bottom-[0px] z-20 pr-0 lg:pr-10">
             <SwiperNavButtons />
           </div>
           <SwiperSlide className="!p-3 lg:!p-0 !bg-[#36393A]">
-            <div className="flex flex-col lg:flex-row gap-10">
-              <div className="rounded-[10px] w-full h-[300px] lg:w-[550px] lg:h-[400px] overflow-hidden relative group">
-                <Image src={project1} className="w-full h-full object-cover" />
-              </div>
+            <div className="rounded-[10px] w-full h-[300px] lg:w-[550px] lg:h-[400px] overflow-hidden relative group">
+              <Image src={project1} className="w-full h-full object-cover" />
             </div>
           </SwiperSlide>
           <SwiperSlide className="!p-3 lg:!p-0 !bg-[#36393A]">
-            <div className="flex flex-col lg:flex-row gap-10">
-              <div className="rounded-[10px] w-full h-[300px] lg:w-[550px] lg:h-[400px] overflow-hidden relative group">
-                <Image src={machine1} className="w-full h-full object-cover" />
-              </div>
+            <div className="rounded-[10px] w-full h-[300px] lg:w-[550px] lg:h-[400px] overflow-hidden relative group">
+              <Image src={machine1} className="w-full h-full object-cover" />
             </div>
           </SwiperSlide>
           <SwiperSlide className="!p-3 lg:!p-0 !bg-[#36393A]">
-            <div className="flex flex-col lg:flex-row gap-10">
-              <div className="rounded-[10px] w-full h-[300px] lg:w-[550px] lg:h-[400px] overflow-hidden relative group">
-                <Image src={machine2} className="w-full h-full object-cover" />
-              </div>
+            <div className="rounded-[10px] w-full h-[300px] lg:w-[550px] lg:h-[400px] overflow-hidden relative group">
+              <Image src={machine2} className="w-full h-full object-cover" />
             </div>
           </SwiperSlide>
           <SwiperSlide className="!p-3 lg:!p-0 !bg-[#36393A]">
-            <div className="flex flex-col lg:flex-row gap-10">
-              <div className="rounded-[10px] w-full h-[300px] lg:w-[550px] lg:h-[400px] overflow-hidden relative group">
-                <Image src={machine3} className="w-full h-full object-cover" />
-              </div>
+            <div className="rounded-[10px] w-full h-[300px] lg:w-[550px] lg:h-[400px] overflow-hidden relative group">
+              <Image src={machine3} className="w-full h-full object-cover" />
             </div>
           </SwiperSlide>
           <SwiperSlide className="!p-3 lg:!p-0 !bg-[#36393A]">
-            <div className="flex flex-col lg:flex-row gap-10">
-              <div className="rounded-[10px] w-full h-[300px] lg:w-[550px] lg:h-[400px] overflow-hidden relative group">
-                <Image src={machine4} className="w-full h-full object-cover" />
-              </div>
+            <div className="rounded-[10px] w-full h-[300px] lg:w-[550px] lg:h-[400px] overflow-hidden relative group">
+              <Image src={machine4} className="w-full h-full object-cover" />
             </div>
           </SwiperSlide>
         </Swiper>
