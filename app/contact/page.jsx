@@ -135,15 +135,15 @@ export default function Page() {
               <div className="flex flex-col gap-5">
                 <p className="text-white">Follow us on social media</p>
                 <div className="flex gap-5 items-center">
-                  <div className="w-[28px] h-[28px] lg:w-[50px] lg:h-[50px] text-white text-[16px] lg:text-3xl p-2 bg-[#2E2E2E] flex justify-center items-center rounded-full">
+                  <Link href="https://www.instagram.com/imprint.printing/" className="w-[28px] h-[28px] lg:w-[50px] lg:h-[50px] text-white text-[16px] lg:text-3xl p-2 bg-[#2E2E2E] flex justify-center items-center rounded-full">
                     <FaInstagram />
-                  </div>
-                  <div className="w-[28px] h-[28px] lg:w-[50px] lg:h-[50px] text-white text-[16px] lg:text-3xl p-2 bg-[#2E2E2E] flex justify-center items-center rounded-full">
+                  </Link>
+                  <Link href="https://www.linkedin.com/in/imprint-printing-press-l-l-c-77ba09102/" className="w-[28px] h-[28px] lg:w-[50px] lg:h-[50px] text-white text-[16px] lg:text-3xl p-2 bg-[#2E2E2E] flex justify-center items-center rounded-full">
                     <FaLinkedinIn />
-                  </div>
-                  <div className="w-[28px] h-[28px] lg:w-[50px] lg:h-[50px] text-white text-[16px] lg:text-3xl p-2 bg-[#2E2E2E] flex justify-center items-center rounded-full">
+                  </Link>
+                  <Link href="https://www.facebook.com/p/Imprint-Printing-Press-LLC-100069427084378/" className="w-[28px] h-[28px] lg:w-[50px] lg:h-[50px] text-white text-[16px] lg:text-3xl p-2 bg-[#2E2E2E] flex justify-center items-center rounded-full">
                     <FaFacebookF />
-                  </div>
+                  </Link>
                   {/* <div className="w-[28px] h-[28px] lg:w-[50px] lg:h-[50px] text-white text-[16px] lg:text-3xl p-2 bg-[#2E2E2E] flex justify-center items-center rounded-full">
                     <FaXTwitter />
                   </div>
@@ -156,7 +156,7 @@ export default function Page() {
                 <div className="bg-[#1E1E1E] p-[18px] rounded-[10px] border border-[rgba(255,_255,_255,_0.10)]">
                   <div>
                     <p className="text-white">Office hours</p>
-                    <p className="text-white">9:00 am -6:00 pm</p>
+                    <p className="text-white">8:00 am - 6:00 pm</p>
                   </div>
                 </div>
                 <a href="mailto:someone@example.com" className="bg-[#1E1E1E] flex justify-between items-center p-[18px] rounded-[10px] border border-[rgba(255,_255,_255,_0.10)]">
@@ -164,7 +164,7 @@ export default function Page() {
                     <p className="text-white text-left">
                       you can email us here{" "}
                     </p>
-                    <p className="text-white">imprintuae@gmail.com</p>
+                    <p className="text-white">info@imprintuae.net</p>
                   </div>
                   <div className="text-white text-2xl">
                     <FiArrowUpRight />
@@ -353,7 +353,7 @@ export default function Page() {
                 </p>
               </div>
               <div>
-                <a href="https://www.google.com/maps/dir//Imprint+Dubai+Printing+35W5%2BF36+Al+Sufouh+-+Al+Sufouh+2+-+Dubai+United+Arab+Emirates/@25.0961678,55.1576416,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3e5f6b424fffffff:0x1adc53ad79e84356!2m2!1d55.1576416!2d25.0961678?entry=ttu" className="gradient-text text-sm lg:text-xl">View Map</a>
+                <a target="_blank" href="https://www.google.com/maps/place/Imprint+Printing+Press/@25.4008118,55.4914179,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f580a9b6eba8f:0x48c973c177f11612!8m2!3d25.4008118!4d55.4914179!16s%2Fg%2F1yj2mg6mt?entry=ttu" className="gradient-text text-sm lg:text-xl">View Map</a>
               </div>
             </div>
           </div>
