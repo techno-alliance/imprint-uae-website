@@ -4,7 +4,7 @@ import Image from "next/image";
 
 // Define a context with all images from the 'companies' folder
 const companyImagesContext = require.context(
-  "/public/company",
+  "/public/images/logo2_slider",
   false,
   /\.(png|jpe?g|svg)$/
 );
