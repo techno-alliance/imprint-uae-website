@@ -20,6 +20,24 @@ import "@/app/styles.css";
 import { Pagination, Navigation } from "swiper/modules";
 import { SwiperNavButtons } from "./SwiperNavButtons";
 
+// Animated Image component
+const AnimatedImage = ({ src, className }) => {
+  return (
+    <motion.div
+      initial={{ scale: 0.9, opacity: 0.8 }}
+      whileInView={{ scale: 1, opacity: 1 }}
+      transition={{ 
+        duration: 0.8,
+        ease: "easeOut"
+      }}
+      viewport={{ once: false, amount: 0.3 }}
+      className="w-full h-full"
+    >
+      <Image src={src} className={className || 'w-full h-full object-cover'} />
+    </motion.div>
+  );
+};
+
 export default function App() {
   const items = [
     {
@@ -143,27 +161,27 @@ export default function App() {
           </div>
           <SwiperSlide className="!p-3 lg:!p-0 !bg-[#36393A]">
             <div className="rounded-[10px] w-full h-[300px] lg:w-[550px] lg:h-[400px] overflow-hidden relative group">
-              <Image src={project1} className="w-full h-full object-cover" />
+              <AnimatedImage src={project1} className="w-full h-full object-cover" />
             </div>
           </SwiperSlide>
           <SwiperSlide className="!p-3 lg:!p-0 !bg-[#36393A]">
             <div className="rounded-[10px] w-full h-[300px] lg:w-[550px] lg:h-[400px] overflow-hidden relative group">
-              <Image src={machine1} className="w-full h-full object-cover" />
+              <AnimatedImage src={machine1} className="w-full h-full object-cover" />
             </div>
           </SwiperSlide>
           <SwiperSlide className="!p-3 lg:!p-0 !bg-[#36393A]">
             <div className="rounded-[10px] w-full h-[300px] lg:w-[550px] lg:h-[400px] overflow-hidden relative group">
-              <Image src={machine2} className="w-full h-full object-cover" />
+              <AnimatedImage src={machine2} className="w-full h-full object-cover" />
             </div>
           </SwiperSlide>
           <SwiperSlide className="!p-3 lg:!p-0 !bg-[#36393A]">
             <div className="rounded-[10px] w-full h-[300px] lg:w-[550px] lg:h-[400px] overflow-hidden relative group">
-              <Image src={machine3} className="w-full h-full object-cover" />
+              <AnimatedImage src={machine3} className="w-full h-full object-cover" />
             </div>
           </SwiperSlide>
           <SwiperSlide className="!p-3 lg:!p-0 !bg-[#36393A]">
             <div className="rounded-[10px] w-full h-[300px] lg:w-[550px] lg:h-[400px] overflow-hidden relative group">
-              <Image src={machine4} className="w-full h-full object-cover" />
+              <AnimatedImage src={machine4} className="w-full h-full object-cover" />
             </div>
           </SwiperSlide>
         </Swiper>

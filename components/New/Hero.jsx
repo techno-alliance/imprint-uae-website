@@ -19,7 +19,6 @@ const Hero = () => {
                 <h1>Your Ultimate Offset</h1>
                 <div className="flex items-center gap-2">
                   <div className="text-[#1265D7]">Printing</div>
-                  <TextVideo />
                   Partner
                 </div>
               </div>
@@ -120,7 +119,11 @@ const Hero = () => {
                 alt=""
               />
             </div>
-            <div className="rounded-3xl lg:rounded-[20px] border-[5px] border-[rgba(255,_255,_255,_0.10)] bg-[rgba(3,_4,_3,_0.40)] backdrop-blur-[31px] absolute -top-[10%] left-[3%] w-[345px] lg:w-[210px] p-4 lg:p-7">
+            <div className="absolute top-0 right-0 md:top-[-5rem] md:right-[5rem]">
+              <TextVideo />
+            </div>
+
+            {/* <div className="rounded-3xl lg:rounded-[20px] border-[5px] border-[rgba(255,_255,_255,_0.10)] bg-[rgba(3,_4,_3,_0.40)] backdrop-blur-[31px] absolute -top-[10%] left-[3%] w-[345px] lg:w-[210px] p-4 lg:p-7">
               <div className="flex flex-col gap-2">
                 <span className="text-sm font-[500] text-white">
                   Imprint Printing
@@ -129,7 +132,7 @@ const Hero = () => {
                 Having started as a small, limited capacity unit, Imprint has now become a leading press in the UAE known for its cutting-edge technologies, quality-driven workforce and customer centric approach.
                 </span>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="bottam_lp_img bottam_lp_img_mobile_screen h-[100px] block md:block portrait:block landscape:hidden sm:hidden relative overflow-hidden rounded-t-3xl">

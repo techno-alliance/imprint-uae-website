@@ -8,7 +8,7 @@ import project2 from "@/public/images/foodpackaging.png"
 import project3 from "@/public/images/paperproduction.png"
 import project4 from "@/public/images/flyerbrochure.png"
 import project5 from "@/public/images/paperkraft.png"
-
+import { motion } from "framer-motion";
 
 // Import Swiper styles
 import 'swiper/css';
@@ -20,6 +20,24 @@ import '@/app/styles.css';
 // import required modules
 import { Pagination, Navigation } from 'swiper/modules';
 import { SwiperNavButtons } from './SwiperNavButtons';
+
+// Animated image wrapper component
+const AnimatedImage = ({ src, className }) => {
+  return (
+    <motion.div
+      initial={{ scale: 0.9, opacity: 0.8 }}
+      whileInView={{ scale: 1, opacity: 1 }}
+      transition={{ 
+        duration: 0.8,
+        ease: "easeOut"
+      }}
+      viewport={{ once: false, amount: 0.3 }}
+      className="w-full h-full"
+    >
+      <Image src={src} className={className || 'w-full h-full object-cover'} />
+    </motion.div>
+  );
+};
 
 export default function App() {
   return (
@@ -101,7 +119,7 @@ export default function App() {
         </div>
         <SwiperSlide className='!p-3 lg:!p-0 !bg-black'>
           <div className='rounded-[10px] !w-full !h-[250px] lg:!w-[450px] lg:!h-[550px] !overflow-hidden !relative group'>
-          <Image src={project1} className='w-full h-full object-cover'/>
+          <AnimatedImage src={project1} className='w-full h-full object-cover'/>
           <div className='absolute top-0 right-0 p-5'>
             <div className='flex justify-center items-center bg-white py-2 px-4 rounded-full'>
               <p className='text-black text-[16px] font-semibold'>Printing</p>
@@ -117,7 +135,7 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide className='!p-3 lg:!p-0 !bg-black'>
           <div className='rounded-[10px] !w-full !h-[250px] lg:!w-[450px] lg:!h-[550px] !overflow-hidden !relative group'>
-          <Image src={project2} className='w-full h-full object-cover'/>
+          <AnimatedImage src={project2} className='w-full h-full object-cover'/>
           <div className='absolute top-0 right-0 p-5'>
             <div className='flex justify-center items-center bg-white py-2 px-4 rounded-full'>
               <p className='text-black text-[16px] font-semibold'>Packaging</p>
@@ -133,7 +151,7 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide className='!p-3 lg:!p-0 !bg-black'>
           <div className='rounded-[10px] !w-full !h-[250px] lg:!w-[450px] lg:!h-[550px] !overflow-hidden !relative group'>
-          <Image src={project3} className='w-full h-full object-cover'/>
+          <AnimatedImage src={project3} className='w-full h-full object-cover'/>
           <div className='absolute top-0 right-0 p-5'>
             <div className='flex justify-center items-center bg-white py-2 px-4 rounded-full'>
               <p className='text-black text-[16px] font-semibold'>Production</p>
@@ -149,7 +167,7 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide className='!p-3 lg:!p-0 !bg-black'>
           <div className='rounded-[10px] !w-full !h-[250px] lg:!w-[450px] lg:!h-[550px] !overflow-hidden !relative group'>
-          <Image src={project4} className='w-full h-full object-cover'/>
+          <AnimatedImage src={project4} className='w-full h-full object-cover'/>
           <div className='absolute top-0 right-0 p-5'>
             <div className='flex justify-center items-center bg-white py-2 px-4 rounded-full'>
               <p className='text-black text-[16px] font-semibold'>Printing</p>
@@ -165,7 +183,7 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide className='!p-3 lg:!p-0 !bg-black'>
           <div className='rounded-[10px] !w-full !h-[250px] lg:!w-[450px] lg:!h-[550px] !overflow-hidden !relative group'>
-          <Image src={project5} className='w-full h-full object-cover'/>
+          <AnimatedImage src={project5} className='w-full h-full object-cover'/>
           <div className='absolute top-0 right-0 p-5'>
             <div className='flex justify-center items-center bg-white py-2 px-4 rounded-full'>
               <p className='text-black text-[16px] font-semibold'>Production</p>

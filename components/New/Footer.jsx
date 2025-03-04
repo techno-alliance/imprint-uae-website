@@ -3,6 +3,11 @@ import React from "react";
 import logo from "/public/images/brand/imprint-logo.png";
 import Link from "next/link";
 import { PiEnvelopeSimpleLight } from "react-icons/pi";
+import { FaLinkedin } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
+import { PiInstagramLogoFill } from "react-icons/pi";
+
+
 
 const Footer = () => {
   return (
@@ -33,11 +38,11 @@ const Footer = () => {
               </p>
               <p className="text-gray-400 text-center lg:text-left">United Arab Emirates</p>
             </div>
-            <div className="text-gray-400 flex flex-col gap-1">
+            <div className="text-gray-400 flex flex-col items-center lg:items-start gap-1">
               <p className="text-white text-center lg:text-left">FOLLOW</p>
-              <Link href="https://www.linkedin.com/in/imprint-printing-press-l-l-c-77ba09102/"  className="text-center uppercase lg:text-left">LINKEDIN</Link>
-              <Link href="https://www.instagram.com/imprint.printing/" className="text-center uppercase lg:text-left">INSTAGRAM</Link>
-              <Link href="https://www.facebook.com/p/Imprint-Printing-Press-LLC-100069427084378/" className="text-center uppercase lg:text-left">FACEBOOK</Link>
+              <Link href="https://www.linkedin.com/in/imprint-printing-press-l-l-c-77ba09102/"  className="text-center uppercase lg:text-left flex items-center gap-1 text-[#0077B5]"><FaLinkedin/>LINKEDIN</Link>
+              <Link href="https://www.instagram.com/imprint.printing/" className="text-center uppercase lg:text-left flex items-center gap-1 text-[#d62976]"><PiInstagramLogoFill/>INSTAGRAM</Link>
+              <Link href="https://www.facebook.com/p/Imprint-Printing-Press-LLC-100069427084378/" className="text-center uppercase lg:text-left flex items-center gap-1 text-[#1877F2]"><FaFacebookSquare/>FACEBOOK</Link>
             </div>
           </div>
           <div className="flex flex-col gap-5">

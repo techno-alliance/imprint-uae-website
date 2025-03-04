@@ -33,7 +33,7 @@ const MovingImage = () => {
           return (
             <li key={index}>
               <Image
-                className="w-28 aspect-[6/2] object-contain 2xl:w-32"
+                className="w-28 aspect-[3/2] object-contain 2xl:w-36"
                 src={imagePath}
                 alt={`Company Image ${index + 1}`}
               />
@@ -51,7 +51,7 @@ const MovingImage = () => {
           return (
             <li key={index}>
               <Image
-                className="w-28 aspect-[6/2] object-contain 2xl:w-32"
+                className="w-28 aspect-[3/2] object-contain 2xl:w-36"
                 src={imagePath}
                 alt={`Company Image ${index + 1}`}
               />

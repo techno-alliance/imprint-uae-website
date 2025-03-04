@@ -17,7 +17,7 @@ export default function index() {
             <div className={styles.bar}>
             <a href="/">
               <Image
-                className="w-[100px]"
+                className="w-[125px]"
                 width={100}
                 height={50}
                 src={logo}
