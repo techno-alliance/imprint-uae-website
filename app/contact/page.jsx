@@ -135,13 +135,13 @@ export default function Page() {
               <div className="flex flex-col gap-5">
                 <p className="text-white">Follow us on social media</p>
                 <div className="flex gap-5 items-center">
-                  <Link href="https://www.instagram.com/imprint.printing/" className="w-[28px] h-[28px] lg:w-[50px] lg:h-[50px] text-white text-[16px] lg:text-3xl p-2 bg-[#2E2E2E] flex justify-center items-center rounded-full">
+                  <Link href="https://www.instagram.com/imprint.printing/" className="w-[28px] h-[28px] lg:w-[50px] lg:h-[50px] text-[#d62976] text-[16px] lg:text-3xl p-2 bg-[#2E2E2E] flex justify-center items-center rounded-full">
                     <FaInstagram />
                   </Link>
-                  <Link href="https://www.linkedin.com/in/imprint-printing-press-l-l-c-77ba09102/" className="w-[28px] h-[28px] lg:w-[50px] lg:h-[50px] text-white text-[16px] lg:text-3xl p-2 bg-[#2E2E2E] flex justify-center items-center rounded-full">
+                  <Link href="https://www.linkedin.com/in/imprint-printing-press-l-l-c-77ba09102/" className="w-[28px] h-[28px] lg:w-[50px] lg:h-[50px] text-[#0077B5] text-[16px] lg:text-3xl p-2 bg-[#2E2E2E] flex justify-center items-center rounded-full">
                     <FaLinkedinIn />
                   </Link>
-                  <Link href="https://www.facebook.com/p/Imprint-Printing-Press-LLC-100069427084378/" className="w-[28px] h-[28px] lg:w-[50px] lg:h-[50px] text-white text-[16px] lg:text-3xl p-2 bg-[#2E2E2E] flex justify-center items-center rounded-full">
+                  <Link href="https://www.facebook.com/p/Imprint-Printing-Press-LLC-100069427084378/" className="w-[28px] h-[28px] lg:w-[50px] lg:h-[50px] text-[#1877F2] text-[16px] lg:text-3xl p-2 bg-[#2E2E2E] flex justify-center items-center rounded-full">
                     <FaFacebookF />
                   </Link>
                   {/* <div className="w-[28px] h-[28px] lg:w-[50px] lg:h-[50px] text-white text-[16px] lg:text-3xl p-2 bg-[#2E2E2E] flex justify-center items-center rounded-full">

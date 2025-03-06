@@ -6,8 +6,8 @@ import TextVideo from "./TextVideo";
 
 const Hero = () => {
   return (
-    <section className="relative overflow-hidden bg-black">
-      <div className="max-w-screen-xl mx-auto relative 2xl:h-[950px] h-full lg:h-full flex flex-col gap-6">
+    <section className="relative bg-black">
+      <div className="max-w-screen-xl mx-auto relative h-full lg:h-full flex flex-col gap-6">
         <div className="px-5 lg:px-10 2xl:px-0 flex flex-col gap-6">
           <div className="flex flex-col pt-24 gap-4 relative text-left xs:text-left">
             <div className="text-[#C6C6C6] text-sm lg:text-lg">
@@ -110,7 +110,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="bottam_lp_img bottam_lp_img_desktop hidden md:hidden portrait:hidden landscape:block sm:block w-full px-5 lg:px-10 2xl:px-0 relative -bottom-[166px] h-[400px] lg:h-full">
+        {/* <div className="bottam_lp_img bottam_lp_img_desktop hidden md:hidden portrait:hidden landscape:block sm:block w-full px-5 lg:px-10 2xl:px-0 relative -bottom-[166px] h-[400px] lg:h-full">
           <div className="relative">
             <div className="flex overflow-hidden rounded-[45px]">
               <Image
@@ -119,11 +119,7 @@ const Hero = () => {
                 alt=""
               />
             </div>
-            <div className="absolute top-0 right-0 md:top-[-5rem] md:right-[5rem]">
-              <TextVideo />
-            </div>
-
-            {/* <div className="rounded-3xl lg:rounded-[20px] border-[5px] border-[rgba(255,_255,_255,_0.10)] bg-[rgba(3,_4,_3,_0.40)] backdrop-blur-[31px] absolute -top-[10%] left-[3%] w-[345px] lg:w-[210px] p-4 lg:p-7">
+            <div className="rounded-3xl lg:rounded-[20px] border-[5px] border-[rgba(255,_255,_255,_0.10)] bg-[rgba(3,_4,_3,_0.40)] backdrop-blur-[31px] absolute -top-[10%] left-[3%] w-[345px] lg:w-[210px] p-4 lg:p-7">
               <div className="flex flex-col gap-2">
                 <span className="text-sm font-[500] text-white">
                   Imprint Printing
@@ -132,7 +128,7 @@ const Hero = () => {
                 Having started as a small, limited capacity unit, Imprint has now become a leading press in the UAE known for its cutting-edge technologies, quality-driven workforce and customer centric approach.
                 </span>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
         <div className="bottam_lp_img bottam_lp_img_mobile_screen h-[100px] block md:block portrait:block landscape:hidden sm:hidden relative overflow-hidden rounded-t-3xl">
@@ -162,6 +158,9 @@ const Hero = () => {
               </div>
             </div>
           </div>
+        </div> */}
+        <div className="w-full flex justify-center pt-28 px-5 lg:px-10 2xl:px-0 ">
+          <TextVideo />
         </div>
       </div>
     </section>

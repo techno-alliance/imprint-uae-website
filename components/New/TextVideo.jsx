@@ -8,7 +8,7 @@ const VideoPlayer = () => {
         loop
         muted
         // className="w-[60px] md:w-[80px] lg:w-[150px] object-cover rounded-full"
-        className="lg:w-[40vw] 2xl:w-[35vw] h-[20rem] object-cover rounded-3xl"
+        className="w-full 2xl:w-[67vw] h-[30rem] object-cover rounded-none rounded-t-3xl"
       >
         <source src="/Videos/imprint.mp4" type="video/mp4" />
       </video>
