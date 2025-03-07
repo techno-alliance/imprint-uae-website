@@ -40,9 +40,9 @@ const Footer = () => {
             </div>
             <div className="text-gray-400 flex flex-col items-center lg:items-start gap-1">
               <p className="text-white text-center lg:text-left">FOLLOW</p>
-              <Link href="https://www.linkedin.com/in/imprint-printing-press-l-l-c-77ba09102/"  className="text-center uppercase lg:text-left flex items-center gap-1 text-[#0077B5]"><FaLinkedin/>LINKEDIN</Link>
-              <Link href="https://www.instagram.com/imprint.printing/" className="text-center uppercase lg:text-left flex items-center gap-1 text-[#d62976]"><PiInstagramLogoFill/>INSTAGRAM</Link>
-              <Link href="https://www.facebook.com/p/Imprint-Printing-Press-LLC-100069427084378/" className="text-center uppercase lg:text-left flex items-center gap-1 text-[#1877F2]"><FaFacebookSquare/>FACEBOOK</Link>
+              <Link href="https://www.linkedin.com/in/imprint-printing-press-l-l-c-77ba09102/" target="_blank"  className="text-center uppercase lg:text-left flex items-center gap-1 text-[#0077B5]"><FaLinkedin/>LINKEDIN</Link>
+              <Link href="https://www.instagram.com/imprint.printing/" target="_blank" className="text-center uppercase lg:text-left flex items-center gap-1 text-[#d62976]"><PiInstagramLogoFill/>INSTAGRAM</Link>
+              <Link href="https://www.facebook.com/p/Imprint-Printing-Press-LLC-100069427084378/" target="_blank" className="text-center uppercase lg:text-left flex items-center gap-1 text-[#1877F2]"><FaFacebookSquare/>FACEBOOK</Link>
             </div>
           </div>
           <div className="flex flex-col gap-5">
