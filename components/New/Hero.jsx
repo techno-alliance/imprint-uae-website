@@ -159,7 +159,7 @@ const Hero = () => {
             </div>
           </div>
         </div> */}
-        <div className="w-full flex justify-center pt-28 px-5 lg:px-10 2xl:px-0 ">
+        <div className="w-full flex justify-center pt-10 md:pt-28 px-5 lg:px-10 2xl:px-0 ">
           <TextVideo />
         </div>
       </div>

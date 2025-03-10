@@ -34,7 +34,7 @@ export default function index() {
                 <div className={styles.bar}>
                     <a href="/">
                         <Image
-                            className="w-[160px]"
+                            className="w-[120px] md:w-[160px]"
                             width={100}
                             height={50}
                             src={logo}
