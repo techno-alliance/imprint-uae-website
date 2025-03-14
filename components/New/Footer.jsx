@@ -7,8 +7,6 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { PiInstagramLogoFill } from "react-icons/pi";
 
-
-
 const Footer = () => {
   return (
     <footer className="bg-[#000] relative pt-32">
@@ -26,8 +24,18 @@ const Footer = () => {
                 <p className="text-white text-center md:text-left">
                   GET IN TOUCH
                 </p>
-                <a  href="mailto:someone@example.com" className="text-gray-400 text-center md:text-left">
+                <a
+                  href="mailto:someone@example.com"
+                  className="text-gray-400 text-center md:text-left"
+                >
                   info@imprintuae.net
+                </a>
+              </div>
+
+              <div>
+                <p className="text-white text-left">Give us a call</p>
+                <a href="tel:+97167052100" className="text-gray-400">
+                  +97167052100
                 </a>
               </div>
             </div>
@@ -36,13 +44,36 @@ const Footer = () => {
               <p className="text-gray-400 text-center lg:text-left">
                 Near Ajman Private School, Ajman -
               </p>
-              <p className="text-gray-400 text-center lg:text-left">United Arab Emirates</p>
+              <p className="text-gray-400 text-center lg:text-left">
+                United Arab Emirates
+              </p>
             </div>
             <div className="text-gray-400 flex flex-col items-center lg:items-start gap-1">
               <p className="text-white text-center lg:text-left">FOLLOW</p>
-              <Link href="https://www.linkedin.com/in/imprint-printing-press-l-l-c-77ba09102/" target="_blank"  className="text-center uppercase lg:text-left flex items-center gap-1 text-[#0077B5]"><FaLinkedin/>LINKEDIN</Link>
-              <Link href="https://www.instagram.com/imprint.printing/" target="_blank" className="text-center uppercase lg:text-left flex items-center gap-1 text-[#d62976]"><PiInstagramLogoFill/>INSTAGRAM</Link>
-              <Link href="https://www.facebook.com/p/Imprint-Printing-Press-LLC-100069427084378/" target="_blank" className="text-center uppercase lg:text-left flex items-center gap-1 text-[#1877F2]"><FaFacebookSquare/>FACEBOOK</Link>
+              <Link
+                href="https://www.linkedin.com/in/imprint-printing-press-l-l-c-77ba09102/"
+                target="_blank"
+                className="text-center uppercase lg:text-left flex items-center gap-1 text-[#0077B5]"
+              >
+                <FaLinkedin />
+                LINKEDIN
+              </Link>
+              <Link
+                href="https://www.instagram.com/imprint.printing/"
+                target="_blank"
+                className="text-center uppercase lg:text-left flex items-center gap-1 text-[#d62976]"
+              >
+                <PiInstagramLogoFill />
+                INSTAGRAM
+              </Link>
+              <Link
+                href="https://www.facebook.com/p/Imprint-Printing-Press-LLC-100069427084378/"
+                target="_blank"
+                className="text-center uppercase lg:text-left flex items-center gap-1 text-[#1877F2]"
+              >
+                <FaFacebookSquare />
+                FACEBOOK
+              </Link>
             </div>
           </div>
           <div className="flex flex-col gap-5">
@@ -65,30 +96,55 @@ const Footer = () => {
               </Link>
             </div>
             <div className="flex flex-col lg:flex-row justify-between">
-              <Link href="/" className="text-[#DADADA]/50 hover:text-white text-center">
+              <Link
+                href="/"
+                className="text-[#DADADA]/50 hover:text-white text-center"
+              >
                 Home
               </Link>
-              <Link href="/printing" className="text-[#DADADA]/50 hover:text-white text-center">
+              <Link
+                href="/printing"
+                className="text-[#DADADA]/50 hover:text-white text-center"
+              >
                 Printing
               </Link>
-              <Link href="/packaging" className="text-[#DADADA]/50 hover:text-white text-center">
+              <Link
+                href="/packaging"
+                className="text-[#DADADA]/50 hover:text-white text-center"
+              >
                 Packaging
               </Link>
-              <Link href="/production" className="text-[#DADADA]/50 hover:text-white text-center">
+              <Link
+                href="/production"
+                className="text-[#DADADA]/50 hover:text-white text-center"
+              >
                 Production
               </Link>
-              <Link href="/contact" className="text-[#DADADA]/50 hover:text-white text-center">
+              <Link
+                href="/contact"
+                className="text-[#DADADA]/50 hover:text-white text-center"
+              >
                 Contact us
               </Link>
             </div>
           </div>
         </div>
         <div className="flex flex-col lg:flex-row justify-between pt-10 lg:pt-20">
-          <Link href="/Terms&Condition" className="text-white text-sm lg:text-[16px] text-center">TERMS & CONDITIONS</Link>
+          <Link
+            href="/Terms&Condition"
+            className="text-white text-sm lg:text-[16px] text-center"
+          >
+            TERMS & CONDITIONS
+          </Link>
           <p className="text-white text-sm lg:text-[16px] text-center">
             2024 Copyright. All right reserved
           </p>
-          <Link href="/Privacypolicy" className="text-white text-sm lg:text-[16px] text-center">PRIVACY POLICY</Link>
+          <Link
+            href="/Privacypolicy"
+            className="text-white text-sm lg:text-[16px] text-center"
+          >
+            PRIVACY POLICY
+          </Link>
         </div>
       </div>
     </footer>
