@@ -26,9 +26,9 @@ const Footer = () => {
                 <p className="text-white text-center md:text-left">
                   GET IN TOUCH
                 </p>
-                <p className="text-gray-400 text-center md:text-left">
+                <a  href="mailto:someone@example.com" className="text-gray-400 text-center md:text-left">
                   info@imprintuae.net
-                </p>
+                </a>
               </div>
             </div>
             <div className="flex flex-col justify-center lg:justify-start">
