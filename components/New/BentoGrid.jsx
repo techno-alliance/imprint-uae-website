@@ -2,6 +2,29 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FaPhone } from "react-icons/fa6";
+import { motion } from "framer-motion";
+
+// Animated Image component
+const AnimatedImage = ({ src, alt, className }) => {
+  return (
+    <motion.div
+      initial={{ scale: 0.9, opacity: 0.8 }}
+      whileInView={{ scale: 1, opacity: 1 }}
+      transition={{ 
+        duration: 0.8,
+        ease: "easeOut"
+      }}
+      viewport={{ once: false, amount: 0.3 }}
+      className="w-full h-full"
+    >
+      <Image
+        src={src}
+        alt={alt}
+        className={className || "w-full h-full object-cover object-center"}
+      />
+    </motion.div>
+  );
+};
 
 export const BentoGrid = ({
   header = "",
@@ -29,7 +52,7 @@ export const BentoGrid = ({
 
       <div className="grid grid-cols-1 md:grid-cols-9 md:grid-rows-6 gap-4 2xl:gap-8 h-full md:h-[807px] w-full">
         <div className="rounded-[20px] col-span-9 row-span-6 md:col-span-4 md:row-span-6 overflow-hidden relative group">
-          <Image
+          <AnimatedImage
             src={bentoImages[0].image1}
             alt="bento"
             className="w-full h-full object-cover object-center"
@@ -58,7 +81,7 @@ export const BentoGrid = ({
           </div>
         </div>
         <div className="rounded-[20px] col-span-9 row-span-6 md:col-span-5 md:row-span-3 md:col-start-5 overflow-hidden relative group">
-          <Image
+          <AnimatedImage
             src={bentoImages[0].image2}
             alt="bento"
             className="w-full h-full object-cover object-center"
@@ -87,7 +110,7 @@ export const BentoGrid = ({
           </div>
         </div>
         <div className="rounded-[20px] col-span-9 row-span-6 md:col-span-5 md:row-span-3 md:col-start-5 md:row-start-4 overflow-hidden relative group">
-          <Image
+          <AnimatedImage
             src={bentoImages[0].image3}
             alt="bento"
             className="w-full h-full object-cover object-center"

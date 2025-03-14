@@ -3,6 +3,29 @@ import React from "react";
 import { FaPhone } from "react-icons/fa6";
 import { PiArrowUpRight } from "react-icons/pi";
 import Link from "next/link";
+import { motion } from "framer-motion";
+
+// Animated Image component
+const AnimatedImage = ({ src, alt, className }) => {
+  return (
+    <motion.div
+      initial={{ scale: 0.9, opacity: 0.8 }}
+      whileInView={{ scale: 1, opacity: 1 }}
+      transition={{ 
+        duration: 0.8,
+        ease: "easeOut"
+      }}
+      viewport={{ once: false, amount: 0.3 }}
+      className="w-full h-full"
+    >
+      <Image
+        src={src}
+        alt={alt}
+        className={className || "w-full h-full object-cover object-center"}
+      />
+    </motion.div>
+  );
+};
 
 export const Section3rd = ({
   header = "",
@@ -14,8 +37,7 @@ export const Section3rd = ({
     <div className="flex flex-col gap-16 justify-center">
       <div className="flex flex-col gap-3 justify-between">
         <div
-          className=" h-9 md:h-10 rounded-full p-2.5 text-sm md:text-base border border-[#2E2E2E] bg-[#1A1A1A] text-primary vh-center w-[123px]
-"
+          className=" h-9 md:h-10 rounded-full p-2.5 text-sm md:text-base border border-[#2E2E2E] bg-[#1A1A1A] text-primary vh-center w-[123px] "
         >
           Category
         </div>
@@ -44,14 +66,13 @@ export const Section3rd = ({
           </div>
         </div>
       </div>
-
-     <div className="rounded-[20px] overflow-hidden w-full h-[250px] md:h-[559px]">
-       <Image
-         src={image}
-         alt="bento"
-         className="w-full h-full object-cover object-center"
-       />
-     </div>
+      <div className="rounded-[20px] overflow-hidden w-full h-[250px] md:h-[559px]">
+        <AnimatedImage
+          src={image}
+          alt="bento"
+          className="w-full h-full object-cover object-center"
+        />
+      </div>
     </div>
   );
 };
