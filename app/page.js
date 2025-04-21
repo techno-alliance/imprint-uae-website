@@ -63,12 +63,12 @@ export default function Home() {
                       <span>Experience the Imprint Difference</span>
                     </div>
                     <div className="text text-[14px] md:text-[16px] lg:text-[20px]">
-                      Imprint Printing Press is not just any ordinary printing
-                      company - we are the foremost provider of varied offset
-                      printing solutions to more than a thousand clients today.
-                      Our commitment to delivering exceptional quality prints,
-                      timely delivery, and excellent customer service has made
-                      us the go-to choice for businesses of all sizes.
+                      Combining technology, premium materials, and expert
+                      craftsmanship from business essentials to large-scale
+                      branding, our precision and attention to detail ensure
+                      world-class printing solutions that make us stand out
+                      against competition . Experience the Imprint difference
+                      today!
                     </div>
                   </div>
                 </div>
@@ -79,12 +79,12 @@ export default function Home() {
                       <span>Leading the Way in Offset Printing Solutions</span>
                     </div>
                     <div className="text text-[14px] md:text-[16px] lg:text-[20px]">
-                      Imprint Printing Press is not just any ordinary printing
-                      company - we are the foremost provider of varied offset
-                      printing solutions to more than a thousand clients today.
-                      Our commitment to delivering exceptional quality prints,
-                      timely delivery, and excellent customer service has made
-                      us the go-to choice for businesses of all sizes.
+                      With a constantly focus to set standards in offset
+                      printing with superior quality, precision, and efficiency
+                      using advanced technology and premium materials, we
+                      deliver vibrant, high-resolution prints for businesses,
+                      publications, and marketing needs. Trust Imprint for
+                      exceptional results, every time.
                     </div>
                   </div>
                 </div>
@@ -95,9 +95,12 @@ export default function Home() {
                       <span>Crafting Print Quality</span>
                     </div>
                     <div className="text text-[14px] md:text-[16px] lg:text-[20px]">
-                      Imprint Printing Press is not just any ordinary printing
-                      company - we are the foremost provider of varied offset
-                      printing solutions to more than a thousand clients today.
+                      Print quality is our priority. We blend advanced printing
+                      technology with expert craftsmanship to create sharp,
+                      vibrant, and durable prints. Every detail matters,
+                      ensuring flawless results that elevate your brand and
+                      communication. Experience perfection in every print with
+                      Imprint.
                     </div>
                   </div>
                 </div>
@@ -110,9 +113,11 @@ export default function Home() {
                       </span>
                     </div>
                     <div className="text text-[14px] md:text-[16px] lg:text-[20px]">
-                      Imprint Printing Press is not just any ordinary printing
-                      company - we are the foremost provider of varied offset
-                      printing solutions to more than a thousand clients today.
+                      Seamlessly blending creativity with printing technology,
+                      we focus perfection and deliver stunning results. Our
+                      expert team at Imprint ensures every print captures the
+                      perfect balance of artistry and precision, bringing your
+                      vision to life with unmatched quality and innovation.
                     </div>
                   </div>
                 </div>
@@ -120,20 +125,23 @@ export default function Home() {
                 <div className="h-full md:h-screen mt-12 md:mt-0 mb-24 md:mb-0 flex justify-center items-center">
                   <div className="details flex flex-col justify-center h-auto hover_layer">
                     <div className="headline text-[20px] md:text-[32px] lg:text-[42px] mb-4 font-bold ">
-                      <span>Expertise You Can Trust</span>
+                      <span>
+                        Imprint's Commitment to Delivering Exceptional Print
+                        Quality
+                      </span>
                     </div>
                     <div className="text text-[14px] md:text-[16px] lg:text-[20px]">
-                      Imprint Printing Press is not just any ordinary printing
-                      company - we are the foremost provider of varied offset
-                      printing solutions to more than a thousand clients today.
-                      Our commitment to delivering exceptional quality prints,
-                      timely delivery, and excellent customer service has made
-                      us the go-to choice for businesses of all sizes.
+                      We are dedicated to excellence in every print. Using
+                      top-tier materials and advanced printing technology, we
+                      ensure sharp details, vibrant colors, and lasting
+                      impressions. We commit to quality guarantees that every
+                      project handled by Imprint  meets the highest
+                      industry standards.
                     </div>
                   </div>
                 </div>
 
-                <div className="h-full md:h-screen mt-12 md:mt-0 mb-24 md:mb-0 flex justify-center items-center">
+                {/* <div className="h-full md:h-screen mt-12 md:mt-0 mb-24 md:mb-0 flex justify-center items-center">
                   <div className="details flex flex-col justify-center h-auto hover_layer">
                     <div className="headline text-[20px] md:text-[32px] lg:text-[42px] mb-4 font-bold ">
                       <span>
@@ -150,7 +158,7 @@ export default function Home() {
                       us the go-to choice for businesses of all sizes.
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
